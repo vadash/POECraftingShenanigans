@@ -352,7 +352,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LocalEvasionRatingIncreasePercent",
@@ -614,6 +616,16 @@
                 ],
                 [
                     316,
+                    317
+                ]
+            ],
+            [
+                "LocalBaseEnergyShieldAndMana",
+                [
+                    1
+                ],
+                [
+                    324,
                     317
                 ]
             ],
@@ -1493,6 +1505,15 @@
                 ]
             ],
             [
+                "IncreasedManaAndCostNew",
+                [
+                    0
+                ],
+                [
+                    324
+                ]
+            ],
+            [
                 "MovementVelocitySpeed",
                 [
                     2
@@ -1507,7 +1528,8 @@
                     2
                 ],
                 [
-                    325
+                    325,
+                    317
                 ]
             ],
             [
@@ -1516,7 +1538,8 @@
                     2
                 ],
                 [
-                    325
+                    325,
+                    317
                 ]
             ],
             [
@@ -2012,6 +2035,48 @@
                 []
             ],
             [
+                "FlaskBuffAttackLifeLeechWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskBuffSpellEnergyShieldLeechWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskBuffAttackSpeedWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskBuffCastSpeedWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskBuffFreezeShockIgniteChanceWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskBuffReducedManaCostWhileHealing",
+                [
+                    1
+                ],
+                []
+            ],
+            [
                 "FlaskHealsMinions",
                 [
                     0
@@ -2059,6 +2124,34 @@
                 "FlaskChargesUsed",
                 [
                     0
+                ],
+                []
+            ],
+            [
+                "FlaskFullRechargeOnHit",
+                [
+                    0
+                ],
+                []
+            ],
+            [
+                "FlaskIncreasedHealingCharges",
+                [
+                    1
+                ],
+                []
+            ],
+            [
+                "FlaskManaRecoveryAtEnd",
+                [
+                    2
+                ],
+                []
+            ],
+            [
+                "FlaskEffectNotRemovedOnFullMana",
+                [
+                    2
                 ],
                 []
             ],
@@ -2376,6 +2469,82 @@
                 ]
             ],
             [
+                "GlobalIncreaseSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreaseFireSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    309,
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreaseColdSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    310,
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreaseLightningSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    311,
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreaseChaosSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    312,
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreasePhysicalSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    313,
+                    321,
+                    34
+                ]
+            ],
+            [
+                "GlobalIncreaseMinionSpellSkillGemLevel",
+                [
+                    6
+                ],
+                [
+                    320,
+                    321,
+                    34
+                ]
+            ],
+            [
                 "MonsterAuraPhysicalThorns",
                 [],
                 []
@@ -2515,14 +2684,18 @@
                 [
                     1
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "StaffBlockPercentLocalAdditional",
                 [
                     1
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ElementalDamagePercent",
@@ -2548,7 +2721,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CullingStrike",
@@ -2572,7 +2747,9 @@
                 [
                     0
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AlwaysHits",
@@ -2634,6 +2811,15 @@
             ],
             [
                 "MaximumManaIncreasePercent",
+                [
+                    6
+                ],
+                [
+                    324
+                ]
+            ],
+            [
+                "MaximumManaIncreaseShaper",
                 [
                     6
                 ],
@@ -2744,10 +2930,32 @@
             ],
             [
                 "MinionChaosResistance",
-                [],
+                [
+                    1
+                ],
                 [
                     312,
                     320
+                ]
+            ],
+            [
+                "MinionElementalResistance",
+                [
+                    1
+                ],
+                [
+                    318,
+                    320
+                ]
+            ],
+            [
+                "MinionFlatAccuracyRating",
+                [
+                    1
+                ],
+                [
+                    320,
+                    319
                 ]
             ],
             [
@@ -2766,6 +2974,25 @@
                 ],
                 [
                     320
+                ]
+            ],
+            [
+                "MinionDamageOnWeaponDoubleDamage",
+                [
+                    1
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "MinionDamageOnWeaponAndMana",
+                [
+                    1
+                ],
+                [
+                    320,
+                    324
                 ]
             ],
             [
@@ -2804,6 +3031,16 @@
                 "ConvertPhysicalToFireVeiledFamilyRestriction",
                 [
                     2
+                ],
+                [
+                    309,
+                    313
+                ]
+            ],
+            [
+                "ConvertPhysicalToFireImplicit",
+                [
+                    7
                 ],
                 [
                     309,
@@ -3238,6 +3475,16 @@
                 ]
             ],
             [
+                "ConvertPhysicalToColdImplicit",
+                [
+                    7
+                ],
+                [
+                    310,
+                    313
+                ]
+            ],
+            [
                 "AttackerTakesColdDamage",
                 [
                     4
@@ -3312,7 +3559,8 @@
                     6
                 ],
                 [
-                    316
+                    316,
+                    317
                 ]
             ],
             [
@@ -3362,6 +3610,11 @@
             ],
             [
                 "StanceScavengerRun",
+                [],
+                []
+            ],
+            [
+                "StanceMarakethGeneral",
                 [],
                 []
             ],
@@ -3733,7 +3986,9 @@
             [
                 "CannotBlockAttacks",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisplaySocketedGemGetsConcentratedAreaOfEffectLevel",
@@ -3782,14 +4037,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisplaySocketedGemGetsBlindLevel",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SpellDamageAndMana",
@@ -5115,7 +5374,8 @@
                 [],
                 [
                     315,
-                    314
+                    314,
+                    317
                 ]
             ],
             [
@@ -5123,7 +5383,8 @@
                 [],
                 [
                     315,
-                    314
+                    314,
+                    317
                 ]
             ],
             [
@@ -5167,14 +5428,16 @@
                 "MapMonsterAccuracyPlayersUnlockyDodge",
                 [],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
                 "MapMonsterAccuracyPlayersUnlockyDodgeMapWorlds",
                 [],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
@@ -5350,10 +5613,21 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MaximumMinionCount",
+                [
+                    6
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "MinionGlobalSkillLevel",
                 [
                     6
                 ],
@@ -5438,6 +5712,16 @@
             ],
             [
                 "PhysicalDamageConvertToChaos",
+                [
+                    7
+                ],
+                [
+                    312,
+                    313
+                ]
+            ],
+            [
+                "PhysicalDamageConvertToChaosImplicit",
                 [
                     7
                 ],
@@ -5533,6 +5817,26 @@
                 ]
             ],
             [
+                "FireDamageTakenAsPhysicalNegate",
+                [
+                    7
+                ],
+                [
+                    309,
+                    313
+                ]
+            ],
+            [
+                "FireDamageTakenAsPhysical",
+                [
+                    7
+                ],
+                [
+                    309,
+                    313
+                ]
+            ],
+            [
                 "AttackerTakesFireDamage",
                 [
                     4
@@ -5573,7 +5877,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LeechEnergyShieldInsteadofLife",
@@ -5589,7 +5895,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ArmourPercentVsProjectiles",
@@ -5605,12 +5913,16 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MonsterBlock",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CannotLeech",
@@ -5731,6 +6043,13 @@
             ],
             [
                 "IntelligenceRequirements",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "StrengthIntelligenceRequirements",
                 [
                     4
                 ],
@@ -6312,7 +6631,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MaximumFrenzyCharges",
@@ -6618,7 +6939,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisplaySocketedGemGetsFasterAttackLevel",
@@ -6641,7 +6964,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnemyExtraDamageRollsOnLowLife",
@@ -6704,6 +7029,11 @@
                 []
             ],
             [
+                "MonsterSummonsVolatileCoreOnDeathNoDelete",
+                [],
+                []
+            ],
+            [
                 "MonsterExplodesOnDeathLightning",
                 [],
                 []
@@ -6760,14 +7090,18 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DesecratedGroundOnBlock",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisableChestSlot",
@@ -7154,7 +7488,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ReflectDamageToAttackersOnBlock",
@@ -7162,7 +7498,8 @@
                     4
                 ],
                 [
-                    313
+                    313,
+                    317
                 ]
             ],
             [
@@ -7171,7 +7508,8 @@
                     5
                 ],
                 [
-                    316
+                    316,
+                    317
                 ]
             ],
             [
@@ -7180,8 +7518,16 @@
                     5
                 ],
                 [
-                    324
+                    324,
+                    317
                 ]
+            ],
+            [
+                "ZombieIncreasedLife",
+                [
+                    5
+                ],
+                []
             ],
             [
                 "ZombieLife",
@@ -7514,7 +7860,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ExilesEverywhereLeague",
@@ -7842,7 +8190,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LifeGainedOnSpellHit",
@@ -7970,7 +8320,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ChaosDamageAsPortionOfDamage",
@@ -8109,6 +8461,13 @@
                 []
             ],
             [
+                "MineDamageOnWeapon",
+                [
+                    1
+                ],
+                []
+            ],
+            [
                 "TrapThrowSpeedOnWeapon",
                 [
                     1
@@ -8127,9 +8486,40 @@
                 ]
             ],
             [
+                "TrapAndMineThrowSpeed",
+                [
+                    1
+                ],
+                [
+                    325
+                ]
+            ],
+            [
                 "TrapCooldownRecoveryAndDuration",
-                [],
-                []
+                [
+                    1
+                ],
+                [
+                    325
+                ]
+            ],
+            [
+                "MineDetonationSpeed",
+                [
+                    1
+                ],
+                [
+                    325
+                ]
+            ],
+            [
+                "MineDetonationSpeedAndDuration",
+                [
+                    1
+                ],
+                [
+                    325
+                ]
             ],
             [
                 "BaseTrapDuration",
@@ -8321,6 +8711,15 @@
                 ],
                 [
                     316
+                ]
+            ],
+            [
+                "EnergyShieldLeechPermyriadOnFrozenEnemies",
+                [
+                    5
+                ],
+                [
+                    317
                 ]
             ],
             [
@@ -8671,7 +9070,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnduranceChargeOnKill",
@@ -8736,6 +9137,11 @@
                 []
             ],
             [
+                "PhasingNoVisual",
+                [],
+                []
+            ],
+            [
                 "DisplayMapFinalBossDropsHigherLevelGear",
                 [
                     7
@@ -8768,6 +9174,20 @@
                 [],
                 [
                     309
+                ]
+            ],
+            [
+                "FlatColdDamageTaken",
+                [],
+                [
+                    310
+                ]
+            ],
+            [
+                "FlatLightningDamageTaken",
+                [],
+                [
+                    311
                 ]
             ],
             [
@@ -8856,7 +9276,8 @@
                     5
                 ],
                 [
-                    311
+                    311,
+                    317
                 ]
             ],
             [
@@ -9116,7 +9537,18 @@
                     5
                 ],
                 [
-                    320
+                    320,
+                    317
+                ]
+            ],
+            [
+                "MinionSpellBlockChance",
+                [
+                    5
+                ],
+                [
+                    320,
+                    317
                 ]
             ],
             [
@@ -9418,21 +9850,34 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SpellBlockPercentageOnLowLife",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
+            ],
+            [
+                "AdditionalSpellBlock",
+                [],
+                [
+                    317
+                ]
             ],
             [
                 "SpellDodgePercentage",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FireDamageLifeLeech",
@@ -9591,6 +10036,16 @@
             ],
             [
                 "MapItemDropQuantity",
+                [],
+                []
+            ],
+            [
+                "VaalSacrificeFragment",
+                [],
+                []
+            ],
+            [
+                "VaalMortalFragment",
                 [],
                 []
             ],
@@ -9955,6 +10410,27 @@
                     324,
                     310
                 ]
+            ],
+            [
+                "MalevolenceSkill",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ZealotrySkill",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "PrideSkill",
+                [
+                    5
+                ],
+                []
             ],
             [
                 "AngerSkill",
@@ -10566,14 +11042,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SpellBlockDuringFlaskEffect",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MapCaganHasHiddenMods",
@@ -10617,7 +11097,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedChaosDamage",
@@ -10673,7 +11155,9 @@
             [
                 "MonsterExileSpellBlock",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "HealOnRampage",
@@ -10731,7 +11215,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LifeRegenerationPerLevel",
@@ -10816,7 +11302,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LocalIncreaseSocketedActiveSkillGemLevel",
@@ -10895,12 +11383,16 @@
             [
                 "RampageDaemonBlindDuration",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "RampageDaemonBlindOnHit",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreaseManaCostFlat",
@@ -11260,21 +11752,27 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "TemporalChainsOnProjectileBlock",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ElementalWeaknessOnSpellBlock",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MovementSpeedCantBeDamaged",
@@ -11354,7 +11852,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MonsterShockAura",
@@ -11585,7 +12085,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SmokeCloudWhenHit",
@@ -12251,7 +12753,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "TemporalChainsEffectivenessOnSelf",
@@ -12288,7 +12792,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GlobalFlaskChargeWhenCrit",
@@ -12327,6 +12833,13 @@
             ],
             [
                 "AvoidChill",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "AvoidShock",
                 [
                     5
                 ],
@@ -12863,7 +13376,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CannotBeBuffedByAlliedAuras",
@@ -13234,12 +13749,83 @@
                 ]
             ],
             [
+                "IncreasedMaceDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedAxeDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedSwordDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedBowDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedClawDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedDaggerDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedWandDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "IncreasedStaffDamageForJewel",
+                [
+                    0
+                ],
+                [
+                    319
+                ]
+            ],
+            [
                 "IncreasedOneHandedMeleeDamageForJewel",
                 [
                     1
                 ],
                 [
-                    313,
                     319
                 ]
             ],
@@ -13249,7 +13835,6 @@
                     1
                 ],
                 [
-                    313,
                     319
                 ]
             ],
@@ -13259,7 +13844,6 @@
                     1
                 ],
                 [
-                    313,
                     319
                 ]
             ],
@@ -13577,6 +14161,15 @@
                 ],
                 [
                     313,
+                    319
+                ]
+            ],
+            [
+                "DamageWhileHoldingAShieldForJewel",
+                [
+                    1
+                ],
+                [
                     319
                 ]
             ],
@@ -14627,56 +15220,72 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockDualWieldingForJewel",
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockShieldForJewel",
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockStaffForJewel",
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockToSpellBlockForJewel",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DualWieldingSpellBlockForJewel",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ShieldSpellBlockForJewel",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "StaffSpellBlockForJewel",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FreezeDurationForJewel",
@@ -14801,7 +15410,8 @@
                     4
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -14821,6 +15431,24 @@
                 [
                     320,
                     318
+                ]
+            ],
+            [
+                "MinionAccuracyRatingForJewel",
+                [
+                    2
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "MinionAccuracyRatingFlat",
+                [
+                    2
+                ],
+                [
+                    320
                 ]
             ],
             [
@@ -15163,7 +15791,18 @@
                     7
                 ],
                 [
-                    320
+                    320,
+                    317
+                ]
+            ],
+            [
+                "MinionSpellDodgeChance",
+                [
+                    7
+                ],
+                [
+                    320,
+                    317
                 ]
             ],
             [
@@ -15186,7 +15825,8 @@
                     6
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -15222,11 +15862,20 @@
                 []
             ],
             [
+                "ChanceToTakeCriticalStrikeUpdated",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "FortifyOnMeleeHit",
                 [
                     8
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "UnarmedRange",
@@ -15261,7 +15910,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MonsterCastSpeedFinal",
@@ -15429,7 +16080,9 @@
             [
                 "DisplayGrantsFortify",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalVaalSoulOnKill",
@@ -15768,6 +16421,16 @@
                 ]
             ],
             [
+                "ConvertPhysicalToLightningImplicit",
+                [
+                    7
+                ],
+                [
+                    311,
+                    313
+                ]
+            ],
+            [
                 "LightningWarpSkill",
                 [
                     6
@@ -15803,16 +16466,6 @@
                 ],
                 [
                     309,
-                    313
-                ]
-            ],
-            [
-                "PhysicalAddedAsChaos",
-                [
-                    7
-                ],
-                [
-                    312,
                     313
                 ]
             ],
@@ -16689,14 +17342,18 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "UnholyMightOnBlockChanceDuration",
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedDamageOnBurningGround",
@@ -16816,7 +17473,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedFireballRadiusAtLongRangeJewel",
@@ -16982,7 +17641,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentAttackAndCastSpeedOnKill",
@@ -17051,7 +17712,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentCriticalChanceWhenNoCrit",
@@ -17074,6 +17737,15 @@
                 ],
                 [
                     312
+                ]
+            ],
+            [
+                "EnchantmentManaRegenerationOnSpellCast",
+                [
+                    4
+                ],
+                [
+                    324
                 ]
             ],
             [
@@ -17231,6 +17903,13 @@
                 []
             ],
             [
+                "EnchantmentBaneDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "EnchantmentBarrageDamage",
                 [
                     4
@@ -17358,6 +18037,13 @@
             ],
             [
                 "EnchantmentDischargeDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentDivineIreDamage",
                 [
                     4
                 ],
@@ -17714,7 +18400,7 @@
                 []
             ],
             [
-                "EnchantmentMoltenShellDamage",
+                "EnchantmentMoltenShellDuration",
                 [
                     4
                 ],
@@ -17766,6 +18452,13 @@
             ],
             [
                 "EnchantmentPunctureDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPurifyingFlameDamage",
                 [
                     4
                 ],
@@ -17932,6 +18625,13 @@
                 []
             ],
             [
+                "EnchantmentSoulrendDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "EnchantmentSparkDamage",
                 [
                     4
@@ -18089,6 +18789,13 @@
             ],
             [
                 "EnchantmentViperStrikeDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentWaveOfConvictionDamage",
                 [
                     4
                 ],
@@ -18268,6 +18975,20 @@
                 []
             ],
             [
+                "EnchantmentBaneAreaOfEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBaneLinkedCurseEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "EnchantmentBarrageAttackSpeed",
                 [
                     4
@@ -18415,7 +19136,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentBurningArrowIgniteChance",
@@ -18485,14 +19208,18 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentChargedDashDodgeWhenFinishedChannelling",
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentChargedDashRadiusFinalExplosion",
@@ -18668,6 +19395,13 @@
                 ]
             ],
             [
+                "EnchantmentDesecrateDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "EnchantmentDesecrateAdditionalCorpse",
                 [
                     4
@@ -18735,6 +19469,20 @@
                     324,
                     322
                 ]
+            ],
+            [
+                "EnchantmentDivineIreBeamWidth",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentDivineIreNumberOfAdditionalNearbyEnemiesToZap",
+                [
+                    4
+                ],
+                []
             ],
             [
                 "EnchantmentDominatingBlowDuration",
@@ -19120,6 +19868,13 @@
                 [
                     325
                 ]
+            ],
+            [
+                "EnchantmentFlameTotemConsecratedGroundEnemyDamageTaken",
+                [
+                    4
+                ],
+                []
             ],
             [
                 "EnchantmentFlammabilityCurseEffect",
@@ -19856,6 +20611,15 @@
                 []
             ],
             [
+                "EnchantmentMalevolenceManaReservation",
+                [
+                    4
+                ],
+                [
+                    322
+                ]
+            ],
+            [
                 "EnchantmentMirrorArrowAttackSpeed",
                 [
                     4
@@ -19962,6 +20726,20 @@
                 []
             ],
             [
+                "EnchantmentPrideManaReservation",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPrecisionManaReservation",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "EnchantmentProjectileWeaknessCurseEffect",
                 [
                     4
@@ -19998,6 +20776,20 @@
             ],
             [
                 "EnchantmentPunishmentDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPurifyingFlameAreaOfEffectWhenTargetingConsecratedGround",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPurifyingFlameConsecratedGroundEnemyDamageTaken",
                 [
                     4
                 ],
@@ -20212,6 +21004,20 @@
                 []
             ],
             [
+                "EnchantmentSoulrendAppliesHinderMovementSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSoulrendNumberOfAdditionalProjectiles",
+                [
+                    4
+                ],
+                []
+            ],
+            [
                 "StormBrandAdditionalChainChance",
                 [
                     4
@@ -20220,6 +21026,13 @@
             ],
             [
                 "StormBrandAttachedTargetLightningPenetration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentStormBurstAdditionalObjectChance",
                 [
                     4
                 ],
@@ -20274,7 +21087,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentShockwaveTotemCastSpeed",
@@ -20621,7 +21436,9 @@
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "EnchantmentViperStrikeCriticalStrikeChance",
@@ -20677,6 +21494,20 @@
             ],
             [
                 "EnchantmentWarlordsMarkDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentWaveOfConvictionAdditionalEnemyResistance",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentWaveOfConvictionDuration",
                 [
                     4
                 ],
@@ -20760,6 +21591,15 @@
                 ],
                 [
                     320
+                ]
+            ],
+            [
+                "EnchantmentZealotryManaReservation",
+                [
+                    4
+                ],
+                [
+                    322
                 ]
             ],
             [
@@ -20853,6 +21693,139 @@
                 [
                     325
                 ]
+            ],
+            [
+                "EnchantmentSteelskinAdditionalPhysicalDamageReduction",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSteelskinDamageLimit",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentDashTravelDistance",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentDashAddedCooldownCount",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBladestormMaximumNumberOfStormsAllowed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBladestormSandstormMovementSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBladestormDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBloodAndSandBuffEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPerforateNumberOfSpears",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPerforateAreaOfEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPerforateDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentFrostblinkCooldownSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentFrostblinkTravelDistance",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentFleshAndStoneManaReservation",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentChainHookGainRageOnHitChance",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentChainHookConeRadiusPer12Rage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentChainHookDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBerserkRageLoss",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentBerserkEffect",
+                [
+                    4
+                ],
+                []
             ],
             [
                 "MapSpawnTalismans",
@@ -21079,7 +22052,8 @@
                     5
                 ],
                 [
-                    309
+                    309,
+                    317
                 ]
             ],
             [
@@ -21087,7 +22061,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BurningArrowThresholdJewel",
@@ -21288,6 +22264,27 @@
                 []
             ],
             [
+                "SpectralShieldThrowThresholdJewel1",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "SpectralShieldThrowThresholdJewel2",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "SpectralShieldThrowThresholdJewel3",
+                [
+                    5
+                ],
+                []
+            ],
+            [
                 "StunThresholdBasedOnMana",
                 [
                     6
@@ -21317,14 +22314,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LocalShieldHasNoBlockChance",
                 [
                     4
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LocalFlaskOnslaughtPerFrenzyCharge",
@@ -21366,7 +22367,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "RallyingCryThresholdJewel",
@@ -21799,12 +22802,16 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisplayBlindAura",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FireDamageToNearbyEnemiesOnKill",
@@ -21889,7 +22896,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DamageAgainstNearEnemies",
@@ -22214,7 +23223,8 @@
                     6
                 ],
                 [
-                    310
+                    310,
+                    317
                 ]
             ],
             [
@@ -22223,7 +23233,8 @@
                     6
                 ],
                 [
-                    324
+                    324,
+                    317
                 ]
             ],
             [
@@ -22428,7 +23439,9 @@
                 [
                     8
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AttacksAlwaysCrit",
@@ -22553,7 +23566,8 @@
                 ],
                 [
                     319,
-                    313
+                    313,
+                    317
                 ]
             ],
             [
@@ -22849,7 +23863,8 @@
                     6
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -22858,7 +23873,8 @@
                     6
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -23052,7 +24068,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "RecoverLifeOnBlock",
@@ -23060,7 +24078,8 @@
                     7
                 ],
                 [
-                    316
+                    316,
+                    317
                 ]
             ],
             [
@@ -23110,7 +24129,8 @@
                     6
                 ],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
@@ -23267,21 +24287,27 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ColdResistConvertedToDodgeChanceScaledJewel",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LightningResistConvertedToSpellBlockChanceScaledJewel",
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FireResistAlsoGrantsEnduranceChargeOnKillJewel",
@@ -23397,7 +24423,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CriticalStrikeChanceInMainHand",
@@ -23540,14 +24568,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalChanceToSpellDodgeIfYouHaveTakenAttackDamageRecently",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedCostOfMovementSkills",
@@ -23563,7 +24595,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedEvasionWithOnslaught",
@@ -23631,7 +24665,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IIRWhilePhasing",
@@ -23652,7 +24688,9 @@
             [
                 "AdditionalChanceToBlockAgainstTauntedEnemies",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedArmourAndEvasionIfKilledTauntedEnemyRecently",
@@ -23939,12 +24977,16 @@
             [
                 "MonsterDodgeAttacksWhilePhasing",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MonsterDodgeSpellsWhilePhasing",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GlobalDefensesPerWhiteSocket",
@@ -24283,7 +25325,8 @@
                 "EssenceDaemonAlternatingBuffsSpeedDodge",
                 [],
                 [
-                    325
+                    325,
+                    317
                 ]
             ],
             [
@@ -24424,7 +25467,8 @@
                 "AddedFireDamageIfBlockedRecently",
                 [],
                 [
-                    309
+                    309,
+                    317
                 ]
             ],
             [
@@ -24449,13 +25493,16 @@
             [
                 "PowerChargeOnBlock",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "NearbyEnemiesChilledOnBlock",
                 [],
                 [
-                    310
+                    310,
+                    317
                 ]
             ],
             [
@@ -24495,7 +25542,9 @@
             [
                 "FortifyEffect",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MapEssenceLeague",
@@ -24682,7 +25731,8 @@
                 "ManaGainedOnBlock",
                 [],
                 [
-                    324
+                    324,
+                    317
                 ]
             ],
             [
@@ -24695,7 +25745,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BleedOnMeleeCriticalStrike",
@@ -25122,6 +26174,41 @@
                 []
             ],
             [
+                "MapAtlasPossessedMonstersDropAdditionalRustedScarab",
+                [],
+                []
+            ],
+            [
+                "MapAtlasPossessedMonstersDropAdditionalPolishedScarab",
+                [],
+                []
+            ],
+            [
+                "MapAtlasPossessedMonstersDropAdditionalGildedScarab",
+                [],
+                []
+            ],
+            [
+                "MapAtlasPossessedMonstersDropAdditionalUniques",
+                [],
+                []
+            ],
+            [
+                "MapAtlasPossessedMonstersDropAdditionalMaps",
+                [],
+                []
+            ],
+            [
+                "MapAtlasAdditionalEssences",
+                [],
+                []
+            ],
+            [
+                "MapAtlasAdditionalEssencesAndRemnantChance",
+                [],
+                []
+            ],
+            [
                 "CriticalStrikeChanceForForkingArrows",
                 [
                     5
@@ -25521,6 +26608,19 @@
                 ]
             ],
             [
+                "MinionCastSpeed",
+                [],
+                [
+                    320,
+                    325
+                ]
+            ],
+            [
+                "MinionAccuracyRating",
+                [],
+                []
+            ],
+            [
                 "MapFlaskChargeRecovery",
                 [],
                 []
@@ -25823,7 +26923,9 @@
             [
                 "CriticalMultiplierPerBlockChance",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AttackDamagePerLowestArmourOrEvasion",
@@ -25840,7 +26942,8 @@
                     6
                 ],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
@@ -26468,14 +27571,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SpellBlockIfBlockedAttackRecently",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AddedChaosDamageWhileUsingAFlask",
@@ -26566,7 +27673,9 @@
             [
                 "BlockChanceOnConsecratedGround",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ChillEnemiesOnHitWithWeapon",
@@ -26848,7 +27957,8 @@
                     5
                 ],
                 [
-                    309
+                    309,
+                    317
                 ]
             ],
             [
@@ -27222,7 +28332,9 @@
             [
                 "MapLeaguestoneChanceToDodgeDuringShrineEffect",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MapLeaguestoneStrongboxRarity",
@@ -27448,7 +28560,9 @@
             [
                 "MapLeaguestonePlayerSpellDodge",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MapLeaguestonePlayerMovementSpeed",
@@ -27618,14 +28732,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalSpellBlockWhileCursed",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LifePerLevel",
@@ -27774,7 +28892,9 @@
             [
                 "DisplayMonsterBlocksProjectilesWhileCharging",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LocalIncreaseSocketedHeraldLevel",
@@ -28101,7 +29221,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    325
+                ]
             ],
             [
                 "LabyrinthDarkshrineIzaroDropsAdditionalKeys",
@@ -28332,7 +29454,9 @@
             [
                 "MonsterChanceToDodge",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GlobalCooldownRecovery",
@@ -28455,6 +29579,11 @@
             ],
             [
                 "MapDropTencentEventShards",
+                [],
+                []
+            ],
+            [
+                "MapDropTencentEventCoins",
                 [],
                 []
             ],
@@ -28695,6 +29824,11 @@
                 []
             ],
             [
+                "HungryLoopSupportedByRemoteMine2",
+                [],
+                []
+            ],
+            [
                 "HungryLoopSupportedByStun",
                 [],
                 []
@@ -28757,7 +29891,9 @@
             [
                 "HungryLoopSupportedByBlind",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "HungryLoopSupportedByEnduranceChargeOnStun",
@@ -29127,7 +30263,9 @@
             [
                 "HungryLoopSupportedByFortify",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "HungryLoopSupportedByElementalProliferation",
@@ -29166,7 +30304,9 @@
             [
                 "HungryLoopSupportedByReducedBlockChance",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "HungryLoopSupportedByNOTHING",
@@ -29220,6 +30360,81 @@
             ],
             [
                 "HungryLoopSupportedByMultiTotem",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByEnergyLeech",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedBySpellFocus",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByUnleash",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByImpale",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByPulverise",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByRage",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByCloseCombat",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByShockwave",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByFeedingFrenzy",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByMeatShield",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByDeathmark",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByNightblade",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByInfernalLegion",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedBySwiftAssembly",
+                [],
+                []
+            ],
+            [
+                "HungryLoopSupportedByChargedMines",
                 [],
                 []
             ],
@@ -29961,7 +31176,8 @@
                     1
                 ],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
@@ -29988,7 +31204,8 @@
                     1
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -30203,7 +31420,9 @@
                 [
                     1
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ReducedPhysicalDamageTakenIfNotHitRecently",
@@ -30363,7 +31582,9 @@
                 [
                     1
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MovementSpeedIfEnemySlainRecently",
@@ -30372,6 +31593,26 @@
                 ],
                 [
                     325
+                ]
+            ],
+            [
+                "AddedFireDamageWithBowsForUnique",
+                [
+                    0
+                ],
+                [
+                    309,
+                    319
+                ]
+            ],
+            [
+                "AddedColdDamageWithBowsForUnique",
+                [
+                    0
+                ],
+                [
+                    310,
+                    319
                 ]
             ],
             [
@@ -30393,6 +31634,15 @@
                 ]
             ],
             [
+                "TriggeredLightningAegisSkill",
+                [
+                    8
+                ],
+                [
+                    311
+                ]
+            ],
+            [
                 "TriggeredElementalAegisSkill",
                 [
                     8
@@ -30406,7 +31656,9 @@
                 [
                     0
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SupportedByBlasphemyUnique",
@@ -30659,7 +31911,8 @@
                 ],
                 [
                     319,
-                    313
+                    313,
+                    317
                 ]
             ],
             [
@@ -31314,7 +32567,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SocketedSpellCriticalMultiplier",
@@ -31580,6 +32835,15 @@
                 ]
             ],
             [
+                "MaximumLifeLeechRateOldFix",
+                [
+                    2
+                ],
+                [
+                    316
+                ]
+            ],
+            [
                 "LifeRecoveryRate",
                 [
                     2
@@ -31717,7 +32981,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "IncreasedColdDamageWhileOffhandIsEmpty",
@@ -31924,14 +33190,18 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalBlockChancePerEnduranceChargeUber",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AccuracyRatingPerFrenzyChargeUber",
@@ -31946,7 +33216,8 @@
                     2
                 ],
                 [
-                    325
+                    325,
+                    317
                 ]
             ],
             [
@@ -32026,7 +33297,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MeleeWeaponRangeAtMaximumFrenzyCharges",
@@ -32047,7 +33320,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "PoisonDamageAgainstBleedingEnemies",
@@ -32118,14 +33393,18 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GainRandomChargeOnBlock",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalChanceToEvade",
@@ -32236,14 +33515,18 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DamagePerBlockChance",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ChanceToChillAttackersOnBlock",
@@ -32251,7 +33534,8 @@
                     2
                 ],
                 [
-                    310
+                    310,
+                    317
                 ]
             ],
             [
@@ -32260,7 +33544,8 @@
                     2
                 ],
                 [
-                    311
+                    311,
+                    317
                 ]
             ],
             [
@@ -32269,7 +33554,8 @@
                     2
                 ],
                 [
-                    316
+                    316,
+                    317
                 ]
             ],
             [
@@ -32278,7 +33564,8 @@
                     2
                 ],
                 [
-                    324
+                    324,
+                    317
                 ]
             ],
             [
@@ -32329,7 +33616,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GainEnduranceChargeOnStunChance",
@@ -32352,21 +33641,27 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FortifyDurationPerStrength",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GainFortifyOnStunChance",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ReducedElementalDamageTakenPerEnduranceCharge",
@@ -32380,7 +33675,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ElementalDamagePer12Intelligence",
@@ -32394,7 +33691,9 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ElementalDamagePer12Strength",
@@ -32474,6 +33773,13 @@
                 []
             ],
             [
+                "AilmentDamageOverTimeMultiplierPerElderItem",
+                [
+                    5
+                ],
+                []
+            ],
+            [
                 "RemoveAilmentOnFlaskUseIfAllItemsAreElder",
                 [
                     5
@@ -32499,7 +33805,9 @@
             [
                 "CannotBlockSpells",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "NonChaosAddedAsChaos",
@@ -32511,11 +33819,53 @@
                 ]
             ],
             [
+                "FireAddedAsChaos",
+                [
+                    2
+                ],
+                [
+                    309,
+                    312
+                ]
+            ],
+            [
+                "ColdAddedAsChaos",
+                [
+                    2
+                ],
+                [
+                    310,
+                    312
+                ]
+            ],
+            [
+                "LightningAddedAsChaos",
+                [
+                    2
+                ],
+                [
+                    311,
+                    312
+                ]
+            ],
+            [
+                "PhysicalAddedAsChaos",
+                [
+                    2
+                ],
+                [
+                    313,
+                    312
+                ]
+            ],
+            [
                 "GainEnduranceChargeOnLosingFortify",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "LifeGainOnHitWhileLeeching",
@@ -32597,21 +33947,27 @@
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockingBlocksSpellsUber",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SpellBlockAndBlockUber",
                 [
                     2
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CriticalStrikeChanceIfNoCriticalStrikeDealtRecentlyUber",
@@ -32783,7 +34139,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DeterminationUnaffectedByVulnerability",
@@ -32829,7 +34187,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GraceUnaffectedByEnfeeble",
@@ -32852,7 +34212,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisciplineEnergyShieldRegen",
@@ -32866,7 +34228,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DisciplineFasterStartOfRecharge",
@@ -32906,6 +34270,16 @@
                 [
                     311,
                     324
+                ]
+            ],
+            [
+                "WrathLightningDamageESLeech",
+                [
+                    7
+                ],
+                [
+                    311,
+                    317
                 ]
             ],
             [
@@ -33098,6 +34472,15 @@
                 ]
             ],
             [
+                "ClarityReducedManaCostNonChannelled",
+                [
+                    7
+                ],
+                [
+                    324
+                ]
+            ],
+            [
                 "ClarityDamageTakenFromManaBeforeLife",
                 [
                     7
@@ -33148,7 +34531,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "HasteGainOnslaughtOnKill",
@@ -33374,6 +34759,78 @@
                 ]
             ],
             [
+                "PrecisionIncreasedCriticalStrikeMultiplier",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrecisionIncreasedAttackDamage",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrecisionFlaskChargeOnCrit",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrecisionIncreasedAttackSpeed",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrecisionCannotBeBlinded",
+                [
+                    7
+                ],
+                [
+                    317
+                ]
+            ],
+            [
+                "PrideChanceForDoubleDamage",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrideIntimidateOnHit",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrideIncreasedPhysicalDamage",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrideChanceToImpale",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PrideImpaleAdditionalHits",
+                [
+                    7
+                ],
+                []
+            ],
+            [
                 "SpiritBurstOnSkillUseUnique",
                 [
                     7
@@ -33557,7 +35014,9 @@
                 [
                     6
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DamageTakenPerEnduranceChargeWhenHit",
@@ -34119,14 +35578,18 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AdditionalBlockChance10CrabBarriers",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "CrabBarriersLostWhenHit",
@@ -34235,7 +35698,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DamageAgainstBleedingEnemies",
@@ -34251,7 +35716,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AccuracyAgainstBleedingEnemies",
@@ -34628,7 +36095,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AddedFireDamageAgainstBlindedEnemies",
@@ -34636,7 +36105,8 @@
                     5
                 ],
                 [
-                    309
+                    309,
+                    317
                 ]
             ],
             [
@@ -34652,7 +36122,8 @@
                     5
                 ],
                 [
-                    309
+                    309,
+                    317
                 ]
             ],
             [
@@ -34660,7 +36131,9 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ManifestExtraDancingDervishCopies",
@@ -34858,6 +36331,13 @@
             ],
             [
                 "TrapAreaOfEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "MineAreaOfEffect",
                 [
                     5
                 ],
@@ -35176,7 +36656,8 @@
                     7
                 ],
                 [
-                    324
+                    324,
+                    317
                 ]
             ],
             [
@@ -35248,14 +36729,17 @@
             [
                 "SupportedByBlind",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "SupportedByFortify",
                 [],
                 [
                     319,
-                    313
+                    313,
+                    317
                 ]
             ],
             [
@@ -35321,6 +36805,21 @@
             ],
             [
                 "IncreasedAuraEffectGraceCorrupted",
+                [],
+                []
+            ],
+            [
+                "IncreasedAuraEffectMalevolenceCorrupted",
+                [],
+                []
+            ],
+            [
+                "IncreasedAuraEffectZealotryCorrupted",
+                [],
+                []
+            ],
+            [
+                "IncreasedAuraEffectPrideCorrupted",
                 [],
                 []
             ],
@@ -35418,12 +36917,16 @@
             [
                 "DodgeAttackHitsWhileMoving",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DodgeSpellHitsWhileMoving",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GainFrenzyChargeAfterSpending200Mana",
@@ -35830,14 +37333,18 @@
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "ExtraRollsSpellBlock",
                 [
                     7
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "MovementVelocityPerEnduranceCharge",
@@ -35897,35 +37404,45 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockChancePerFrenzyCharge",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "BlockChancePerPowerCharge",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DodgeChancePerEnduranceCharge",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "DodgeChancePerPowerCharge",
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "FireDamageAddedAsChaosPerEnduranceCharge",
@@ -36134,6 +37651,13 @@
                 []
             ],
             [
+                "NearbyEnemiesHaveIncreasedChanceToBeCrit2",
+                [
+                    5
+                ],
+                []
+            ],
+            [
                 "NearbyEnemiesHaveReducedAllResistances",
                 [
                     5
@@ -36194,7 +37718,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "AngerNoReservation",
@@ -36309,6 +37835,30 @@
                 ]
             ],
             [
+                "MalevolenceNoReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "ZealotryNoReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "PrideNoReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
                 "MapDoryanisMachinariumDisplay",
                 [],
                 []
@@ -36378,6 +37928,16 @@
             ],
             [
                 "ChanceToIntimidateOnHit",
+                [
+                    2
+                ],
+                [
+                    313,
+                    319
+                ]
+            ],
+            [
+                "LocalChanceToIntimidateOnHit",
                 [
                     2
                 ],
@@ -36740,6 +38300,20 @@
                 []
             ],
             [
+                "AttackAndCastSpeedWithOnslaught",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PhysicalDamageWithUnholyMight",
+                [
+                    7
+                ],
+                []
+            ],
+            [
                 "PhysicalDamageWhileResoluteTechnique",
                 [
                     5
@@ -36917,7 +38491,8 @@
                     5
                 ],
                 [
-                    320
+                    320,
+                    317
                 ]
             ],
             [
@@ -36963,6 +38538,27 @@
             ],
             [
                 "PerfectAgony",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "Runebinder",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "WickedWard",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MortalConviction",
                 [
                     7
                 ],
@@ -37016,7 +38612,8 @@
                 "LocalIncreasedPhysicalDamageAndBlindChance",
                 [],
                 [
-                    319
+                    319,
+                    317
                 ]
             ],
             [
@@ -37102,7 +38699,9 @@
             [
                 "DodgeChanceDuringFocus",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "PhysicalDamageReductionDuringFocus",
@@ -37200,6 +38799,16 @@
             ],
             [
                 "DamageWhileLeeching",
+                [],
+                []
+            ],
+            [
+                "DamageWhileLeechingLife",
+                [],
+                []
+            ],
+            [
+                "DamageWhileLeechingMana",
                 [],
                 []
             ],
@@ -37447,7 +39056,8 @@
                     5
                 ],
                 [
-                    316
+                    316,
+                    317
                 ]
             ],
             [
@@ -37455,7 +39065,9 @@
                 [
                     5
                 ],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "GainShapersPresence",
@@ -37585,6 +39197,16 @@
                     316,
                     324
                 ]
+            ],
+            [
+                "BaseLifeAndManaRegen",
+                [],
+                []
+            ],
+            [
+                "BaseManaAndLifeRegen",
+                [],
+                []
             ],
             [
                 "CustomLeagueMonsterDamage",
@@ -37786,6 +39408,34 @@
                 ]
             ],
             [
+                "FireDamageOverTimeMultiplier",
+                [
+                    2
+                ],
+                [
+                    34,
+                    309
+                ]
+            ],
+            [
+                "PhysicalDamageOverTimeMultiplier",
+                [
+                    2
+                ],
+                [
+                    313
+                ]
+            ],
+            [
+                "ChaosDamageOverTimeMultiplier",
+                [
+                    2
+                ],
+                [
+                    312
+                ]
+            ],
+            [
                 "ChanceToDealDoubleDamageWhileFocused",
                 [],
                 []
@@ -37817,7 +39467,9 @@
             [
                 "FortifyEffectWhileFocused",
                 [],
-                []
+                [
+                    317
+                ]
             ],
             [
                 "TriggerSocketedSpellWhenYouFocus",
@@ -38070,6 +39722,11 @@
                 []
             ],
             [
+                "ScarabModLegion",
+                [],
+                []
+            ],
+            [
                 "LocalChaosPenetration",
                 [],
                 [
@@ -38087,6 +39744,4108 @@
                 [
                     34
                 ]
+            ],
+            [
+                "PrecisionAuraBonus",
+                [],
+                []
+            ],
+            [
+                "VitalityReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "DeterminationReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "GraceReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "DisciplineReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "PurityOfFireReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "PurityOfIceReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "PurityOfLightningReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "PurityOfElementsReservation",
+                [],
+                [
+                    324,
+                    322
+                ]
+            ],
+            [
+                "CurseEffectFlammability",
+                [],
+                []
+            ],
+            [
+                "CurseEffectFrostbite",
+                [],
+                []
+            ],
+            [
+                "CurseEffectConductivity",
+                [],
+                []
+            ],
+            [
+                "CurseEffectVulnerability",
+                [],
+                []
+            ],
+            [
+                "CurseEffectElementalWeakness",
+                [],
+                []
+            ],
+            [
+                "MaximumFireResistanceImplicit",
+                [],
+                [
+                    309
+                ]
+            ],
+            [
+                "MaximumColdResistanceImplicit",
+                [],
+                [
+                    310
+                ]
+            ],
+            [
+                "MaximumLightningResistanceImplicit",
+                [],
+                [
+                    311
+                ]
+            ],
+            [
+                "MaximumChaosResistanceImplicit",
+                [],
+                [
+                    312
+                ]
+            ],
+            [
+                "MaximumElementalResistanceImplicit",
+                [],
+                [
+                    318
+                ]
+            ],
+            [
+                "MaximumManaLeechRate",
+                [
+                    2
+                ],
+                [
+                    324
+                ]
+            ],
+            [
+                "LocalIncreaseSocketedIntelligenceGemLevel",
+                [],
+                []
+            ],
+            [
+                "EnergyShieldLeechPermyriad",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "EnergyShieldGainPerTarget",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "MaceIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "AxeIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "SwordIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "BowIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "ClawIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "DaggerIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "WandIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "StaffIncreasedAttackSpeed",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "MaceIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "AxeIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "SwordIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "BowIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "ClawIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "DaggerIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "WandIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "StaffIncreasedPhysicalDamage",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "MaceCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "AxeCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "SwordCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "BowCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "ClawCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "DaggerCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "WandCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "StaffCriticalStrikeMultiplier",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "MaceIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "AxeIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "SwordIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "BowIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "ClawIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "DaggerIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "WandIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "StaffIncreasedAccuracyRating",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "FireDamageAttackSkills",
+                [],
+                [
+                    319,
+                    309
+                ]
+            ],
+            [
+                "ColdDamageAttackSkills",
+                [],
+                [
+                    319,
+                    310
+                ]
+            ],
+            [
+                "LightningDamageAttackSkills",
+                [],
+                [
+                    319,
+                    311
+                ]
+            ],
+            [
+                "PhysicalDamageAttackSkills",
+                [],
+                [
+                    319,
+                    313
+                ]
+            ],
+            [
+                "ChaosDamageAttackSkills",
+                [],
+                [
+                    319,
+                    312
+                ]
+            ],
+            [
+                "EnemiesExplodeOnDeathPhysical",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "FireDamageSpellSkills",
+                [],
+                [
+                    34,
+                    309
+                ]
+            ],
+            [
+                "ColdDamageSpellSkills",
+                [],
+                [
+                    34,
+                    310
+                ]
+            ],
+            [
+                "LightningDamageSpellSkills",
+                [],
+                [
+                    34,
+                    311
+                ]
+            ],
+            [
+                "PhysicalDamageSpellSkills",
+                [],
+                [
+                    34,
+                    313
+                ]
+            ],
+            [
+                "ChaosDamageSpellSkills",
+                [],
+                [
+                    34,
+                    312
+                ]
+            ],
+            [
+                "SpellDamageWithStaff",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellDamageWithDualWield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellDamageWithShield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "CastSpeedWithStaff",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "CastSpeedWithDualWield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "CastSpeedWithShield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalChanceWithStaff",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalChanceWithDualWield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalChanceWithShield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalMultiplierWithStaff",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalMultiplierWithDualWield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalMultiplierWithShield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "AddedManaRegenWithStaff",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "AddedManaRegenWithDualWield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "AddedManaRegenWithShield",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "SocketedMinionGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedFireGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedColdGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedLightningGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedChaosGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedMeleeGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedBowGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedAuraGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedStrengthGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedDexterityGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedIntelligenceGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedAoEGemQuality",
+                [],
+                []
+            ],
+            [
+                "SocketedProjectileGemQuality",
+                [],
+                []
+            ],
+            [
+                "DamageTakenPer250Strength",
+                [],
+                []
+            ],
+            [
+                "DamageTakenPer250Dexterity",
+                [],
+                []
+            ],
+            [
+                "DamageTakenPer250Intelligence",
+                [],
+                []
+            ],
+            [
+                "FasterIgniteDamage",
+                [],
+                [
+                    309
+                ]
+            ],
+            [
+                "FasterPoisonDamage",
+                [],
+                [
+                    314
+                ]
+            ],
+            [
+                "FasterBleedDamage",
+                [],
+                [
+                    315
+                ]
+            ],
+            [
+                "HasOnslaught",
+                [],
+                [
+                    325
+                ]
+            ],
+            [
+                "AttackImpaleChance",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "MaximumSpellBlockChance",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "MaximumAttackDodgeChance",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "MaximumSpellDodgeChance",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "DamageWithTriggeredSpells",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "ArmourEvasionWithFortify",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "GlobalKnockbackChance",
+                [
+                    0
+                ],
+                []
+            ],
+            [
+                "CurseCastSpeed",
+                [
+                    5
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "TriggerCurseOnCurse",
+                [
+                    7
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "EnergyShieldLeechPerCurse",
+                [
+                    5
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "ElementalDamagePercentAddedAsChaosPerShaperItem",
+                [
+                    7
+                ],
+                [
+                    318
+                ]
+            ],
+            [
+                "HitsIgnoreChaosResistanceAllShaperItems",
+                [],
+                []
+            ],
+            [
+                "ColdDamagePerResistanceAbove75",
+                [
+                    7
+                ],
+                [
+                    310
+                ]
+            ],
+            [
+                "LightningDamagePerResistanceAbove75",
+                [
+                    7
+                ],
+                [
+                    311
+                ]
+            ],
+            [
+                "FlaskConsecratedGroundDuration",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "FlaskConsecratedGroundAreaOfEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "FlaskConsecratedGroundDamageTaken",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "FlaskConsecratedGroundEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ShockProliferation",
+                [
+                    5
+                ],
+                [
+                    311
+                ]
+            ],
+            [
+                "ShockOnKill",
+                [
+                    5
+                ],
+                [
+                    311
+                ]
+            ],
+            [
+                "DivineChargeOnHit",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ElementalDamagePerDivineCharge",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "GainDivinityOnMaxDivineCharge",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "NearbyEnemiesCannotCrit",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "NearbyAlliesCannotBeSlowed",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ManaReservationPerAttribute",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "DefencesPer100StrengthAura",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "CriticalMultiplierPer100DexterityAura",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "CastSpeedPer100IntelligenceAura",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "PhysicalDamageRemovedFromManaBeforeLife",
+                [
+                    5
+                ],
+                [
+                    324
+                ]
+            ],
+            [
+                "AccuracyAuraSkill",
+                [
+                    7
+                ],
+                [
+                    322
+                ]
+            ],
+            [
+                "SupportedByBlessing",
+                [
+                    7
+                ],
+                [
+                    322
+                ]
+            ],
+            [
+                "SupportedByPulverise",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "TriggerBowSkillsOnBowAttack",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MaximumLifeLeechAmount",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "LifeLeechNotRemovedOnFullLife",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "DamageAffectedByAuras",
+                [],
+                [
+                    322
+                ]
+            ],
+            [
+                "AttackDamagePerMana",
+                [],
+                [
+                    319,
+                    324
+                ]
+            ],
+            [
+                "SpellDamagePerMana",
+                [],
+                [
+                    34,
+                    324
+                ]
+            ],
+            [
+                "SkeletonDamage",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "SpectreDamage",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "ZombieIncreasedDamage",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "AnimateGuardianResistances",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "IntimidateOnHit",
+                [],
+                []
+            ],
+            [
+                "OnslaughtOnHit",
+                [],
+                []
+            ],
+            [
+                "ArcaneSurgeOnHit",
+                [],
+                []
+            ],
+            [
+                "SpellsDoubleDamageChance",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "FirePenetrationWeapon",
+                [],
+                [
+                    309
+                ]
+            ],
+            [
+                "ColdPenetrationWeapon",
+                [],
+                [
+                    310
+                ]
+            ],
+            [
+                "LightningPenetrationWeapon",
+                [],
+                [
+                    311
+                ]
+            ],
+            [
+                "MovementVelocityCorruptedItem",
+                [],
+                [
+                    325
+                ]
+            ],
+            [
+                "AttackAndCastSpeedCorruptedItem",
+                [],
+                [
+                    325
+                ]
+            ],
+            [
+                "AllElementalResistanceCorruptedItem",
+                [],
+                [
+                    318
+                ]
+            ],
+            [
+                "DamageTakenCorruptedItem",
+                [],
+                []
+            ],
+            [
+                "IncreasedLifeCorruptedItem",
+                [],
+                [
+                    316
+                ]
+            ],
+            [
+                "IncreasedEnergyShieldCorruptedItem",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "AllDamageCorruptedItem",
+                [],
+                []
+            ],
+            [
+                "GlobalCriticalStrikeChanceCorruptedItem",
+                [],
+                []
+            ],
+            [
+                "ImmuneToCursesCorruptedItem",
+                [],
+                []
+            ],
+            [
+                "AttackDamageCorruptedItem",
+                [],
+                [
+                    319
+                ]
+            ],
+            [
+                "SpellDamageCorruptedItem",
+                [],
+                [
+                    34
+                ]
+            ],
+            [
+                "VaalSkillDamageAffectsSkillDamage",
+                [],
+                []
+            ],
+            [
+                "MaximumEnergyShieldLeechRate",
+                [],
+                []
+            ],
+            [
+                "RagingSpiritLife",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "RagingSpiritDuration",
+                [],
+                [
+                    320
+                ]
+            ],
+            [
+                "RagingSpiritChaosDamageTaken",
+                [],
+                []
+            ],
+            [
+                "LosePowerChargeWhenHit",
+                [],
+                []
+            ],
+            [
+                "SpellDamagePerLife",
+                [],
+                []
+            ],
+            [
+                "SpellCriticalStrikeChancePerLife",
+                [],
+                []
+            ],
+            [
+                "SacrificeLifeOnSpellSkill",
+                [],
+                []
+            ],
+            [
+                "PercentDexterityIfStrengthHigherThanIntelligence",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "CriticalStrikeMultiplierIfDexterityHigherThanIntelligence",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ElementalDamagePerDexterity",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "LifePer10Intelligence",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusExtraMod",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusThunderReservation",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusThunderLightningDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusThunderEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusThunderMaxLightningResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusThunderLightningResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAshReservation",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAshFireDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAshEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAshMaxFireResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusFireResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusIceReservation",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusIceColdDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusIceEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusMaxColdResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusColdResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusPurityReservation",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusPurityPhysicalDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusPurityEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusPurityMinionDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusPurityPhysicalDamageReduction",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAgonyReservation",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAgonyChaosDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAgonyEffect",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAgonyMinionDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "HeraldBonusAgonyChaosResist",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "MapSynthesisLeague",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisLeagueCrafted",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterDamage",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterLife",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterSpeed",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalCurrencyDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalCurrencyDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalQualityCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalQualityCurrencyDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalQualityCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalQualityCurrencyDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalQualityCurrencyDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterIncreasedFracturedItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterIncreasedFracturedItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterIncreasedFracturedItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterCorruptDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterCorruptDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterCorruptDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterIncreasedMapDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterIncreasedMapDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterIncreasedMapDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalDivinationCardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalDivinationCardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalDivinationCardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterIncreasedUniqueItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterIncreasedUniqueItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterIncreasedUniqueItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterDroppedItemQuantity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterDroppedItemQuantity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterDroppedItemQuantity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterDroppedItemRarity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterDroppedItemRarity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterDroppedItemRarity",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterIncreasedExperience",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterIncreasedExperience",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterIncreasedExperience",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalCurrencyShardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalCurrencyShardDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalCurrencyShardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalCurrencyShardDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalCurrencyShardDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalShaperItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalShaperItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalShaperItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalElderItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalElderItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalElderItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalBreachSplinterDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalBreachSplinterDropsDiscrete",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalBreachSplinterDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalBreachSplinterDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalFossilDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMagicMonsterAdditionalFossilDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedMonsterAdditionalFossilDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalJewelDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalAbyssJewelDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalMapDrop",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalTalismanDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalEssenceDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterResurrectAsAlly",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterGiveModsToKiller",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalVaalFragmentDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterAdditionalVeiledItemDrops",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedRareMonsterDuplicated",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedUpgradePackToMagic",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedUpgradePackToRare",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalRareInPack",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedSynthesisPackSize",
+                [],
+                []
+            ],
+            [
+                "MonsterTagSynthesised",
+                [],
+                []
+            ],
+            [
+                "BlightThresholdJewel3",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapDoubleGlobalMods",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapTripleGlobalMods",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapMonsterExperience",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapMemoriesDoNotCollapse",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNearbyMemoriesHaveBonus",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalPoisonChestClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalSkeletonChestClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalExplosiveBarrelClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalBloodwormRockClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalParasiteNestClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalCursedPotClusters",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalSarcophagusChests",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalScrollRackChests",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalNormalAmbushChest",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalMagicAmbushChest",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedAdditionalRareAmbushChest",
+                [],
+                []
+            ],
+            [
+                "MapSynthesisedCannotDropFractured",
+                [],
+                []
+            ],
+            [
+                "ChestSpawnZombie",
+                [],
+                []
+            ],
+            [
+                "MonsterRarity",
+                [],
+                []
+            ],
+            [
+                "MalevolenceSkillEffectDuration",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MalevolenceChaosNonAilmentDamageOverTimeMultiplier",
+                [
+                    7
+                ],
+                [
+                    312
+                ]
+            ],
+            [
+                "MalevolenceColdDamageOverTimeMultiplier",
+                [
+                    7
+                ],
+                [
+                    310
+                ]
+            ],
+            [
+                "MalevolenceLifeAndEnergyShieldRecoveryRate",
+                [
+                    7
+                ],
+                [
+                    316,
+                    317
+                ]
+            ],
+            [
+                "MalevolenceUnaffectedByPoison",
+                [
+                    7
+                ],
+                [
+                    314,
+                    312
+                ]
+            ],
+            [
+                "MalevolenceUnaffectedByBleeding",
+                [
+                    7
+                ],
+                [
+                    315,
+                    313
+                ]
+            ],
+            [
+                "MalevolenceYourAilmentsDealDamageFaster",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MalevolenceDamageOverTimeMultiplier",
+                [],
+                []
+            ],
+            [
+                "ZealotryCriticalStrikesPenetratesElementalResistances",
+                [
+                    7
+                ],
+                [
+                    318
+                ]
+            ],
+            [
+                "ZealotryCastSpeed",
+                [
+                    7
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "ZealotryConsecratedGroundEffectLingersForMsAfterLeavingTheArea",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "ZealotryConsecratedGroundEnemyDamageTaken",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "ZealotryGainArcaneSurgeFor4SecondsWhenYouCreateConsecratedGround",
+                [
+                    7
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "ZealotryMaximumEnergyShieldPerSecondToMaximumEnergyShieldLeechRateOld",
+                [
+                    7
+                ],
+                [
+                    317
+                ]
+            ],
+            [
+                "ZealotryMaximumEnergyShieldPerSecondToMaximumEnergyShieldLeechRate",
+                [
+                    7
+                ],
+                [
+                    317
+                ]
+            ],
+            [
+                "ZealotryCriticalStrikeChanceAgainstEnemiesOnConsecratedGround",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "SynthesisMapNodeGrantsNoGlobalMod",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapAdjacentNodesGlobalModValuesDoubled",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeAdditionalUses",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeLevel",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeMonstersDropNoItems",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeItemQuantityIncreasesDoubled",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeItemRarityIncreasesDoubled",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodePackSizeIncreasesDoubled",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeGrantsAdditionalGlobalMod",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeSignatureMonstersReplacedBySynthesisedMonsters",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeGlobalModValuesTrippledIfAdjacentSquaresHaveMemories",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeGrantsNoGlobalModAndAdjacentMemoryGlobalModEffectsDoubled",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeMonstersDropNoItemsAndGrantIncreasedExperience",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeDoubledQuantityRarityPackSize",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeIncreasedItemRarity",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeIncreasedItemQuantity",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeIncreasedPackSize",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeIncreasedExperience",
+                [],
+                []
+            ],
+            [
+                "SynthesisMapNodeAdjacentMemoryGlobalModEffectsDoubled",
+                [],
+                []
+            ],
+            [
+                "MapLegionLeague",
+                [],
+                []
+            ],
+            [
+                "LocalNoWeaponPhysicalDamage",
+                [
+                    2
+                ],
+                []
+            ],
+            [
+                "MapAtlasHarbingerAndBossAdditionalCurrencyShards",
+                [],
+                []
+            ],
+            [
+                "TormentSpiritSextantBetrayer",
+                [],
+                []
+            ],
+            [
+                "TormentTouchedMonsterSextantBetrayer",
+                [],
+                []
+            ],
+            [
+                "TormentHauntedMonsterSextantBetrayer_",
+                [],
+                []
+            ],
+            [
+                "TormentSpiritSextantFelon",
+                [],
+                []
+            ],
+            [
+                "TormentTouchedMonsterSextantFelon_",
+                [],
+                []
+            ],
+            [
+                "TormentHauntedMonsterSextantFelon",
+                [],
+                []
+            ],
+            [
+                "TormentSpiritSextantTrespasser",
+                [],
+                []
+            ],
+            [
+                "TormentTouchedMonsterSextantTrespasser",
+                [],
+                []
+            ],
+            [
+                "TormentHauntedMonsterSextantTrespasser",
+                [],
+                []
+            ],
+            [
+                "MapAtlasVaalSoulsOnKillAndExtraVaalPacks",
+                [],
+                []
+            ],
+            [
+                "MonsterTagAncientVaal",
+                [],
+                []
+            ],
+            [
+                "MapAtlasCorruptedDropsWithExtraVaalPacks",
+                [],
+                []
+            ],
+            [
+                "MapAtlasBeyondAndExtraBeyondDemon",
+                [],
+                []
+            ],
+            [
+                "MapAtlasTormentedBetrayerAndRustedScarabDropChance",
+                [],
+                []
+            ],
+            [
+                "MapAtlasTormentedBetrayerAndPolishedScarabDropChance",
+                [],
+                []
+            ],
+            [
+                "MapAtlasTormentedBetrayerAndGildedScarabDropChance",
+                [],
+                []
+            ],
+            [
+                "MapAtlasTormentedHereticAndMapDropChance",
+                [],
+                []
+            ],
+            [
+                "MapAtlasTormentedGraverobberAndUniqueDropChance",
+                [],
+                []
+            ],
+            [
+                "ZombiesCountAsCorpses",
+                [
+                    7
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "ZombiesNeedNoCorpses",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "AdditionalPhysicalDamageReductionWhileBleeding",
+                [
+                    5
+                ],
+                [
+                    315
+                ]
+            ],
+            [
+                "DamageTakenGainedAsLife",
+                [
+                    7
+                ],
+                [
+                    316
+                ]
+            ],
+            [
+                "MinimumEnduranceChargeOnLowLife",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "MinimumPowerChargeOnLowLife",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "SpellCriticalStrikeChanceIfKilledRecently",
+                [
+                    5
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "SpellCriticalStrikeMultiplierIfNotKilledRecently",
+                [
+                    5
+                ],
+                [
+                    34
+                ]
+            ],
+            [
+                "GrantsSmiteLevel",
+                [
+                    5
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "ElementalAilmentsOnYouInsteadOfAllies",
+                [
+                    7
+                ],
+                [
+                    318
+                ]
+            ],
+            [
+                "UnaffectedByPoison",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "KeystoneInnerConviction",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "TriggerRainOfArrowsOnBowAttack",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "CursesRemainOnDeath",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "EnemiesNearCursesBlindAndExplode",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "WarcryCooldownIs2Seconds",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "CriticalStrikeMultiplierIs250",
+                [
+                    8
+                ],
+                []
+            ],
+            [
+                "RageOnAttackCrit",
+                [],
+                []
+            ],
+            [
+                "PhysicalAddedAsFirePerRage",
+                [],
+                []
+            ],
+            [
+                "LocalChanceForPoisonDamage300FinalInflictedWithThisWeapon",
+                [
+                    7
+                ],
+                [
+                    314
+                ]
+            ],
+            [
+                "MapAtlasUniqueStrongboxChanceWithExtraVaalPacks",
+                [],
+                []
+            ],
+            [
+                "UniqueVaalStrongboxSacrificeDaemon",
+                [],
+                []
+            ],
+            [
+                "UniqueVaalStrongboxMortalDaemon",
+                [],
+                []
+            ],
+            [
+                "MapAtlasNoSoulGainPreventionWithExtraVaalPacks",
+                [],
+                []
+            ],
+            [
+                "MapAtlasGloomShrineEffectAndDuration",
+                [],
+                []
+            ],
+            [
+                "MapAtlasResonatingShrineEffectAndDuration",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentKarui",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentMaraketh",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentEternal",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentTemplar",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentVaal",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentKarui2",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentMaraketh2",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentEternal2",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentTemplar2",
+                [],
+                []
+            ],
+            [
+                "LegionMapFragmentVaal2",
+                [],
+                []
+            ],
+            [
+                "DisplaySupportedByGreaterEcho",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "MonsterBlockAttackAndBypass",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "MonsterBlockSpellAndBypass",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "MonsterBlockAttackSpellAndBypass",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "MapIsLegionEndgameMap",
+                [],
+                []
+            ],
+            [
+                "DisplayCowardsTrialWavesOfMonsters",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "DisplayCowardsTrialWavesOfUndeadMonsters",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraGhosts",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraPhantasms",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraZombies",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraRagingSpirits",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraRhoas",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraOriathCitizens",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CowardsTrialExtraSkeletonCannons",
+                [
+                    6
+                ],
+                []
+            ],
+            [
+                "CorruptedVaalMonsterCorruptedDrop",
+                [],
+                []
+            ],
+            [
+                "ShieldCrabBossDefenseStance",
+                [],
+                []
+            ],
+            [
+                "UniqueJewelAlternateTreeInRadius",
+                [],
+                []
+            ],
+            [
+                "LegionVaalJewel",
+                [
+                    29
+                ],
+                []
+            ],
+            [
+                "LegionKaruiJewel",
+                [
+                    30
+                ],
+                []
+            ],
+            [
+                "LegionMarakethJewel",
+                [
+                    31
+                ],
+                []
+            ],
+            [
+                "LegionTemplarJewel",
+                [
+                    32
+                ],
+                []
+            ],
+            [
+                "LegionEternalEmpireJewel",
+                [
+                    33
+                ],
+                []
+            ],
+            [
+                "TotemDamagePerDevotion",
+                [],
+                []
+            ],
+            [
+                "BrandDamagePerDevotion",
+                [],
+                []
+            ],
+            [
+                "ChannelledSkillDamagePerDevotion",
+                [],
+                []
+            ],
+            [
+                "AreaDamagePerDevotion",
+                [],
+                []
+            ],
+            [
+                "ElementalDamagePerDevotion",
+                [],
+                []
+            ],
+            [
+                "ElementalResistancesPerDevotion",
+                [],
+                []
+            ],
+            [
+                "AilmentEffectPerDevotion",
+                [],
+                []
+            ],
+            [
+                "ElementalAilmentSelfDurationPerDevotion",
+                [],
+                []
+            ],
+            [
+                "CurseSelfDurationPerDevotion",
+                [],
+                []
+            ],
+            [
+                "MinionAttackAndCastSpeedPerDevotion",
+                [],
+                []
+            ],
+            [
+                "MinionAccuracyRatingPerDevotion",
+                [],
+                []
+            ],
+            [
+                "AddedManaRegenerationPerDevotion",
+                [],
+                []
+            ],
+            [
+                "ReducedManaCostPerDevotion",
+                [],
+                []
+            ],
+            [
+                "AuraEffectPerDevotion",
+                [],
+                []
+            ],
+            [
+                "ShieldDefencesPerDevotion",
+                [],
+                []
+            ],
+            [
+                "DealNoChaosDamage",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "LightRadiusModifiersApplyToDamage",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "LightRadiusModifiersApplyToAreaOfEffect",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "AttackDamageWhileHoldingShield",
+                [
+                    5
+                ],
+                [
+                    319
+                ]
+            ],
+            [
+                "MonsterRangeVariance",
+                [],
+                []
+            ],
+            [
+                "ChanceToDodgeAndSpellDodge",
+                [
+                    2
+                ],
+                [
+                    317
+                ]
+            ],
+            [
+                "LocalItemQuality",
+                [],
+                [
+                    317
+                ]
+            ],
+            [
+                "GlobalEvasionRatingPercentOnFullLife",
+                [
+                    2
+                ],
+                [
+                    317
+                ]
+            ],
+            [
+                "CannotGainCharges",
+                [],
+                []
+            ],
+            [
+                "MapBlightLeague",
+                [],
+                []
+            ],
+            [
+                "RareMonsterPack",
+                [],
+                []
+            ],
+            [
+                "StrongboxDaemonEnrageSummonedMonsters",
+                [],
+                []
+            ],
+            [
+                "CanRollMinionModifiers",
+                [],
+                []
+            ],
+            [
+                "AllResistancesMinionResistances",
+                [
+                    1
+                ],
+                [
+                    318,
+                    320
+                ]
+            ],
+            [
+                "ManaCostTotalChannelled",
+                [
+                    4
+                ],
+                [
+                    324
+                ]
+            ],
+            [
+                "ManaCostTotalNonChannelled",
+                [
+                    4
+                ],
+                [
+                    324
+                ]
+            ],
+            [
+                "MinionPhysicalToFirePerRedSocket",
+                [
+                    5
+                ],
+                [
+                    320,
+                    309
+                ]
+            ],
+            [
+                "MinionPhysicalToColdPerGreenSocket",
+                [
+                    5
+                ],
+                [
+                    320,
+                    310
+                ]
+            ],
+            [
+                "MinionPhysicalToLightningPerBlueSocket",
+                [
+                    5
+                ],
+                [
+                    320,
+                    311
+                ]
+            ],
+            [
+                "MinionPhysicalToChaosPerWhiteSocket",
+                [
+                    5
+                ],
+                [
+                    320,
+                    312
+                ]
+            ],
+            [
+                "MinionChanceToFreezeShockIgnite",
+                [
+                    5
+                ],
+                [
+                    320,
+                    318
+                ]
+            ],
+            [
+                "NonChilledEnemiesBleedAndChill",
+                [
+                    5
+                ],
+                [
+                    315,
+                    310
+                ]
+            ],
+            [
+                "ChilledWhileBleeding",
+                [
+                    5
+                ],
+                [
+                    315,
+                    310
+                ]
+            ],
+            [
+                "BleedingEnemiesShatterOnKill",
+                [
+                    5
+                ],
+                [
+                    315,
+                    310
+                ]
+            ],
+            [
+                "NonChilledEnemiesPoisonAndChill",
+                [
+                    5
+                ],
+                [
+                    314,
+                    310
+                ]
+            ],
+            [
+                "ChilledWhilePoisoned",
+                [
+                    5
+                ],
+                [
+                    314,
+                    310
+                ]
+            ],
+            [
+                "PoisonedEnemiesShatterOnKill",
+                [
+                    5
+                ],
+                [
+                    314,
+                    310
+                ]
+            ],
+            [
+                "DamagePerZombie",
+                [
+                    7
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "ElementalDamageTakenPerZombie",
+                [
+                    7
+                ],
+                [
+                    320,
+                    318
+                ]
+            ],
+            [
+                "LoseFrenzyChargeOnTravelSkill",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "LosePowerChargeOnElusiveGain",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "ElusiveBuffEffectPerPowerCharge",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "TravelSkillCooldownRecoveryPerFrenzyCharge",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "MaximumFrenzyChargesEqualToMaximumPowerCharges",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MinionCausticCloudOnDeath",
+                [
+                    7
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "TotemReflectFireDamage",
+                [
+                    7
+                ],
+                [
+                    309
+                ]
+            ],
+            [
+                "MineDamageLeechedToYou",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "LifeEnergyShieldRecoveryRate",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "LifeAndEnergyShieldRecoveryRatePerPowerCharge",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "LosePowerChargeIfNotDetonatedRecently",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "NotablesGrantMinionDamageTaken",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "NotablesGrantMinionMovementSpeed",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "PassivesGrantTrapMineAddedPhysical",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "MovementVelocityOverride",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "TravelSkillCooldownRecovery",
+                [
+                    5
+                ],
+                []
+            ],
+            [
+                "DamageRemovedFromSpectres",
+                [
+                    7
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "MinionElementalDamageAddedAsChaos",
+                [
+                    7
+                ],
+                [
+                    320,
+                    318
+                ]
+            ],
+            [
+                "LifeRegenerationPerZombie",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "ManaRegenerationPerSpectre",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "AttackBlockPerSkeleton",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "AttackAndCastSpeedPerRagingSpirit",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "ReviveEnemiesOnKill",
+                [
+                    7
+                ],
+                [
+                    309
+                ]
+            ],
+            [
+                "FireResistanceOverride",
+                [
+                    7
+                ],
+                [
+                    310
+                ]
+            ],
+            [
+                "ColdResistanceOverride",
+                [
+                    7
+                ],
+                [
+                    311
+                ]
+            ],
+            [
+                "LightningResistanceOverride",
+                [
+                    7
+                ],
+                [
+                    309
+                ]
+            ],
+            [
+                "IncreasedFireResistance",
+                [
+                    7
+                ],
+                [
+                    310
+                ]
+            ],
+            [
+                "IncreasedColdResistance",
+                [
+                    7
+                ],
+                [
+                    311
+                ]
+            ],
+            [
+                "IncreasedLightningResistance",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "FungalAroundWhenStationary",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "TriggerFungalGroundOnKill",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "EnemiesOnFungalGroundExplode",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "FrostblinkDuration",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "GrantsFrostblinkSkill",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "SupportedByMeatShield",
+                [
+                    5
+                ],
+                [
+                    320
+                ]
+            ],
+            [
+                "MapLegionLeagueCrafted",
+                [],
+                []
+            ],
+            [
+                "MapAtlasLegion",
+                [],
+                []
+            ],
+            [
+                "BlightFireType",
+                [],
+                []
+            ],
+            [
+                "BlightColdType",
+                [],
+                []
+            ],
+            [
+                "BlightLightningType",
+                [],
+                []
+            ],
+            [
+                "BlightPhysicalType",
+                [],
+                []
+            ],
+            [
+                "BlightChaosType",
+                [],
+                []
+            ],
+            [
+                "BlightFlyingType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstFireType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstColdType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstLightningType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstPhysicalType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstChaosType",
+                [],
+                []
+            ],
+            [
+                "BlightLessDamageAgainstFlyingType",
+                [],
+                []
+            ],
+            [
+                "BlightUnaffectedByWeakeningTower",
+                [],
+                []
+            ],
+            [
+                "BlightUnaffectedByTemporalTower",
+                [],
+                []
+            ],
+            [
+                "InfectedMap",
+                [],
+                []
+            ],
+            [
+                "EnchantmentLightningExplosionMineDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentLightningExplosionMineThrowingSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentLightningExplosionMineAuraEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentColdProjectileMineDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentColdProjectileMineThrowingSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentColdProjectileMineThrowingSpeedNegated",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentColdProjectileMineCritMulti",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMortarBarrageMineDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMortarBarrageMineThrowingSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMortarBarrageMineThrowingSpeedHalved",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMortarBarrageMineNumProjectiles",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCobraLashDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCobraLashProjectileSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCobraLashNumberOfAdditionalChains",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentWitheringStepWitherStacks",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentWitheringStepElusiveEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSnappingAdderDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSnappingAdderWitheredOnHitFor2SecondsChance",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSnappingAdderChanceToRetainProjectileOnRelease",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPlagueBearerPoisonDotMultiplierWhileAuraActive",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentPlagueBearerStoredPoisonDamageToDealPerSecond",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMambaStrikeDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMambaStrikeDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentMambaStrikeAreaOfEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCarrionGolemDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCarrionGolemGrantedBuffEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentCarrionGolemElementalResistances",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSummonSkitterbotsAreaOfEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "EnchantmentSummonSkitterbotsManaReservation",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "ImmuneToPetrification",
+                [],
+                []
+            ],
+            [
+                "GrantedPassive",
+                [],
+                []
+            ],
+            [
+                "BlightModDaemon",
+                [],
+                []
+            ],
+            [
+                "BlightDoesntEngage",
+                [],
+                []
+            ],
+            [
+                "AttackSkillsHavePhysToExtraFireDamagePerSocketedRedGem",
+                [
+                    6
+                ],
+                [
+                    309
+                ]
+            ],
+            [
+                "VaalPactIfAllSocketedGemsAreRed",
+                [
+                    6
+                ],
+                [
+                    309
+                ]
+            ],
+            [
+                "MultipleEnchantmentsAllowed",
+                [
+                    7
+                ],
+                []
+            ],
+            [
+                "IncursionTempleLegion",
+                [],
+                []
+            ],
+            [
+                "MonsterIgnoresDelveDarkness",
+                [],
+                []
+            ],
+            [
+                "SynthesisDisallowFracturedItems",
+                [],
+                []
+            ],
+            [
+                "BlightEnchantmentChillingTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentChillingTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentChillingTowerChillEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentChillingTowerDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentChillingTowerSpecial",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFrostboltNovaTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFrostboltNovaTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFrostboltNovaTowerFullDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFrostboltNovaTowerProjectile",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentGlacialCageTowerDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentGlacialCageTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentGlacialCageTowerCooldown",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentGlacialCageTowerIncreasedDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentShockNovaTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentShockNovaTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentShockNovaTowerFullDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentShockNovaTowerShockEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentShockNovaTowerSpecial",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentLightningStormTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentLightningStormTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentLightningStormTowerDelay",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentLightningStormTowerExplosionArea",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentArcTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentArcTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentArcTowerRepeat",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentArcTowerChain",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentEmpoweringTowerEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentEmpoweringTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentEmpoweringTowerCastSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentEmpoweringTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentEmpoweringTowerDoubleDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentImbuingTowerEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentImbuingTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentImbuingTowerCritical",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentImbuingTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSmotheringTowerEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSmotheringTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSmotheringTowerReducedSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSmotheringTowerReducedDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSeismicTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSeismicTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSeismicTowerStunDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSeismicTowerAdditional",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSeismicTowerSpecial",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentTemporalTowerEffect",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentTemporalTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentTemporalTowerTick",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentTemporalTowerDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentStoneGazeTowerDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentStoneGazeTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentStoneGazeTowerCooldown",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentStoneGazeTowerPetrifyDuration",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSummoningTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSummoningTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSummoningTowerSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSummoningTowerLife",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSummoningTowerSpecial",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentScoutTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentScoutTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentScoutTowerSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentScoutTowerLife",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSentinelTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSentinelTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSentinelTowerSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentSentinelTowerLife",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFireballTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFireballTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFireballTowerCastSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFireballTowerProjectile",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFireballTowerSpecial",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFlamethrowerTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFlamethrowerTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFlamethrowerTowerFullDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentFlamethrowerTowerCastSpeed",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentMeteorTowerDamage",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentMeteorTowerRange",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentMeteorTowerStun",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightEnchantmentMeteorTowerAdditionalMeteor",
+                [
+                    4
+                ],
+                []
+            ],
+            [
+                "BlightFragmentMushrune1",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune2",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune3",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune4",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune5",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune6",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune7",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune8",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune9",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune10",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune11",
+                [],
+                []
+            ],
+            [
+                "BlightFragmentMushrune12",
+                [],
+                []
+            ],
+            [
+                "GrantedPassive2",
+                [],
+                []
             ]
         ]
     }

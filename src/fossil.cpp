@@ -30,11 +30,11 @@ const std::vector<std::string> CFossilManager::allNames_
 CFossil* CFossilManager::find(std::string name) {
     TRowId rowId = rowIdFromName(name);
     CGGPKRowAccessor* row = rows_[rowId];
-    std::vector<TRowId> additionalModRowIds = row->get<std::vector<uint64_t>>("Mods_Keys0");
+    std::vector<TRowId> additionalModRowIds = row->get<std::vector<uint64_t>>("AddedModKeys");
     std::vector<CWeightModifier*> weights;
     // First negative weights ...
-    auto negativeWeightsKeys = row->get<std::vector<uint64_t>>("Unknown_TagsKeys");
-    auto negativeWeightsValues = row->get<std::vector<uint64_t>>("Unknown_Values");
+    auto negativeWeightsKeys = row->get<std::vector<uint64_t>>("NegativeWeight_TagsKeys");
+    auto negativeWeightsValues = row->get<std::vector<uint64_t>>("NegativeWeight_Values");
     for (size_t i = 0; i < negativeWeightsKeys.size(); i++) {
         weights.push_back(new CWeightModifier(negativeWeightsKeys[i], negativeWeightsValues[i]));
     }
