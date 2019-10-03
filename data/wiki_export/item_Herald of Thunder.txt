@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Herald of Thunder
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,16 +22,19 @@
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 120
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 6000
 |static_stat2_id                         = never_shock
 |static_stat2_value                      = 1
-|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
-|static_stat3_value                      = 1
-|static_stat4_id                         = display_skill_deals_secondary_damage
+|static_stat3_id                         = skill_override_pvp_scaling_time_ms
+|static_stat3_value                      = 1000
+|static_stat4_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat4_value                      = 1
-|static_stat5_id                         = skill_can_add_multiple_charges_per_action
+|static_stat5_id                         = display_skill_deals_secondary_damage
 |static_stat5_value                      = 1
+|static_stat6_id                         = skill_can_add_multiple_charges_per_action
+|static_stat6_value                      = 1
 |stat_text                               = Adds (2-19) to (7-76) Lightning Damage to Spells<br>Adds (2-19) to (7-76) Lightning Damage to Attacks<br>Deals (1-27) to (34-1303) Lightning Damage<br>Base duration is 6 seconds<br>Cannot inflict Shock
 |quality_stat_text                       = 0.75% increased Lightning Damage
 |static_quality_stat1_id                 = herald_of_thunder_lightning_damage_+%

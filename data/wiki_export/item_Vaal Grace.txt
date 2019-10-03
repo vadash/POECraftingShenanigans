@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Grace
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,6 +22,7 @@
 |static_vaal_soul_gain_prevention_time   = 9
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 6000
 |static_stat2_id                         = modifiers_to_buff_effect_duration_also_affect_soul_prevention_duration
@@ -29,9 +30,9 @@
 |static_stat3_id                         = base_deal_no_damage
 |static_stat3_value                      = 1
 |stat_text                               = (24-34)% Chance to Dodge Attack Hits<br>(24-34)% Chance to Dodge Spell Hits<br>Base duration is 6 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>+(0-19) to radius
-|quality_stat_text                       = 1% increased Area of Effect
+|quality_stat_text                       = 2% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%
-|static_quality_stat1_value              = 1
+|static_quality_stat1_value              = 2
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_stat_text                        = 24% Chance to Dodge Attack Hits<br>24% Chance to Dodge Spell Hits

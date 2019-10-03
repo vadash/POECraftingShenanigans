@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Shaper's Orb (Tier 10)
 |class_id                                = QuestItem
 |size_x                                  = 1

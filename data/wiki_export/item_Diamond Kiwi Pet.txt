@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Diamond Kiwi Pet
 |class_id                                = Microtransaction
 |size_x                                  = 2

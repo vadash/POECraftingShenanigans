@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cat's Paw
 |class_id                                = Claw
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 17
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = claw, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Claws/Claw4
 |implicit1                               = LifeGainPerTargetImplicit2Claw3_1
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.6
 |physical_damage_min                     = 12
 |physical_damage_max                     = 22
-|weapon_range                            = 9
+|weapon_range                            = 11
 }}

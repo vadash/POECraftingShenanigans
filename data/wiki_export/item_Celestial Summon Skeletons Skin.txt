@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Celestial Summon Skeletons Skin
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionCelestialSummonSkeletonSkin
+|stack_size                              = 1
+|description                             = Your Summoned Skeletons' Skins becomes Celestial.
+|cosmetic_type                           = Summon Skeleton Skin
+}}

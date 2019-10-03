@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Elemental Hit
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 1
 |dexterity_percent                       = 100
-|gem_tags                                = Attack, Projectile, Melee, Fire, Cold, Lightning, AoE, Bow
+|gem_tags                                = Attack, Projectile, Melee, Strike, Fire, Cold, Lightning, AoE, Bow
 |gem_description                         = Each attack with this skill will choose an element at random, and will only be able to deal damage of that element. If the attack hits an enemy, it will also deal damage in an area around them, with the radius being larger if that enemy is suffering from an ailment of the chosen element. It will avoid choosing the same element twice in a row.
 |active_skill_name                       = Elemental Hit
 |skill_id                                = ElementalHit
@@ -19,6 +19,7 @@
 |required_level                          = 12
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = elemental_hit_damage_+10%_final_per_enemy_elemental_ailment
 |static_stat1_value                      = 1
 |static_stat2_id                         = elemental_hit_area_of_effect_+100%_final_vs_enemy_with_associated_ailment
@@ -29,14 +30,14 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = skill_can_fire_wand_projectiles
 |static_stat5_value                      = 1
-|stat_text                               = Adds (23-590) to (43-1096) Fire Damage to Attacks<br>Adds (19-483) to (35-896) Cold Damage to Attacks<br>Adds (4-95) to (70-1802) Lightning Damage to Attacks<br>(30-49)% chance to Freeze, Shock and Ignite<br>10% more Damage per Elemental Ailment on the Enemy<br>80% more Area Radius against Enemies affected by an Ailment of the chosen Element<br>Only Deals Damage of the chosen Element<br>Deals no Damage of other Damage Types<br>+(0-2) to Melee range
+|stat_text                               = (23-590) to (43-1096) Added Attack Fire Damage<br>(19-483) to (35-896) Added Attack Cold Damage<br>(4-95) to (70-1802) Added Attack Lightning Damage<br>(30-49)% chance to Freeze, Shock and Ignite<br>10% more Damage per Elemental Ailment on the Enemy<br>80% more Area Radius against Enemies affected by an Ailment of the chosen Element<br>Only Deals Damage of the chosen Element<br>Deals no Damage of other Damage Types<br>+(0-2) to Melee range
 |quality_stat_text                       = 1% increased Elemental Damage
 |static_quality_stat1_id                 = elemental_damage_+%
 |static_quality_stat1_value              = 1
 |level1                                  = True
 |level1_level_requirement                = 12
 |level1_mana_cost                        = 7
-|level1_stat_text                        = Adds 23 to 43 Fire Damage to Attacks<br>Adds 19 to 35 Cold Damage to Attacks<br>Adds 4 to 70 Lightning Damage to Attacks<br>30% chance to Freeze, Shock and Ignite
+|level1_stat_text                        = 23 to 43 Added Attack Fire Damage<br>19 to 35 Added Attack Cold Damage<br>4 to 70 Added Attack Lightning Damage<br>30% chance to Freeze, Shock and Ignite
 |level1_stat1_id                         = attack_minimum_added_fire_damage
 |level1_stat1_value                      = 23
 |level1_stat2_id                         = attack_maximum_added_fire_damage
@@ -54,7 +55,7 @@
 |level2                                  = True
 |level2_level_requirement                = 15
 |level2_mana_cost                        = 7
-|level2_stat_text                        = Adds 29 to 54 Fire Damage to Attacks<br>Adds 24 to 44 Cold Damage to Attacks<br>Adds 5 to 89 Lightning Damage to Attacks<br>31% chance to Freeze, Shock and Ignite
+|level2_stat_text                        = 29 to 54 Added Attack Fire Damage<br>24 to 44 Added Attack Cold Damage<br>5 to 89 Added Attack Lightning Damage<br>31% chance to Freeze, Shock and Ignite
 |level2_stat1_id                         = attack_minimum_added_fire_damage
 |level2_stat1_value                      = 29
 |level2_stat2_id                         = attack_maximum_added_fire_damage
@@ -72,7 +73,7 @@
 |level3                                  = True
 |level3_level_requirement                = 19
 |level3_mana_cost                        = 7
-|level3_stat_text                        = Adds 38 to 71 Fire Damage to Attacks<br>Adds 31 to 58 Cold Damage to Attacks<br>Adds 6 to 118 Lightning Damage to Attacks<br>32% chance to Freeze, Shock and Ignite
+|level3_stat_text                        = 38 to 71 Added Attack Fire Damage<br>31 to 58 Added Attack Cold Damage<br>6 to 118 Added Attack Lightning Damage<br>32% chance to Freeze, Shock and Ignite
 |level3_stat1_id                         = attack_minimum_added_fire_damage
 |level3_stat1_value                      = 38
 |level3_stat2_id                         = attack_maximum_added_fire_damage
@@ -90,7 +91,7 @@
 |level4                                  = True
 |level4_level_requirement                = 23
 |level4_mana_cost                        = 8
-|level4_stat_text                        = Adds 50 to 93 Fire Damage to Attacks<br>Adds 41 to 76 Cold Damage to Attacks<br>Adds 8 to 153 Lightning Damage to Attacks<br>33% chance to Freeze, Shock and Ignite
+|level4_stat_text                        = 50 to 93 Added Attack Fire Damage<br>41 to 76 Added Attack Cold Damage<br>8 to 153 Added Attack Lightning Damage<br>33% chance to Freeze, Shock and Ignite
 |level4_stat1_id                         = attack_minimum_added_fire_damage
 |level4_stat1_value                      = 50
 |level4_stat2_id                         = attack_maximum_added_fire_damage
@@ -108,7 +109,7 @@
 |level5                                  = True
 |level5_level_requirement                = 27
 |level5_mana_cost                        = 8
-|level5_stat_text                        = Adds 64 to 119 Fire Damage to Attacks<br>Adds 53 to 98 Cold Damage to Attacks<br>Adds 10 to 196 Lightning Damage to Attacks<br>34% chance to Freeze, Shock and Ignite
+|level5_stat_text                        = 64 to 119 Added Attack Fire Damage<br>53 to 98 Added Attack Cold Damage<br>10 to 196 Added Attack Lightning Damage<br>34% chance to Freeze, Shock and Ignite
 |level5_stat1_id                         = attack_minimum_added_fire_damage
 |level5_stat1_value                      = 64
 |level5_stat2_id                         = attack_maximum_added_fire_damage
@@ -126,7 +127,7 @@
 |level6                                  = True
 |level6_level_requirement                = 31
 |level6_mana_cost                        = 8
-|level6_stat_text                        = Adds 82 to 151 Fire Damage to Attacks<br>Adds 67 to 124 Cold Damage to Attacks<br>Adds 13 to 249 Lightning Damage to Attacks<br>35% chance to Freeze, Shock and Ignite
+|level6_stat_text                        = 82 to 151 Added Attack Fire Damage<br>67 to 124 Added Attack Cold Damage<br>13 to 249 Added Attack Lightning Damage<br>35% chance to Freeze, Shock and Ignite
 |level6_stat1_id                         = attack_minimum_added_fire_damage
 |level6_stat1_value                      = 82
 |level6_stat2_id                         = attack_maximum_added_fire_damage
@@ -144,7 +145,7 @@
 |level7                                  = True
 |level7_level_requirement                = 35
 |level7_mana_cost                        = 8
-|level7_stat_text                        = Adds 102 to 190 Fire Damage to Attacks<br>Adds 84 to 156 Cold Damage to Attacks<br>Adds 16 to 313 Lightning Damage to Attacks<br>36% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level7_stat_text                        = 102 to 190 Added Attack Fire Damage<br>84 to 156 Added Attack Cold Damage<br>16 to 313 Added Attack Lightning Damage<br>36% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level7_stat1_id                         = attack_minimum_added_fire_damage
 |level7_stat1_value                      = 102
 |level7_stat2_id                         = attack_maximum_added_fire_damage
@@ -164,7 +165,7 @@
 |level8                                  = True
 |level8_level_requirement                = 38
 |level8_mana_cost                        = 8
-|level8_stat_text                        = Adds 121 to 224 Fire Damage to Attacks<br>Adds 99 to 184 Cold Damage to Attacks<br>Adds 19 to 369 Lightning Damage to Attacks<br>37% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level8_stat_text                        = 121 to 224 Added Attack Fire Damage<br>99 to 184 Added Attack Cold Damage<br>19 to 369 Added Attack Lightning Damage<br>37% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level8_stat1_id                         = attack_minimum_added_fire_damage
 |level8_stat1_value                      = 121
 |level8_stat2_id                         = attack_maximum_added_fire_damage
@@ -184,7 +185,7 @@
 |level9                                  = True
 |level9_level_requirement                = 41
 |level9_mana_cost                        = 9
-|level9_stat_text                        = Adds 142 to 264 Fire Damage to Attacks<br>Adds 116 to 216 Cold Damage to Attacks<br>Adds 23 to 434 Lightning Damage to Attacks<br>38% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level9_stat_text                        = 142 to 264 Added Attack Fire Damage<br>116 to 216 Added Attack Cold Damage<br>23 to 434 Added Attack Lightning Damage<br>38% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level9_stat1_id                         = attack_minimum_added_fire_damage
 |level9_stat1_value                      = 142
 |level9_stat2_id                         = attack_maximum_added_fire_damage
@@ -204,7 +205,7 @@
 |level10                                 = True
 |level10_level_requirement               = 44
 |level10_mana_cost                       = 9
-|level10_stat_text                       = Adds 166 to 309 Fire Damage to Attacks<br>Adds 136 to 253 Cold Damage to Attacks<br>Adds 27 to 508 Lightning Damage to Attacks<br>39% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level10_stat_text                       = 166 to 309 Added Attack Fire Damage<br>136 to 253 Added Attack Cold Damage<br>27 to 508 Added Attack Lightning Damage<br>39% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level10_stat1_id                        = attack_minimum_added_fire_damage
 |level10_stat1_value                     = 166
 |level10_stat2_id                        = attack_maximum_added_fire_damage
@@ -224,7 +225,7 @@
 |level11                                 = True
 |level11_level_requirement               = 47
 |level11_mana_cost                       = 9
-|level11_stat_text                       = Adds 194 to 361 Fire Damage to Attacks<br>Adds 159 to 295 Cold Damage to Attacks<br>Adds 31 to 593 Lightning Damage to Attacks<br>40% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level11_stat_text                       = 194 to 361 Added Attack Fire Damage<br>159 to 295 Added Attack Cold Damage<br>31 to 593 Added Attack Lightning Damage<br>40% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level11_stat1_id                        = attack_minimum_added_fire_damage
 |level11_stat1_value                     = 194
 |level11_stat2_id                        = attack_maximum_added_fire_damage
@@ -244,7 +245,7 @@
 |level12                                 = True
 |level12_level_requirement               = 50
 |level12_mana_cost                       = 9
-|level12_stat_text                       = Adds 226 to 420 Fire Damage to Attacks<br>Adds 185 to 344 Cold Damage to Attacks<br>Adds 36 to 690 Lightning Damage to Attacks<br>41% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level12_stat_text                       = 226 to 420 Added Attack Fire Damage<br>185 to 344 Added Attack Cold Damage<br>36 to 690 Added Attack Lightning Damage<br>41% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level12_stat1_id                        = attack_minimum_added_fire_damage
 |level12_stat1_value                     = 226
 |level12_stat2_id                        = attack_maximum_added_fire_damage
@@ -264,7 +265,7 @@
 |level13                                 = True
 |level13_level_requirement               = 53
 |level13_mana_cost                       = 9
-|level13_stat_text                       = Adds 263 to 488 Fire Damage to Attacks<br>Adds 215 to 399 Cold Damage to Attacks<br>Adds 42 to 802 Lightning Damage to Attacks<br>42% chance to Freeze, Shock and Ignite<br>+1 to Melee range
+|level13_stat_text                       = 263 to 488 Added Attack Fire Damage<br>215 to 399 Added Attack Cold Damage<br>42 to 802 Added Attack Lightning Damage<br>42% chance to Freeze, Shock and Ignite<br>+1 to Melee range
 |level13_stat1_id                        = attack_minimum_added_fire_damage
 |level13_stat1_value                     = 263
 |level13_stat2_id                        = attack_maximum_added_fire_damage
@@ -284,7 +285,7 @@
 |level14                                 = True
 |level14_level_requirement               = 56
 |level14_mana_cost                       = 10
-|level14_stat_text                       = Adds 304 to 565 Fire Damage to Attacks<br>Adds 249 to 462 Cold Damage to Attacks<br>Adds 49 to 929 Lightning Damage to Attacks<br>43% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level14_stat_text                       = 304 to 565 Added Attack Fire Damage<br>249 to 462 Added Attack Cold Damage<br>49 to 929 Added Attack Lightning Damage<br>43% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level14_stat1_id                        = attack_minimum_added_fire_damage
 |level14_stat1_value                     = 304
 |level14_stat2_id                        = attack_maximum_added_fire_damage
@@ -304,7 +305,7 @@
 |level15                                 = True
 |level15_level_requirement               = 59
 |level15_mana_cost                       = 10
-|level15_stat_text                       = Adds 352 to 653 Fire Damage to Attacks<br>Adds 288 to 534 Cold Damage to Attacks<br>Adds 57 to 1074 Lightning Damage to Attacks<br>44% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level15_stat_text                       = 352 to 653 Added Attack Fire Damage<br>288 to 534 Added Attack Cold Damage<br>57 to 1074 Added Attack Lightning Damage<br>44% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level15_stat1_id                        = attack_minimum_added_fire_damage
 |level15_stat1_value                     = 352
 |level15_stat2_id                        = attack_maximum_added_fire_damage
@@ -324,7 +325,7 @@
 |level16                                 = True
 |level16_level_requirement               = 62
 |level16_mana_cost                       = 10
-|level16_stat_text                       = Adds 406 to 754 Fire Damage to Attacks<br>Adds 332 to 617 Cold Damage to Attacks<br>Adds 65 to 1240 Lightning Damage to Attacks<br>45% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level16_stat_text                       = 406 to 754 Added Attack Fire Damage<br>332 to 617 Added Attack Cold Damage<br>65 to 1240 Added Attack Lightning Damage<br>45% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level16_stat1_id                        = attack_minimum_added_fire_damage
 |level16_stat1_value                     = 406
 |level16_stat2_id                        = attack_maximum_added_fire_damage
@@ -344,7 +345,7 @@
 |level17                                 = True
 |level17_level_requirement               = 64
 |level17_mana_cost                       = 10
-|level17_stat_text                       = Adds 446 to 829 Fire Damage to Attacks<br>Adds 365 to 678 Cold Damage to Attacks<br>Adds 72 to 1362 Lightning Damage to Attacks<br>46% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level17_stat_text                       = 446 to 829 Added Attack Fire Damage<br>365 to 678 Added Attack Cold Damage<br>72 to 1362 Added Attack Lightning Damage<br>46% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level17_stat1_id                        = attack_minimum_added_fire_damage
 |level17_stat1_value                     = 446
 |level17_stat2_id                        = attack_maximum_added_fire_damage
@@ -364,7 +365,7 @@
 |level18                                 = True
 |level18_level_requirement               = 66
 |level18_mana_cost                       = 10
-|level18_stat_text                       = Adds 490 to 910 Fire Damage to Attacks<br>Adds 401 to 745 Cold Damage to Attacks<br>Adds 79 to 1496 Lightning Damage to Attacks<br>47% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level18_stat_text                       = 490 to 910 Added Attack Fire Damage<br>401 to 745 Added Attack Cold Damage<br>79 to 1496 Added Attack Lightning Damage<br>47% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level18_stat1_id                        = attack_minimum_added_fire_damage
 |level18_stat1_value                     = 490
 |level18_stat2_id                        = attack_maximum_added_fire_damage
@@ -384,7 +385,7 @@
 |level19                                 = True
 |level19_level_requirement               = 68
 |level19_mana_cost                       = 11
-|level19_stat_text                       = Adds 538 to 999 Fire Damage to Attacks<br>Adds 440 to 817 Cold Damage to Attacks<br>Adds 86 to 1642 Lightning Damage to Attacks<br>48% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level19_stat_text                       = 538 to 999 Added Attack Fire Damage<br>440 to 817 Added Attack Cold Damage<br>86 to 1642 Added Attack Lightning Damage<br>48% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level19_stat1_id                        = attack_minimum_added_fire_damage
 |level19_stat1_value                     = 538
 |level19_stat2_id                        = attack_maximum_added_fire_damage
@@ -404,7 +405,7 @@
 |level20                                 = True
 |level20_level_requirement               = 70
 |level20_mana_cost                       = 11
-|level20_stat_text                       = Adds 590 to 1096 Fire Damage to Attacks<br>Adds 483 to 896 Cold Damage to Attacks<br>Adds 95 to 1802 Lightning Damage to Attacks<br>49% chance to Freeze, Shock and Ignite<br>+2 to Melee range
+|level20_stat_text                       = 590 to 1096 Added Attack Fire Damage<br>483 to 896 Added Attack Cold Damage<br>95 to 1802 Added Attack Lightning Damage<br>49% chance to Freeze, Shock and Ignite<br>+2 to Melee range
 |level20_stat1_id                        = attack_minimum_added_fire_damage
 |level20_stat1_value                     = 590
 |level20_stat2_id                        = attack_maximum_added_fire_damage
@@ -424,7 +425,7 @@
 |level21                                 = True
 |level21_level_requirement               = 72
 |level21_mana_cost                       = 11
-|level21_stat_text                       = Adds 647 to 1201 Fire Damage to Attacks<br>Adds 529 to 983 Cold Damage to Attacks<br>Adds 104 to 1975 Lightning Damage to Attacks<br>50% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level21_stat_text                       = 647 to 1201 Added Attack Fire Damage<br>529 to 983 Added Attack Cold Damage<br>104 to 1975 Added Attack Lightning Damage<br>50% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level21_stat1_id                        = attack_minimum_added_fire_damage
 |level21_stat1_value                     = 647
 |level21_stat2_id                        = attack_maximum_added_fire_damage
@@ -444,7 +445,7 @@
 |level22                                 = True
 |level22_level_requirement               = 74
 |level22_mana_cost                       = 11
-|level22_stat_text                       = Adds 708 to 1316 Fire Damage to Attacks<br>Adds 580 to 1076 Cold Damage to Attacks<br>Adds 114 to 2163 Lightning Damage to Attacks<br>51% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level22_stat_text                       = 708 to 1316 Added Attack Fire Damage<br>580 to 1076 Added Attack Cold Damage<br>114 to 2163 Added Attack Lightning Damage<br>51% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level22_stat1_id                        = attack_minimum_added_fire_damage
 |level22_stat1_value                     = 708
 |level22_stat2_id                        = attack_maximum_added_fire_damage
@@ -464,7 +465,7 @@
 |level23                                 = True
 |level23_level_requirement               = 76
 |level23_mana_cost                       = 11
-|level23_stat_text                       = Adds 776 to 1441 Fire Damage to Attacks<br>Adds 635 to 1179 Cold Damage to Attacks<br>Adds 125 to 2369 Lightning Damage to Attacks<br>52% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level23_stat_text                       = 776 to 1441 Added Attack Fire Damage<br>635 to 1179 Added Attack Cold Damage<br>125 to 2369 Added Attack Lightning Damage<br>52% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level23_stat1_id                        = attack_minimum_added_fire_damage
 |level23_stat1_value                     = 776
 |level23_stat2_id                        = attack_maximum_added_fire_damage
@@ -484,7 +485,7 @@
 |level24                                 = True
 |level24_level_requirement               = 78
 |level24_mana_cost                       = 11
-|level24_stat_text                       = Adds 849 to 1576 Fire Damage to Attacks<br>Adds 694 to 1290 Cold Damage to Attacks<br>Adds 136 to 2592 Lightning Damage to Attacks<br>53% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level24_stat_text                       = 849 to 1576 Added Attack Fire Damage<br>694 to 1290 Added Attack Cold Damage<br>136 to 2592 Added Attack Lightning Damage<br>53% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level24_stat1_id                        = attack_minimum_added_fire_damage
 |level24_stat1_value                     = 849
 |level24_stat2_id                        = attack_maximum_added_fire_damage
@@ -504,7 +505,7 @@
 |level25                                 = True
 |level25_level_requirement               = 80
 |level25_mana_cost                       = 11
-|level25_stat_text                       = Adds 928 to 1724 Fire Damage to Attacks<br>Adds 760 to 1411 Cold Damage to Attacks<br>Adds 149 to 2835 Lightning Damage to Attacks<br>54% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level25_stat_text                       = 928 to 1724 Added Attack Fire Damage<br>760 to 1411 Added Attack Cold Damage<br>149 to 2835 Added Attack Lightning Damage<br>54% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level25_stat1_id                        = attack_minimum_added_fire_damage
 |level25_stat1_value                     = 928
 |level25_stat2_id                        = attack_maximum_added_fire_damage
@@ -524,7 +525,7 @@
 |level26                                 = True
 |level26_level_requirement               = 82
 |level26_mana_cost                       = 12
-|level26_stat_text                       = Adds 1015 to 1885 Fire Damage to Attacks<br>Adds 830 to 1542 Cold Damage to Attacks<br>Adds 163 to 3099 Lightning Damage to Attacks<br>55% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level26_stat_text                       = 1015 to 1885 Added Attack Fire Damage<br>830 to 1542 Added Attack Cold Damage<br>163 to 3099 Added Attack Lightning Damage<br>55% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level26_stat1_id                        = attack_minimum_added_fire_damage
 |level26_stat1_value                     = 1015
 |level26_stat2_id                        = attack_maximum_added_fire_damage
@@ -544,7 +545,7 @@
 |level27                                 = True
 |level27_level_requirement               = 84
 |level27_mana_cost                       = 12
-|level27_stat_text                       = Adds 1109 to 2060 Fire Damage to Attacks<br>Adds 907 to 1685 Cold Damage to Attacks<br>Adds 178 to 3386 Lightning Damage to Attacks<br>56% chance to Freeze, Shock and Ignite<br>+3 to Melee range
+|level27_stat_text                       = 1109 to 2060 Added Attack Fire Damage<br>907 to 1685 Added Attack Cold Damage<br>178 to 3386 Added Attack Lightning Damage<br>56% chance to Freeze, Shock and Ignite<br>+3 to Melee range
 |level27_stat1_id                        = attack_minimum_added_fire_damage
 |level27_stat1_value                     = 1109
 |level27_stat2_id                        = attack_maximum_added_fire_damage
@@ -564,7 +565,7 @@
 |level28                                 = True
 |level28_level_requirement               = 86
 |level28_mana_cost                       = 12
-|level28_stat_text                       = Adds 1211 to 2249 Fire Damage to Attacks<br>Adds 991 to 1840 Cold Damage to Attacks<br>Adds 195 to 3698 Lightning Damage to Attacks<br>57% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level28_stat_text                       = 1211 to 2249 Added Attack Fire Damage<br>991 to 1840 Added Attack Cold Damage<br>195 to 3698 Added Attack Lightning Damage<br>57% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level28_stat1_id                        = attack_minimum_added_fire_damage
 |level28_stat1_value                     = 1211
 |level28_stat2_id                        = attack_maximum_added_fire_damage
@@ -584,7 +585,7 @@
 |level29                                 = True
 |level29_level_requirement               = 88
 |level29_mana_cost                       = 12
-|level29_stat_text                       = Adds 1322 to 2456 Fire Damage to Attacks<br>Adds 1082 to 2009 Cold Damage to Attacks<br>Adds 213 to 4038 Lightning Damage to Attacks<br>58% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level29_stat_text                       = 1322 to 2456 Added Attack Fire Damage<br>1082 to 2009 Added Attack Cold Damage<br>213 to 4038 Added Attack Lightning Damage<br>58% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level29_stat1_id                        = attack_minimum_added_fire_damage
 |level29_stat1_value                     = 1322
 |level29_stat2_id                        = attack_maximum_added_fire_damage
@@ -604,7 +605,7 @@
 |level30                                 = True
 |level30_level_requirement               = 90
 |level30_mana_cost                       = 12
-|level30_stat_text                       = Adds 1443 to 2680 Fire Damage to Attacks<br>Adds 1180 to 2192 Cold Damage to Attacks<br>Adds 232 to 4406 Lightning Damage to Attacks<br>59% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level30_stat_text                       = 1443 to 2680 Added Attack Fire Damage<br>1180 to 2192 Added Attack Cold Damage<br>232 to 4406 Added Attack Lightning Damage<br>59% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level30_stat1_id                        = attack_minimum_added_fire_damage
 |level30_stat1_value                     = 1443
 |level30_stat2_id                        = attack_maximum_added_fire_damage
@@ -624,7 +625,7 @@
 |level31                                 = True
 |level31_level_requirement               = 91
 |level31_mana_cost                       = 13
-|level31_stat_text                       = Adds 1507 to 2799 Fire Damage to Attacks<br>Adds 1233 to 2290 Cold Damage to Attacks<br>Adds 242 to 4602 Lightning Damage to Attacks<br>59% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level31_stat_text                       = 1507 to 2799 Added Attack Fire Damage<br>1233 to 2290 Added Attack Cold Damage<br>242 to 4602 Added Attack Lightning Damage<br>59% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level31_stat1_id                        = attack_minimum_added_fire_damage
 |level31_stat1_value                     = 1507
 |level31_stat2_id                        = attack_maximum_added_fire_damage
@@ -644,7 +645,7 @@
 |level32                                 = True
 |level32_level_requirement               = 92
 |level32_mana_cost                       = 13
-|level32_stat_text                       = Adds 1574 to 2923 Fire Damage to Attacks<br>Adds 1288 to 2391 Cold Damage to Attacks<br>Adds 253 to 4806 Lightning Damage to Attacks<br>60% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level32_stat_text                       = 1574 to 2923 Added Attack Fire Damage<br>1288 to 2391 Added Attack Cold Damage<br>253 to 4806 Added Attack Lightning Damage<br>60% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level32_stat1_id                        = attack_minimum_added_fire_damage
 |level32_stat1_value                     = 1574
 |level32_stat2_id                        = attack_maximum_added_fire_damage
@@ -664,7 +665,7 @@
 |level33                                 = True
 |level33_level_requirement               = 93
 |level33_mana_cost                       = 13
-|level33_stat_text                       = Adds 1644 to 3052 Fire Damage to Attacks<br>Adds 1345 to 2497 Cold Damage to Attacks<br>Adds 264 to 5019 Lightning Damage to Attacks<br>60% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level33_stat_text                       = 1644 to 3052 Added Attack Fire Damage<br>1345 to 2497 Added Attack Cold Damage<br>264 to 5019 Added Attack Lightning Damage<br>60% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level33_stat1_id                        = attack_minimum_added_fire_damage
 |level33_stat1_value                     = 1644
 |level33_stat2_id                        = attack_maximum_added_fire_damage
@@ -684,7 +685,7 @@
 |level34                                 = True
 |level34_level_requirement               = 94
 |level34_mana_cost                       = 13
-|level34_stat_text                       = Adds 1716 to 3187 Fire Damage to Attacks<br>Adds 1404 to 2608 Cold Damage to Attacks<br>Adds 276 to 5240 Lightning Damage to Attacks<br>61% chance to Freeze, Shock and Ignite<br>+4 to Melee range
+|level34_stat_text                       = 1716 to 3187 Added Attack Fire Damage<br>1404 to 2608 Added Attack Cold Damage<br>276 to 5240 Added Attack Lightning Damage<br>61% chance to Freeze, Shock and Ignite<br>+4 to Melee range
 |level34_stat1_id                        = attack_minimum_added_fire_damage
 |level34_stat1_value                     = 1716
 |level34_stat2_id                        = attack_maximum_added_fire_damage
@@ -704,7 +705,7 @@
 |level35                                 = True
 |level35_level_requirement               = 95
 |level35_mana_cost                       = 13
-|level35_stat_text                       = Adds 1792 to 3327 Fire Damage to Attacks<br>Adds 1466 to 2722 Cold Damage to Attacks<br>Adds 288 to 5471 Lightning Damage to Attacks<br>61% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level35_stat_text                       = 1792 to 3327 Added Attack Fire Damage<br>1466 to 2722 Added Attack Cold Damage<br>288 to 5471 Added Attack Lightning Damage<br>61% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level35_stat1_id                        = attack_minimum_added_fire_damage
 |level35_stat1_value                     = 1792
 |level35_stat2_id                        = attack_maximum_added_fire_damage
@@ -724,7 +725,7 @@
 |level36                                 = True
 |level36_level_requirement               = 96
 |level36_mana_cost                       = 14
-|level36_stat_text                       = Adds 1871 to 3474 Fire Damage to Attacks<br>Adds 1530 to 2842 Cold Damage to Attacks<br>Adds 301 to 5712 Lightning Damage to Attacks<br>62% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level36_stat_text                       = 1871 to 3474 Added Attack Fire Damage<br>1530 to 2842 Added Attack Cold Damage<br>301 to 5712 Added Attack Lightning Damage<br>62% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level36_stat1_id                        = attack_minimum_added_fire_damage
 |level36_stat1_value                     = 1871
 |level36_stat2_id                        = attack_maximum_added_fire_damage
@@ -744,7 +745,7 @@
 |level37                                 = True
 |level37_level_requirement               = 97
 |level37_mana_cost                       = 14
-|level37_stat_text                       = Adds 1953 to 3626 Fire Damage to Attacks<br>Adds 1597 to 2967 Cold Damage to Attacks<br>Adds 314 to 5962 Lightning Damage to Attacks<br>62% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level37_stat_text                       = 1953 to 3626 Added Attack Fire Damage<br>1597 to 2967 Added Attack Cold Damage<br>314 to 5962 Added Attack Lightning Damage<br>62% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level37_stat1_id                        = attack_minimum_added_fire_damage
 |level37_stat1_value                     = 1953
 |level37_stat2_id                        = attack_maximum_added_fire_damage
@@ -764,7 +765,7 @@
 |level38                                 = True
 |level38_level_requirement               = 98
 |level38_mana_cost                       = 14
-|level38_stat_text                       = Adds 2038 to 3785 Fire Damage to Attacks<br>Adds 1667 to 3097 Cold Damage to Attacks<br>Adds 328 to 6223 Lightning Damage to Attacks<br>63% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level38_stat_text                       = 2038 to 3785 Added Attack Fire Damage<br>1667 to 3097 Added Attack Cold Damage<br>328 to 6223 Added Attack Lightning Damage<br>63% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level38_stat1_id                        = attack_minimum_added_fire_damage
 |level38_stat1_value                     = 2038
 |level38_stat2_id                        = attack_maximum_added_fire_damage
@@ -784,7 +785,7 @@
 |level39                                 = True
 |level39_level_requirement               = 99
 |level39_mana_cost                       = 14
-|level39_stat_text                       = Adds 2127 to 3950 Fire Damage to Attacks<br>Adds 1740 to 3232 Cold Damage to Attacks<br>Adds 342 to 6495 Lightning Damage to Attacks<br>63% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level39_stat_text                       = 2127 to 3950 Added Attack Fire Damage<br>1740 to 3232 Added Attack Cold Damage<br>342 to 6495 Added Attack Lightning Damage<br>63% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level39_stat1_id                        = attack_minimum_added_fire_damage
 |level39_stat1_value                     = 2127
 |level39_stat2_id                        = attack_maximum_added_fire_damage
@@ -804,7 +805,7 @@
 |level40                                 = True
 |level40_level_requirement               = 100
 |level40_mana_cost                       = 14
-|level40_stat_text                       = Adds 2220 to 4123 Fire Damage to Attacks<br>Adds 1816 to 3373 Cold Damage to Attacks<br>Adds 357 to 6779 Lightning Damage to Attacks<br>64% chance to Freeze, Shock and Ignite<br>+5 to Melee range
+|level40_stat_text                       = 2220 to 4123 Added Attack Fire Damage<br>1816 to 3373 Added Attack Cold Damage<br>357 to 6779 Added Attack Lightning Damage<br>64% chance to Freeze, Shock and Ignite<br>+5 to Melee range
 |level40_stat1_id                        = attack_minimum_added_fire_damage
 |level40_stat1_value                     = 2220
 |level40_stat2_id                        = attack_maximum_added_fire_damage

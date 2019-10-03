@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Spell Echo Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_spell_repeat_count
 |static_stat1_value                      = 1
 |static_stat2_id                         = support_echo_damage_+%_final

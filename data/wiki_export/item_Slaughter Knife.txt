@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Slaughter Knife
-|class_id                                = Dagger
+|class_id                                = Rune Dagger
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 58
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = dagger, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger17
 |implicit1                               = CriticalStrikeChanceImplicitDaggerNew1
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.4
 |physical_damage_min                     = 10
 |physical_damage_max                     = 86
-|weapon_range                            = 8
+|weapon_range                            = 10
 }}

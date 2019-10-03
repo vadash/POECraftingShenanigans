@@ -1,14 +1,13 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Splintered Tower Shield
 |class_id                                = Shield
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 1
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_armour, str_shield, shield, armour, default
 |metadata_id                             = Metadata/Items/Armours/Shields/ShieldStr1
-|implicit1                               = MovementVelocityPenaltyHeavyShieldImplicit
 |purchase_cost_normal1_name              = Scroll of Wisdom
 |purchase_cost_normal1_amount            = 1
 |purchase_cost_magic1_name               = Scroll of Wisdom
@@ -20,5 +19,6 @@
 |required_level                          = 1
 |required_strength                       = 10
 |armour                                  = 9
+|movement_speed                          = -3
 |block                                   = 24
 }}

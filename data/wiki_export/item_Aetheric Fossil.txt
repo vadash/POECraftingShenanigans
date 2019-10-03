@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Aetheric Fossil
 |class_id                                = StackableCurrency
 |size_x                                  = 1
@@ -7,7 +7,8 @@
 |drop_level                              = 1
 |tags                                    = currency, default
 |metadata_id                             = Metadata/Items/Currency/CurrencyDelveCraftingCasterMods
-|stack_size                              = 1
+|stack_size                              = 20
 |description                             = More Caster modifiers<br>Fewer Attack modifiers
-|help_text                               = Place in a Resonator to influence item crafting.
+|help_text                               = Place in a Resonator to influence item crafting.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
 }}

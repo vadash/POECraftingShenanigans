@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Golden Era
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Before gemlings, before thaumaturgy, a simple court magician could enthrall the masses.
+|drop_level                              = 1
+|tags                                    = weapon_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheGoldenEra
+|stack_size                              = 7
+|description                             = {{c|magic|Flaring Eclipse Staff}}<br>{{c|default|Item Level:}} {{c|normal|100}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

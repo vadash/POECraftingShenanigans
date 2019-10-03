@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Eye of Terror
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = The Lord of Chaos dreams as his Eye gazes, unblinking, at his prize. And soon, all shall tremble before his waking form.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheEyeOfTerror
+|stack_size                              = 8
+|description                             = {{c|normal|Pure Chayula Breachstone}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

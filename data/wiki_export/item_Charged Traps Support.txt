@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Charged Traps Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,11 +19,12 @@
 |static_mana_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = trap_throwing_speed_+%_per_frenzy_charge
-|static_stat1_value                      = 6
+|static_stat1_value                      = 10
 |static_stat2_id                         = trap_critical_strike_multiplier_+_per_power_charge
-|static_stat2_value                      = 12
-|stat_text                               = Supported Skills have (20-30)% chance to gain a Power Charge when your Trap is triggered by an Enemy<br>Supported Skills have (20-30)% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy<br>Supported Skills have 6% increased Trap Throwing Speed per Frenzy Charge<br>Supported Skills have +12% to Critical Strike Multiplier per Power Charge when used by Traps
+|static_stat2_value                      = 15
+|stat_text                               = Supported Skills have (20-30)% chance to gain a Power Charge when your Trap is triggered by an Enemy<br>Supported Skills have (20-30)% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy<br>Supported Skills have 10% increased Trap Throwing Speed per Frenzy Charge<br>Supported Skills have +15% to Critical Strike Multiplier per Power Charge when used by Traps
 |quality_stat_text                       = Supported Skills deal 0.5% increased Trap Damage
 |static_quality_stat1_id                 = trap_damage_+%
 |static_quality_stat1_value              = 0.5

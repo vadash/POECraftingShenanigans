@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The Chains that Bind
 |class_id                                = DivinationCard
 |size_x                                  = 1

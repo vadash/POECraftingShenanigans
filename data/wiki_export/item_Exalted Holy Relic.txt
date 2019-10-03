@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Exalted Holy Relic
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionExaltedHolyRelic
+|stack_size                              = 1
+|description                             = Your Holy Relic becomes a Exalted Effect.
+|cosmetic_type                           = Holy Relic Skin
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Offering to the Goddess
 |class_id                                = LabyrinthMapItem
 |size_x                                  = 1

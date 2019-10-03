@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = War Sword
 |class_id                                = One Hand Sword
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 20
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sword, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5
 |implicit1                               = AccuracyPercentImplicitSword1
@@ -21,8 +21,8 @@
 |required_strength                       = 41
 |required_dexterity                      = 35
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.2
-|physical_damage_min                     = 20
-|physical_damage_max                     = 37
-|weapon_range                            = 9
+|attack_speed                            = 1.4
+|physical_damage_min                     = 16
+|physical_damage_max                     = 30
+|weapon_range                            = 11
 }}

@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Hatchet
 |class_id                                = One Hand Axe
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 65
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe20
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.4
 |physical_damage_min                     = 30
 |physical_damage_max                     = 90
-|weapon_range                            = 9
+|weapon_range                            = 11
 }}

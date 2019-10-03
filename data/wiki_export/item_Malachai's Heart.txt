@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Malachai's Heart
 |class_id                                = QuestItem
 |size_x                                  = 2

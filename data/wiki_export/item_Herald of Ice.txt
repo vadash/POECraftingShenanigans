@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Herald of Ice
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -23,16 +23,19 @@
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 80
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = damage_cannot_be_reflected
 |static_stat1_value                      = 1
-|static_stat2_id                         = is_area_damage
-|static_stat2_value                      = 1
-|static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
+|static_stat2_id                         = skill_override_pvp_scaling_time_ms
+|static_stat2_value                      = 1000
+|static_stat3_id                         = is_area_damage
 |static_stat3_value                      = 1
-|static_stat4_id                         = display_skill_deals_secondary_damage
+|static_stat4_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat4_value                      = 1
-|static_stat5_id                         = skill_can_add_multiple_charges_per_action
+|static_stat5_id                         = display_skill_deals_secondary_damage
 |static_stat5_value                      = 1
+|static_stat6_id                         = skill_can_add_multiple_charges_per_action
+|static_stat6_value                      = 1
 |stat_text                               = Adds (4-38) to (5-56) Cold Damage to Spells<br>Adds (4-38) to (5-56) Cold Damage to Attacks<br>Deals (18-308) to (26-462) Cold Damage<br>Damage cannot be Reflected
 |quality_stat_text                       = 0.75% increased Cold Damage
 |static_quality_stat1_id                 = herald_of_ice_cold_damage_+%

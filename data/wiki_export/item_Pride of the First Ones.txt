@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Pride of the First Ones
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Upon silent paws and masked by the reeds, <br>Farrul's hunt begins as the light recedes.
+|drop_level                              = 1
+|tags                                    = armour_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardPrideOfTheFirstOnes
+|stack_size                              = 7
+|description                             = {{c|unique|{{il|Farrul's Fur|html=}}}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

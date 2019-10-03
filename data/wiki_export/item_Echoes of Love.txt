@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Echoes of Love
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = "I gave up my body for you. I gave up my name for you. And one day I shall give up my life for you."
+|drop_level                              = 1
+|tags                                    = weapon_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardEchoesOfLove
+|stack_size                              = 3
+|description                             = {{c|unique|{{il|Fidelitas' Spike|html=}}}}<br> {{c|corrupted|[[Two-Implicit]]}}<br> {{c|corrupted|[[Corrupted]]}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

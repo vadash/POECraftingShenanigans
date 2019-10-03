@@ -1,14 +1,13 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cardinal Round Shield
 |class_id                                = Shield
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 66
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_dex_armour, str_dex_shield, shield, armour, default
 |metadata_id                             = Metadata/Items/Armours/Shields/ShieldStrDex12
-|implicit1                               = MovementVelocityPenaltyLightShieldImplicit
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 3
 |purchase_cost_magic1_name               = Chaos Orb
@@ -22,5 +21,6 @@
 |required_dexterity                      = 85
 |armour                                  = 209
 |evasion                                 = 209
+|movement_speed                          = -3
 |block                                   = 25
 }}

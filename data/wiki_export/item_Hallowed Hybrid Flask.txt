@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Hallowed Hybrid Flask
 |class_id                                = HybridFlask
 |size_x                                  = 1
 |size_y                                  = 2
 |drop_level                              = 60
-|drop_rarities                           = Normal, Magic, Unique
+|drop_rarities_ids                       = normal, magic, unique
 |tags                                    = not_for_sale, hybrid_flask, flask, default
 |metadata_id                             = Metadata/Items/Flasks/FlaskHybrid6
 |help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.

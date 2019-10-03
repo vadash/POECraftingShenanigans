@@ -40,7 +40,7 @@ with open("SimpleTags.json", "r") as f:
     all_tags = json.load(f)
 
 for filename in glob('wiki_export/*.txt'):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', errors='ignore') as f:
         data = f.read()
     name, class_id, tags = find_information(data)
     tags_int = tags_to_int(all_tags, tags)

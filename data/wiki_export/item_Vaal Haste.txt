@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Haste
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,6 +22,7 @@
 |static_vaal_soul_gain_prevention_time   = 6
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 4000
 |static_stat2_id                         = modifiers_to_buff_effect_duration_also_affect_soul_prevention_duration
@@ -29,9 +30,9 @@
 |static_stat3_id                         = base_deal_no_damage
 |static_stat3_value                      = 1
 |stat_text                               = You and nearby allies gain (25-31)% increased Attack Speed<br>You and nearby allies gain (24-31)% increased Cast Speed<br>You and nearby allies gain (10-13)% increased Movement Speed<br>Base duration is 4 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>+(0-19) to radius
-|quality_stat_text                       = 1% increased Area of Effect
+|quality_stat_text                       = 2% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%
-|static_quality_stat1_value              = 1
+|static_quality_stat1_value              = 2
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_stat_text                        = You and nearby allies gain 25% increased Attack Speed<br>You and nearby allies gain 24% increased Cast Speed<br>You and nearby allies gain 10% increased Movement Speed

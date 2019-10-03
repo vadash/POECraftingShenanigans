@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Stormcloud Arctic Armour Effect
+|class_id                                = Microtransaction
+|size_x                                  = 1
+|size_y                                  = 1
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionStormcloudArcticArmour
+|stack_size                              = 20
+|description                             = Your Arctic Armour becomes a stormcloud that showers ice on you.
+|cosmetic_type                           = Arctic Armour Skin
+}}

@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Bone Bow
 |class_id                                = Bow
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 23
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = bow, ranged, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/Bows/Bow6
 |purchase_cost_normal1_name              = Orb of Transmutation

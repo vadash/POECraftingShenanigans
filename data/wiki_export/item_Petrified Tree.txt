@@ -1,0 +1,17 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Petrified Tree
+|class_id                                = HideoutDoodad
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = default
+|metadata_id                             = Metadata/Items/Hideout/HideoutPetrifiedTree
+|stack_size                              = 20
+|description                             = Creates an object in your hideout
+|help_text                               = Shift click to unstack.
+|is_master_doodad                        = True
+|master                                  = Jun, Veiled Master
+|master_favour_cost                      = 19000
+|master_level_requirement                = 7
+|variation_count                         = 12
+}}

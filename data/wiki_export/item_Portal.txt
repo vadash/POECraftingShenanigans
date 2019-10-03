@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Portal
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -21,6 +21,7 @@
 |required_level                          = 10
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_deal_no_damage
 |static_stat1_value                      = 1
 |stat_text                               = 

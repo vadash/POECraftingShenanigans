@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Awl
 |class_id                                = Claw
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 12
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = claw, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Claws/Claw3
 |implicit1                               = LifeGainPerTargetImplicit2Claw3
@@ -21,8 +21,8 @@
 |required_dexterity                      = 25
 |required_intelligence                   = 25
 |critical_strike_chance                  = 6.3
-|attack_speed                            = 1.5
+|attack_speed                            = 1.55
 |physical_damage_min                     = 7
-|physical_damage_max                     = 24
-|weapon_range                            = 9
+|physical_damage_max                     = 23
+|weapon_range                            = 11
 }}

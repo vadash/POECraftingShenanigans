@@ -1,0 +1,14 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Teal Oil
+|class_id                                = StackableCurrency
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 36
+|tags                                    = mushrune, currency, default
+|metadata_id                             = Metadata/Items/Currency/Mushrune5
+|stack_size                              = 10
+|help_text                               = Can be combined with other Oils at Cassia to Enchant Rings or Amulets, or to modify Blighted Maps.<br>Shift click to unstack.
+|stack_size_currency_tab                 = 5000
+|blight_item_tier                        = 5
+}}

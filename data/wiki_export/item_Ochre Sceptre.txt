@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Ochre Sceptre
 |class_id                                = Sceptre
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 24
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sceptre, sceptre, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre6
 |implicit1                               = ElementalDamagePercentImplicitSceptreNew6
@@ -21,8 +21,8 @@
 |required_strength                       = 44
 |required_intelligence                   = 44
 |critical_strike_chance                  = 6
-|attack_speed                            = 1.4
+|attack_speed                            = 1.45
 |physical_damage_min                     = 17
-|physical_damage_max                     = 32
-|weapon_range                            = 9
+|physical_damage_max                     = 31
+|weapon_range                            = 11
 }}

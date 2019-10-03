@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Seven Years Bad Luck
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = If enough people believe something to be true, whether or not it is becomes irrelevant.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardSevenYearsBadLuck
+|stack_size                              = 13
+|description                             = {{c|currency|{{il|Mirror Shard|html=}}}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Ice Nova
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -21,12 +21,15 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 70
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = ice_nova_number_of_repeats
 |static_stat1_value                      = 5
 |static_stat2_id                         = ice_nova_radius_+%_per_repeat
 |static_stat2_value                      = -20
 |static_stat3_id                         = is_area_damage
 |static_stat3_value                      = 1
+|static_stat4_id                         = cannot_cancel_skill_before_contact_point
+|static_stat4_value                      = 1
 |stat_text                               = Deals (11-274) to (17-428) Cold Damage<br>Causes smaller novas up to 5 times on enemies hit<br>20% reduced Area of Effect each repeat
 |quality_stat_text                       = 0.5% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%

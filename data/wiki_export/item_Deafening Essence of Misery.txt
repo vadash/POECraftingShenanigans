@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Deafening Essence of Misery
 |class_id                                = StackableCurrency
 |size_x                                  = 1
@@ -12,36 +12,8 @@
 |help_text                               = Right click this item then left click a normal or rare item to apply it.<br>Shift click to unstack.
 |stack_size_currency_tab                 = 5000
 |essence_level                           = 7
+|essence_type                            = 5
+|essence_category                        = Essence of Misery
 |essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel7
 |is_essence                              = True
-|upgraded_from_set1_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceMisery2
-|upgraded_from_set1_group1_amount        = 3
-|upgraded_from_set2_text                 = +1 level {{c|corrupted|corruption}} outcome
-|upgraded_from_set2_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceMisery2
-|upgraded_from_set2_group1_amount        = 1
-|upgraded_from_set2_group2_item_id       = Metadata/Items/Currency/CurrencyCorruptMonolith
-|upgraded_from_set2_group2_amount        = 1
-|upgraded_from_set3_text                 = type change {{c|corrupted|corruption}} outcome
-|upgraded_from_set3_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceAnguish4
-|upgraded_from_set3_group1_amount        = 1
-|upgraded_from_set3_group2_item_id       = Metadata/Items/Currency/CurrencyCorruptMonolith
-|upgraded_from_set3_group2_amount        = 1
-|upgraded_from_set4_text                 = type change {{c|corrupted|corruption}} outcome
-|upgraded_from_set4_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceLoathing4
-|upgraded_from_set4_group1_amount        = 1
-|upgraded_from_set4_group2_item_id       = Metadata/Items/Currency/CurrencyCorruptMonolith
-|upgraded_from_set4_group2_amount        = 1
-|upgraded_from_set5_text                 = type change {{c|corrupted|corruption}} outcome
-|upgraded_from_set5_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceSpite4
-|upgraded_from_set5_group1_amount        = 1
-|upgraded_from_set5_group2_item_id       = Metadata/Items/Currency/CurrencyCorruptMonolith
-|upgraded_from_set5_group2_amount        = 1
-|upgraded_from_set6_text                 = type change {{c|corrupted|corruption}} outcome
-|upgraded_from_set6_group1_item_id       = Metadata/Items/Currency/CurrencyEssenceZeal4
-|upgraded_from_set6_group1_amount        = 1
-|upgraded_from_set6_group2_item_id       = Metadata/Items/Currency/CurrencyCorruptMonolith
-|upgraded_from_set6_group2_amount        = 1
-|upgraded_from_set7_text                 = random {{c|currency|Essence}}
-|upgraded_from_set7_group1_item_id       = Metadata/Items/DivinationCards/DivinationCardThreeVoices
-|upgraded_from_set7_group1_amount        = 3
 }}

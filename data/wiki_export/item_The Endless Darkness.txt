@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The Endless Darkness
 |class_id                                = DivinationCard
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = Gaze towards the stars, but beware what gazes back.
 |drop_level                              = 1
-|tags                                    = weapon_divination, divination_card, default
+|tags                                    = weapon_divination, elder_divination, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheEndlessDarkness
 |stack_size                              = 9
 |description                             = {{c|unique|{{il|Voidforge|html=}}}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Explosive Arrow
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Orb of Chance
 |purchase_cost_normal1_amount            = 1
 |dexterity_percent                       = 100
-|gem_tags                                = Fire, Attack, Projectile, AoE, Duration, Bow
+|gem_tags                                = Attack, Projectile, AoE, Duration, Fire, Bow
 |gem_description                         = Fires an arrow which acts as a short duration fuse. Applying additional arrows to an enemy extends the duration. When the target dies or the fuses expire, the arrows explode, dealing fire AoE damage to nearby enemies. The AoE radius is proportional to the number of arrows upon death.
 |active_skill_name                       = Explosive Arrow
 |item_class_id_restriction               = Bow
@@ -22,6 +22,7 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 1000
 |static_stat2_id                         = fuse_arrow_explosion_radius_+_per_fuse_arrow_orb

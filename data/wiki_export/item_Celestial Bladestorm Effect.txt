@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Celestial Bladestorm Effect
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionCelestialBladestormEffect
+|stack_size                              = 1
+|description                             = Your Bladestorm becomes a Celestial Effect.
+|cosmetic_type                           = Bladestorm Skin
+}}

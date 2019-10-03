@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Weathered Pillar
 |class_id                                = HideoutDoodad
 |size_x                                  = 2
@@ -11,7 +11,7 @@
 |help_text                               = Shift click to unstack.
 |is_master_doodad                        = True
 |master                                  = Alva, Master Explorer
-|master_favour_cost                      = 102000
+|master_favour_cost                      = 38000
 |master_level_requirement                = 6
 |variation_count                         = 17
 }}

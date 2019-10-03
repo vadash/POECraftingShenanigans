@@ -1,0 +1,13 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Polished Legion Scarab
+|class_id                                = MapFragment
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = As our hand in the Chamber, we grant you, Deacon Eutychus,<br>access to a domain we lack the resources to explore.
+|drop_level                              = 1
+|tags                                    = polished_scarab, default
+|metadata_id                             = Metadata/Items/Scarabs/ScarabLegion2
+|help_text                               = Can be used in the Templar Laboratory or a personal Map Device.
+|implicit1                               = ScarabLegion2
+}}

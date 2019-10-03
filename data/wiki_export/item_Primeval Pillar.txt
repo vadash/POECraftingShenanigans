@@ -1,0 +1,17 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Primeval Pillar
+|class_id                                = HideoutDoodad
+|size_x                                  = 1
+|size_y                                  = 2
+|tags                                    = default
+|metadata_id                             = Metadata/Items/Hideout/HideoutPrimevalPillar
+|stack_size                              = 20
+|description                             = Creates an object in your hideout
+|help_text                               = Shift click to unstack.
+|is_master_doodad                        = True
+|master                                  = Jun, Veiled Master
+|master_favour_cost                      = 102000
+|master_level_requirement                = 6
+|variation_count                         = 2
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Breach
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,10 +22,13 @@
 |static_vaal_soul_gain_prevention_time   = 40
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = display_vaal_breach_no_drops_xp
 |static_stat1_value                      = 1
 |static_stat2_id                         = base_deal_no_damage
 |static_stat2_value                      = 1
+|static_stat3_id                         = cannot_cancel_skill_before_contact_point
+|static_stat3_value                      = 1
 |stat_text                               = Monsters from the Breach do not grant Experience or drop Items
 |quality_stat_text                       = 3% increased Cast Speed
 |static_quality_stat1_id                 = base_cast_speed_+%

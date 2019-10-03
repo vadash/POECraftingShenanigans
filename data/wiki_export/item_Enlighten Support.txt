@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Enlighten Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -17,6 +17,7 @@
 |required_level                          = 1
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = 
 |quality_stat_text                       = This Gem gains 5% increased Experience
 |static_quality_stat1_id                 = local_gem_experience_gain_+%

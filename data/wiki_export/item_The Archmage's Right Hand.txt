@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Archmage's Right Hand
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = "When grasped in his hand, even an ordinary piece of wood can make the heavens tremble with fear."
+|drop_level                              = 1
+|tags                                    = weapon_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheArchmagesRightHand
+|stack_size                              = 7
+|description                             = {{c|magic|Glyphic Prophecy Wand}}<br>{{c|default|Item Level:}} {{c|normal|100}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

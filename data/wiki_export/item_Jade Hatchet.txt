@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Jade Hatchet
 |class_id                                = One Hand Axe
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 6
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2
 |purchase_cost_normal1_name              = Scroll of Wisdom
@@ -20,8 +20,8 @@
 |required_strength                       = 21
 |required_dexterity                      = 10
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.4
+|attack_speed                            = 1.45
 |physical_damage_min                     = 10
-|physical_damage_max                     = 16
-|weapon_range                            = 9
+|physical_damage_max                     = 15
+|weapon_range                            = 11
 }}

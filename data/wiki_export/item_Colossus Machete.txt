@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Colossus Machete
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionColossusMachete
+|stack_size                              = 1
+|description                             = Changes the appearance of any equipped one or two-handed sword, one-handed axe or one-handed mace to the Colossus Machete.
+|cosmetic_type                           = Weapon Skin
+}}

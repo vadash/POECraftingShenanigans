@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Gutting Knife
 |class_id                                = Dagger
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 56
-|drop_rarities                           = Normal, Magic, Rare, Unique
-|tags                                    = dagger, one_hand_weapon, onehand, weapon, default
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = dagger, attack_dagger, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger16
 |implicit1                               = CriticalStrikeChanceImplicitDaggerNew1
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -20,9 +20,9 @@
 |required_level                          = 56
 |required_dexterity                      = 113
 |required_intelligence                   = 78
-|critical_strike_chance                  = 6
-|attack_speed                            = 1.2
-|physical_damage_min                     = 24
-|physical_damage_max                     = 97
-|weapon_range                            = 8
+|critical_strike_chance                  = 6.5
+|attack_speed                            = 1.4
+|physical_damage_min                     = 19
+|physical_damage_max                     = 76
+|weapon_range                            = 10
 }}

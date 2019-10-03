@@ -1,14 +1,13 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Copper Plate
 |class_id                                = Body Armour
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 17
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_armour, body_armour, armour, default
 |metadata_id                             = Metadata/Items/Armours/BodyArmours/BodyStr3
-|implicit1                               = MovementVelocityPenaltyHeavyArmourImplicit
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 1
 |purchase_cost_magic1_name               = Orb of Augmentation
@@ -20,4 +19,5 @@
 |required_level                          = 17
 |required_strength                       = 53
 |armour                                  = 176
+|movement_speed                          = -5
 }}

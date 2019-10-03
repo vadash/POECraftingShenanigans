@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Skeleton
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = They stand among us, and within us.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheSkeleton
+|stack_size                              = 6
+|description                             = {{c|gem|Level 1 Summon Skeletons}}<br>{{c|default|Quality:}} {{c|augmented|+23%}}<br>{{c|corrupted|[[Corrupted]]}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

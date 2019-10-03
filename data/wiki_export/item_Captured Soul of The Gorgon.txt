@@ -1,9 +1,9 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Captured Soul of The Gorgon
 |class_id                                = PantheonSoul
 |size_x                                  = 1
-|size_y                                  = 2
+|size_y                                  = 1
 |flavour_text                            = The mud is cracked and dry. The fields now burn beneath the blistering sun.<br>Even our children are dying in the streets! We've angered Solaris and so<br>we pay tribute to appease her fiery heart...
 |drop_level                              = 1
 |tags                                    = default

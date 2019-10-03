@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Lion Sword
 |class_id                                = Two Hand Sword
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 65
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sword, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword18
 |implicit1                               = IncreasedAccuracy2hSwordImplicit9
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.4
 |physical_damage_min                     = 57
 |physical_damage_max                     = 94
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Gilded Elder Scarab
 |class_id                                = MapFragment
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = Egrin of the Dark Between Stars, Forger of the Sealing Blade,<br>let your name be redeemed by your unexpected sacrifice.
 |drop_level                              = 1
-|tags                                    = default
+|tags                                    = gilded_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabElderRares3
 |help_text                               = Can be used in the Templar Laboratory or a personal Map Device.
 |implicit1                               = ScarabElderRares3

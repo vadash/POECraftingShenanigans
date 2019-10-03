@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Maelström Staff
-|class_id                                = Staff
+|class_id                                = Warstaff
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 64
-|drop_rarities                           = Normal, Magic, Rare, Unique
-|tags                                    = staff, two_hand_weapon, twohand, weapon, default
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = staff, attack_staff, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff17
 |implicit1                               = StaffBlockPercentImplicitStaff2
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -20,9 +20,9 @@
 |required_level                          = 64
 |required_strength                       = 113
 |required_intelligence                   = 113
-|critical_strike_chance                  = 6
-|attack_speed                            = 1.2
-|physical_damage_min                     = 57
-|physical_damage_max                     = 119
-|weapon_range                            = 11
+|critical_strike_chance                  = 6.5
+|attack_speed                            = 1.25
+|physical_damage_min                     = 61
+|physical_damage_max                     = 126
+|weapon_range                            = 13
 }}

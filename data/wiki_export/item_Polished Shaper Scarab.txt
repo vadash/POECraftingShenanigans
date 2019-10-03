@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Polished Shaper Scarab
 |class_id                                = MapFragment
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = Bold dreamer, Qianga of the Stars, she of the Celestial Cold! These titles<br>we bestow upon the one among us whose soul speaks to the ineffable.
 |drop_level                              = 1
-|tags                                    = default
+|tags                                    = polished_scarab, default
 |metadata_id                             = Metadata/Items/Scarabs/ScarabShaperRares2
 |help_text                               = Can be used in the Templar Laboratory or a personal Map Device.
 |implicit1                               = ScarabShaperRares2

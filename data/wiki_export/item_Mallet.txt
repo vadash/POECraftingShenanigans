@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Mallet
 |class_id                                = Two Hand Mace
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 12
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = mace, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3
 |implicit1                               = StunDurationImplicitMace1
@@ -20,8 +20,8 @@
 |required_level                          = 12
 |required_strength                       = 47
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.25
-|physical_damage_min                     = 15
-|physical_damage_max                     = 30
-|weapon_range                            = 11
+|attack_speed                            = 1.3
+|physical_damage_min                     = 14
+|physical_damage_max                     = 29
+|weapon_range                            = 13
 }}

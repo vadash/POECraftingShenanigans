@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Heart of the Gargoyle
 |class_id                                = LabyrinthTrinket
 |size_x                                  = 1

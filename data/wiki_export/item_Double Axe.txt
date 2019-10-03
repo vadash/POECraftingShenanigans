@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Double Axe
 |class_id                                = Two Hand Axe
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 23
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -20,8 +20,8 @@
 |required_strength                       = 62
 |required_dexterity                      = 27
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.2
-|physical_damage_min                     = 32
-|physical_damage_max                     = 54
-|weapon_range                            = 11
+|attack_speed                            = 1.25
+|physical_damage_min                     = 31
+|physical_damage_max                     = 51
+|weapon_range                            = 13
 }}

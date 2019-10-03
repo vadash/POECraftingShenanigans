@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Nightmare Bascinet
 |class_id                                = Helmet
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 67
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_dex_armour, helmet, armour, default
 |metadata_id                             = Metadata/Items/Armours/Helmets/HelmetStrDex10
 |purchase_cost_normal1_name              = Orb of Transmutation

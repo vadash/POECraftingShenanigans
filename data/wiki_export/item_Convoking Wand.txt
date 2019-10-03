@@ -1,0 +1,19 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Convoking Wand
+|class_id                                = Wand
+|size_x                                  = 1
+|size_y                                  = 3
+|drop_level                              = 72
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = not_for_sale, atlas_base_type, wandatlas1, wand, ranged, one_hand_weapon, onehand, weapon, default
+|metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Wands/WandAtlas1
+|implicit1                               = CanRollMinionModifiersImplicitWandAtlas1
+|required_level                          = 72
+|required_intelligence                   = 242
+|critical_strike_chance                  = 7
+|attack_speed                            = 1.4
+|physical_damage_min                     = 25
+|physical_damage_max                     = 46
+|weapon_range                            = 120
+}}

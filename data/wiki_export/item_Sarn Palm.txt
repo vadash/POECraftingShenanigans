@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Sarn Palm
 |class_id                                = HideoutDoodad
 |size_x                                  = 2
@@ -13,5 +13,5 @@
 |master                                  = Alva, Master Explorer
 |master_favour_cost                      = 22500
 |master_level_requirement                = 5
-|variation_count                         = 4
+|variation_count                         = 8
 }}

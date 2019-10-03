@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Foothills Grass
 |class_id                                = HideoutDoodad
 |size_x                                  = 1
@@ -13,5 +13,5 @@
 |master                                  = Alva, Master Explorer
 |master_favour_cost                      = 1740
 |master_level_requirement                = 3
-|variation_count                         = 5
+|variation_count                         = 7
 }}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Burning Arrow
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -20,6 +20,7 @@
 |static_vaal_souls_requirement           = 20
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 2
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
 |static_stat1_value                      = 50
 |static_stat2_id                         = projectile_base_number_of_targets_to_pierce
@@ -30,6 +31,8 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = skill_can_fire_arrows
 |static_stat5_value                      = 1
+|static_stat6_id                         = cannot_cancel_skill_before_contact_point
+|static_stat6_value                      = 1
 |stat_text                               = Deals (160-198)% of Base Damage<br>(30-49)% chance to Ignite enemies<br>(30-68)% more Damage with Ignite<br>50% of Physical Damage Converted to Fire Damage<br>Projectiles Pierce 3 additional Targets<br>Can't be Evaded
 |quality_stat_text                       = 3% increased Ignite Duration on enemies
 |static_quality_stat1_id                 = ignite_duration_+%

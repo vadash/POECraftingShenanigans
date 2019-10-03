@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Deep Ones
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = "The Seas Call, the Mad Answer"
+|drop_level                              = 1
+|tags                                    = weapon_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheDeepOnes
+|stack_size                              = 5
+|description                             = {{c|unique|{{il|Tidebreaker|html=}}}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

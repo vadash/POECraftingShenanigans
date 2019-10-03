@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Minion Life Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -15,9 +15,10 @@
 |skill_id                                = SupportMinionLife
 |support_gem_letter                      = n
 |required_level                          = 18
-|static_mana_multiplier                  = 140
+|static_mana_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Skills have (30-49)% more Minion maximum Life
 |quality_stat_text                       = Supported Skills have 0.75% increased Minion maximum Life
 |static_quality_stat1_id                 = minion_maximum_life_+%
@@ -222,7 +223,7 @@
 |level40_stat_text                       = Supported Skills have 64% more Minion maximum Life
 |level40_stat1_id                        = support_minion_maximum_life_+%_final
 |level40_stat1_value                     = 64
-|gem_description                         = Supports minion skills.
+|gem_description                         = Supports skills which create Minions.
 |level1_intelligence_requirement         = 33
 |level1_experience                       = 0
 |level2_intelligence_requirement         = 39

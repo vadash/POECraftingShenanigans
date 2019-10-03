@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Quartz Sceptre
 |class_id                                = Sceptre
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 15
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sceptre, sceptre, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre4
 |implicit1                               = ElementalDamagePercentImplicitSceptreNew4
@@ -21,8 +21,8 @@
 |required_strength                       = 25
 |required_intelligence                   = 35
 |critical_strike_chance                  = 6.5
-|attack_speed                            = 1.25
-|physical_damage_min                     = 17
-|physical_damage_max                     = 26
-|weapon_range                            = 9
+|attack_speed                            = 1.4
+|physical_damage_min                     = 14
+|physical_damage_max                     = 22
+|weapon_range                            = 11
 }}

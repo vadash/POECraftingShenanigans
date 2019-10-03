@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Harlequin Aura Effect
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionHarlequinAuraEffect
+|stack_size                              = 1
+|description                             = Your Aura becomes a Harlequin Effect.
+|cosmetic_type                           = Aura Skin
+}}

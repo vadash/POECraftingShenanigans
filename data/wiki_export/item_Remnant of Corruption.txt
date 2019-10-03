@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Remnant of Corruption
 |class_id                                = StackableCurrency
 |size_x                                  = 1
@@ -12,9 +12,8 @@
 |help_text                               = Right click this item then left click a monster trapped by Essences to corrupt them. Corrupted Essences cannot be modified again.<br>Shift click to unstack.
 |stack_size_currency_tab                 = 5000
 |drop_level_maximum                      = 100
+|essence_type                            = 0
+|essence_category                        = Remnant of Corruption
 |essence_monster_modifier_ids            = RemnantOfCorruptionMonsterBuff, RemnantOfCorruptionMonsterAura, RemnantOfCorruptionMonsterStats
 |is_essence                              = True
-|upgraded_from_set1_text                 = random {{c|currency|Essence}}
-|upgraded_from_set1_group1_item_id       = Metadata/Items/DivinationCards/DivinationCardThreeVoices
-|upgraded_from_set1_group1_amount        = 3
 }}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Journeyman Cartographer's Sextant
 |class_id                                = StackableCurrency
 |size_x                                  = 1

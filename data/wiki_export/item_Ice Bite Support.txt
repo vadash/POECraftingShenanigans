@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Ice Bite Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_chance_to_freeze_%
 |static_stat1_value                      = 15
 |stat_text                               = Supported Skills have (50-69)% chance to gain a Frenzy Charge on Killing a Frozen Enemy<br>Supported Skills have 15% chance to Freeze<br>Supported Skills have (2-15) to (3-23) added Cold Damage per Frenzy Charge<br>Supported Skills have (8-69) to (12-103) added Cold Damage

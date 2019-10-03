@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Cold Snap
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,6 +22,7 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 200
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 4000
 |static_stat2_id                         = base_chance_to_freeze_%
@@ -38,6 +39,8 @@
 |static_stat7_value                      = 1
 |static_stat8_id                         = is_area_damage
 |static_stat8_value                      = 1
+|static_stat9_id                         = cannot_cancel_skill_before_contact_point
+|static_stat9_value                      = 1
 |stat_text                               = Deals (35-1002) to (53-1502) Cold Damage<br>Base duration is 4 seconds<br>Always Freezes enemies<br>Gain a Frenzy Charge when an Enemy Dies while in this Skill's Area<br>Every second, gain a Frenzy Charge if an Enemy is in this Skill's Area<br>Deals (29.4-1495.5) Base Cold Damage per second<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>(0-19)% increased Effect of Chill
 |quality_stat_text                       = 0.5% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%

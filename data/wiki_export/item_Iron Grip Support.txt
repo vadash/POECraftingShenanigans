@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Iron Grip Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Orb of Alteration
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Projectile, Support
+|gem_tags                                = Projectile, Physical, Support
 |skill_id                                = SupportIronGrip
 |support_gem_letter                      = i
 |required_level                          = 18
 |static_mana_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = keystone_strong_bowman
 |static_stat1_value                      = 1
 |stat_text                               = Strength's damage bonus applies to Projectile Attacks made with Supported Skills<br>Supported Skills deal (0-38)% increased Projectile Damage

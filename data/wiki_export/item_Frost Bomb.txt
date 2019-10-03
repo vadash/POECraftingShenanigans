@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Frost Bomb
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -12,7 +12,7 @@
 |purchase_cost_normal1_amount            = 1
 |intelligence_percent                    = 100
 |gem_tags                                = Spell, AoE, Duration, Cold
-|gem_description                         = Creates a crystal that pulses with cold for a duration. Each pulse applies a debuff to nearby enemies for a secondary duration which lowers their cold resistance, reduces life and energy shield regeneration rate, and reduces energy shield recharge rate. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it.
+|gem_description                         = Creates a crystal that pulses with cold for a duration. Each pulse applies a debuff to nearby enemies for a secondary duration which reduces life and energy shield regeneration rate, and reduces energy shield recharge rate, and also inflicts Cold Exposure. When the crystal's duration ends, it explodes, dealing heavy cold damage to enemies around it.
 |active_skill_name                       = Frost Bomb
 |skill_id                                = FrostBomb
 |cast_time                               = 0.5
@@ -22,6 +22,7 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 200
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 2000
 |static_stat2_id                         = base_secondary_skill_effect_duration
@@ -38,13 +39,13 @@
 |static_stat7_value                      = 1
 |static_stat8_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat8_value                      = 1
-|stat_text                               = Deals (14-959) to (21-1439) Cold Damage<br>Base duration is 2 seconds<br>Base secondary duration is 5 seconds<br>-25% to Cold Resistance<br>75% reduced Life Regeneration rate<br>75% reduced Energy Shield Regeneration rate<br>25% reduced Energy Shield Recharge rate
+|stat_text                               = Deals (14-959) to (21-1439) Cold Damage<br>Base duration is 2 seconds<br>Base secondary duration is 5 seconds<br>Cold Exposure applies -25% to Cold Resistance<br>75% reduced Life Regeneration rate<br>75% reduced Energy Shield Regeneration rate<br>25% reduced Energy Shield Recharge rate
 |quality_stat_text                       = 1% increased Cold Damage
 |static_quality_stat1_id                 = cold_damage_+%
 |static_quality_stat1_value              = 1
 |level1                                  = True
 |level1_level_requirement                = 4
-|level1_mana_cost                        = 6
+|level1_mana_cost                        = 4
 |level1_stat_text                        = Deals 14 to 21 Cold Damage
 |level1_stat1_id                         = spell_minimum_base_cold_damage
 |level1_stat1_value                      = 14
@@ -52,7 +53,7 @@
 |level1_stat2_value                      = 21
 |level2                                  = True
 |level2_level_requirement                = 6
-|level2_mana_cost                        = 7
+|level2_mana_cost                        = 5
 |level2_stat_text                        = Deals 17 to 26 Cold Damage
 |level2_stat1_id                         = spell_minimum_base_cold_damage
 |level2_stat1_value                      = 17
@@ -60,7 +61,7 @@
 |level2_stat2_value                      = 26
 |level3                                  = True
 |level3_level_requirement                = 9
-|level3_mana_cost                        = 8
+|level3_mana_cost                        = 5
 |level3_stat_text                        = Deals 23 to 35 Cold Damage
 |level3_stat1_id                         = spell_minimum_base_cold_damage
 |level3_stat1_value                      = 23
@@ -68,7 +69,7 @@
 |level3_stat2_value                      = 35
 |level4                                  = True
 |level4_level_requirement                = 12
-|level4_mana_cost                        = 9
+|level4_mana_cost                        = 6
 |level4_stat_text                        = Deals 30 to 45 Cold Damage
 |level4_stat1_id                         = spell_minimum_base_cold_damage
 |level4_stat1_value                      = 30
@@ -76,7 +77,7 @@
 |level4_stat2_value                      = 45
 |level5                                  = True
 |level5_level_requirement                = 16
-|level5_mana_cost                        = 10
+|level5_mana_cost                        = 7
 |level5_stat_text                        = Deals 41 to 62 Cold Damage
 |level5_stat1_id                         = spell_minimum_base_cold_damage
 |level5_stat1_value                      = 41
@@ -84,7 +85,7 @@
 |level5_stat2_value                      = 62
 |level6                                  = True
 |level6_level_requirement                = 20
-|level6_mana_cost                        = 11
+|level6_mana_cost                        = 7
 |level6_stat_text                        = Deals 55 to 83 Cold Damage
 |level6_stat1_id                         = spell_minimum_base_cold_damage
 |level6_stat1_value                      = 55
@@ -92,7 +93,7 @@
 |level6_stat2_value                      = 83
 |level7                                  = True
 |level7_level_requirement                = 24
-|level7_mana_cost                        = 12
+|level7_mana_cost                        = 8
 |level7_stat_text                        = Deals 73 to 110 Cold Damage
 |level7_stat1_id                         = spell_minimum_base_cold_damage
 |level7_stat1_value                      = 73
@@ -100,7 +101,7 @@
 |level7_stat2_value                      = 110
 |level8                                  = True
 |level8_level_requirement                = 28
-|level8_mana_cost                        = 13
+|level8_mana_cost                        = 9
 |level8_stat_text                        = Deals 95 to 142 Cold Damage
 |level8_stat1_id                         = spell_minimum_base_cold_damage
 |level8_stat1_value                      = 95
@@ -108,7 +109,7 @@
 |level8_stat2_value                      = 142
 |level9                                  = True
 |level9_level_requirement                = 32
-|level9_mana_cost                        = 13
+|level9_mana_cost                        = 10
 |level9_stat_text                        = Deals 122 to 183 Cold Damage
 |level9_stat1_id                         = spell_minimum_base_cold_damage
 |level9_stat1_value                      = 122
@@ -116,7 +117,7 @@
 |level9_stat2_value                      = 183
 |level10                                 = True
 |level10_level_requirement               = 36
-|level10_mana_cost                       = 14
+|level10_mana_cost                       = 10
 |level10_stat_text                       = Deals 155 to 232 Cold Damage
 |level10_stat1_id                        = spell_minimum_base_cold_damage
 |level10_stat1_value                     = 155
@@ -124,7 +125,7 @@
 |level10_stat2_value                     = 232
 |level11                                 = True
 |level11_level_requirement               = 40
-|level11_mana_cost                       = 14
+|level11_mana_cost                       = 11
 |level11_stat_text                       = Deals 196 to 293 Cold Damage
 |level11_stat1_id                        = spell_minimum_base_cold_damage
 |level11_stat1_value                     = 196
@@ -132,7 +133,7 @@
 |level11_stat2_value                     = 293
 |level12                                 = True
 |level12_level_requirement               = 44
-|level12_mana_cost                       = 15
+|level12_mana_cost                       = 12
 |level12_stat_text                       = Deals 245 to 368 Cold Damage
 |level12_stat1_id                        = spell_minimum_base_cold_damage
 |level12_stat1_value                     = 245
@@ -140,7 +141,7 @@
 |level12_stat2_value                     = 368
 |level13                                 = True
 |level13_level_requirement               = 48
-|level13_mana_cost                       = 16
+|level13_mana_cost                       = 12
 |level13_stat_text                       = Deals 306 to 459 Cold Damage
 |level13_stat1_id                        = spell_minimum_base_cold_damage
 |level13_stat1_value                     = 306
@@ -148,7 +149,7 @@
 |level13_stat2_value                     = 459
 |level14                                 = True
 |level14_level_requirement               = 52
-|level14_mana_cost                       = 16
+|level14_mana_cost                       = 13
 |level14_stat_text                       = Deals 380 to 569 Cold Damage
 |level14_stat1_id                        = spell_minimum_base_cold_damage
 |level14_stat1_value                     = 380
@@ -156,7 +157,7 @@
 |level14_stat2_value                     = 569
 |level15                                 = True
 |level15_level_requirement               = 55
-|level15_mana_cost                       = 17
+|level15_mana_cost                       = 14
 |level15_stat_text                       = Deals 445 to 668 Cold Damage
 |level15_stat1_id                        = spell_minimum_base_cold_damage
 |level15_stat1_value                     = 445
@@ -164,7 +165,7 @@
 |level15_stat2_value                     = 668
 |level16                                 = True
 |level16_level_requirement               = 58
-|level16_mana_cost                       = 18
+|level16_mana_cost                       = 14
 |level16_stat_text                       = Deals 521 to 781 Cold Damage
 |level16_stat1_id                        = spell_minimum_base_cold_damage
 |level16_stat1_value                     = 521
@@ -172,7 +173,7 @@
 |level16_stat2_value                     = 781
 |level17                                 = True
 |level17_level_requirement               = 61
-|level17_mana_cost                       = 18
+|level17_mana_cost                       = 15
 |level17_stat_text                       = Deals 608 to 913 Cold Damage
 |level17_stat1_id                        = spell_minimum_base_cold_damage
 |level17_stat1_value                     = 608
@@ -180,7 +181,7 @@
 |level17_stat2_value                     = 913
 |level18                                 = True
 |level18_level_requirement               = 64
-|level18_mana_cost                       = 19
+|level18_mana_cost                       = 15
 |level18_stat_text                       = Deals 709 to 1064 Cold Damage
 |level18_stat1_id                        = spell_minimum_base_cold_damage
 |level18_stat1_value                     = 709
@@ -188,7 +189,7 @@
 |level18_stat2_value                     = 1064
 |level19                                 = True
 |level19_level_requirement               = 67
-|level19_mana_cost                       = 19
+|level19_mana_cost                       = 16
 |level19_stat_text                       = Deals 825 to 1238 Cold Damage
 |level19_stat1_id                        = spell_minimum_base_cold_damage
 |level19_stat1_value                     = 825
@@ -196,7 +197,7 @@
 |level19_stat2_value                     = 1238
 |level20                                 = True
 |level20_level_requirement               = 70
-|level20_mana_cost                       = 19
+|level20_mana_cost                       = 16
 |level20_stat_text                       = Deals 959 to 1439 Cold Damage
 |level20_stat1_id                        = spell_minimum_base_cold_damage
 |level20_stat1_value                     = 959
@@ -204,7 +205,7 @@
 |level20_stat2_value                     = 1439
 |level21                                 = True
 |level21_level_requirement               = 72
-|level21_mana_cost                       = 20
+|level21_mana_cost                       = 17
 |level21_stat_text                       = Deals 1059 to 1589 Cold Damage
 |level21_stat1_id                        = spell_minimum_base_cold_damage
 |level21_stat1_value                     = 1059
@@ -212,7 +213,7 @@
 |level21_stat2_value                     = 1589
 |level22                                 = True
 |level22_level_requirement               = 74
-|level22_mana_cost                       = 21
+|level22_mana_cost                       = 17
 |level22_stat_text                       = Deals 1169 to 1754 Cold Damage
 |level22_stat1_id                        = spell_minimum_base_cold_damage
 |level22_stat1_value                     = 1169
@@ -220,7 +221,7 @@
 |level22_stat2_value                     = 1754
 |level23                                 = True
 |level23_level_requirement               = 76
-|level23_mana_cost                       = 21
+|level23_mana_cost                       = 18
 |level23_stat_text                       = Deals 1290 to 1935 Cold Damage
 |level23_stat1_id                        = spell_minimum_base_cold_damage
 |level23_stat1_value                     = 1290
@@ -228,7 +229,7 @@
 |level23_stat2_value                     = 1935
 |level24                                 = True
 |level24_level_requirement               = 78
-|level24_mana_cost                       = 21
+|level24_mana_cost                       = 18
 |level24_stat_text                       = Deals 1422 to 2133 Cold Damage
 |level24_stat1_id                        = spell_minimum_base_cold_damage
 |level24_stat1_value                     = 1422
@@ -236,7 +237,7 @@
 |level24_stat2_value                     = 2133
 |level25                                 = True
 |level25_level_requirement               = 80
-|level25_mana_cost                       = 22
+|level25_mana_cost                       = 18
 |level25_stat_text                       = Deals 1567 to 2351 Cold Damage
 |level25_stat1_id                        = spell_minimum_base_cold_damage
 |level25_stat1_value                     = 1567
@@ -244,7 +245,7 @@
 |level25_stat2_value                     = 2351
 |level26                                 = True
 |level26_level_requirement               = 82
-|level26_mana_cost                       = 23
+|level26_mana_cost                       = 19
 |level26_stat_text                       = Deals 1726 to 2589 Cold Damage
 |level26_stat1_id                        = spell_minimum_base_cold_damage
 |level26_stat1_value                     = 1726
@@ -252,7 +253,7 @@
 |level26_stat2_value                     = 2589
 |level27                                 = True
 |level27_level_requirement               = 84
-|level27_mana_cost                       = 23
+|level27_mana_cost                       = 19
 |level27_stat_text                       = Deals 1901 to 2851 Cold Damage
 |level27_stat1_id                        = spell_minimum_base_cold_damage
 |level27_stat1_value                     = 1901
@@ -260,7 +261,7 @@
 |level27_stat2_value                     = 2851
 |level28                                 = True
 |level28_level_requirement               = 86
-|level28_mana_cost                       = 23
+|level28_mana_cost                       = 19
 |level28_stat_text                       = Deals 2091 to 3137 Cold Damage
 |level28_stat1_id                        = spell_minimum_base_cold_damage
 |level28_stat1_value                     = 2091
@@ -268,7 +269,7 @@
 |level28_stat2_value                     = 3137
 |level29                                 = True
 |level29_level_requirement               = 88
-|level29_mana_cost                       = 24
+|level29_mana_cost                       = 20
 |level29_stat_text                       = Deals 2300 to 3451 Cold Damage
 |level29_stat1_id                        = spell_minimum_base_cold_damage
 |level29_stat1_value                     = 2300
@@ -276,7 +277,7 @@
 |level29_stat2_value                     = 3451
 |level30                                 = True
 |level30_level_requirement               = 90
-|level30_mana_cost                       = 24
+|level30_mana_cost                       = 20
 |level30_stat_text                       = Deals 2529 to 3794 Cold Damage
 |level30_stat1_id                        = spell_minimum_base_cold_damage
 |level30_stat1_value                     = 2529
@@ -284,7 +285,7 @@
 |level30_stat2_value                     = 3794
 |level31                                 = True
 |level31_level_requirement               = 91
-|level31_mana_cost                       = 24
+|level31_mana_cost                       = 20
 |level31_stat_text                       = Deals 2652 to 3978 Cold Damage
 |level31_stat1_id                        = spell_minimum_base_cold_damage
 |level31_stat1_value                     = 2652
@@ -292,7 +293,7 @@
 |level31_stat2_value                     = 3978
 |level32                                 = True
 |level32_level_requirement               = 92
-|level32_mana_cost                       = 24
+|level32_mana_cost                       = 20
 |level32_stat_text                       = Deals 2780 to 4170 Cold Damage
 |level32_stat1_id                        = spell_minimum_base_cold_damage
 |level32_stat1_value                     = 2780
@@ -300,7 +301,7 @@
 |level32_stat2_value                     = 4170
 |level33                                 = True
 |level33_level_requirement               = 93
-|level33_mana_cost                       = 24
+|level33_mana_cost                       = 21
 |level33_stat_text                       = Deals 2914 to 4371 Cold Damage
 |level33_stat1_id                        = spell_minimum_base_cold_damage
 |level33_stat1_value                     = 2914
@@ -308,7 +309,7 @@
 |level33_stat2_value                     = 4371
 |level34                                 = True
 |level34_level_requirement               = 94
-|level34_mana_cost                       = 25
+|level34_mana_cost                       = 21
 |level34_stat_text                       = Deals 3054 to 4581 Cold Damage
 |level34_stat1_id                        = spell_minimum_base_cold_damage
 |level34_stat1_value                     = 3054
@@ -316,7 +317,7 @@
 |level34_stat2_value                     = 4581
 |level35                                 = True
 |level35_level_requirement               = 95
-|level35_mana_cost                       = 25
+|level35_mana_cost                       = 21
 |level35_stat_text                       = Deals 3200 to 4801 Cold Damage
 |level35_stat1_id                        = spell_minimum_base_cold_damage
 |level35_stat1_value                     = 3200
@@ -324,7 +325,7 @@
 |level35_stat2_value                     = 4801
 |level36                                 = True
 |level36_level_requirement               = 96
-|level36_mana_cost                       = 25
+|level36_mana_cost                       = 21
 |level36_stat_text                       = Deals 3354 to 5031 Cold Damage
 |level36_stat1_id                        = spell_minimum_base_cold_damage
 |level36_stat1_value                     = 3354
@@ -332,7 +333,7 @@
 |level36_stat2_value                     = 5031
 |level37                                 = True
 |level37_level_requirement               = 97
-|level37_mana_cost                       = 25
+|level37_mana_cost                       = 21
 |level37_stat_text                       = Deals 3514 to 5271 Cold Damage
 |level37_stat1_id                        = spell_minimum_base_cold_damage
 |level37_stat1_value                     = 3514
@@ -340,7 +341,7 @@
 |level37_stat2_value                     = 5271
 |level38                                 = True
 |level38_level_requirement               = 98
-|level38_mana_cost                       = 25
+|level38_mana_cost                       = 22
 |level38_stat_text                       = Deals 3682 to 5523 Cold Damage
 |level38_stat1_id                        = spell_minimum_base_cold_damage
 |level38_stat1_value                     = 3682
@@ -348,7 +349,7 @@
 |level38_stat2_value                     = 5523
 |level39                                 = True
 |level39_level_requirement               = 99
-|level39_mana_cost                       = 26
+|level39_mana_cost                       = 22
 |level39_stat_text                       = Deals 3857 to 5786 Cold Damage
 |level39_stat1_id                        = spell_minimum_base_cold_damage
 |level39_stat1_value                     = 3857
@@ -356,7 +357,7 @@
 |level39_stat2_value                     = 5786
 |level40                                 = True
 |level40_level_requirement               = 100
-|level40_mana_cost                       = 26
+|level40_mana_cost                       = 22
 |level40_stat_text                       = Deals 4041 to 6061 Cold Damage
 |level40_stat1_id                        = spell_minimum_base_cold_damage
 |level40_stat1_value                     = 4041

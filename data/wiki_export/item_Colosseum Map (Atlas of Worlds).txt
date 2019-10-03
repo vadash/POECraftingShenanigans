@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Colosseum Map
 |class_id                                = Map
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 82
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = top_tier_map, urban, not_for_sale, map, default
 |metadata_id                             = Metadata/Items/Maps/MapAtlasColosseum
 |help_text                               = Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.

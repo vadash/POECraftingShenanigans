@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Herald of Ash
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -23,6 +23,7 @@
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = physical_damage_%_to_add_as_fire
 |static_stat1_value                      = 15
 |static_stat2_id                         = base_skill_effect_duration

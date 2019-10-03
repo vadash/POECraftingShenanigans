@@ -1,9 +1,9 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Captured Soul of Belcer, the Pirate Lord
 |class_id                                = PantheonSoul
 |size_x                                  = 1
-|size_y                                  = 2
+|size_y                                  = 1
 |flavour_text                            = The fish-wives of Tsoatha rejoiced loudly as<br>the Brine King descended into the great abyss,<br>making merry while his blasphemous offspring<br>slithered 'neath the icy waters...
 |drop_level                              = 1
 |tags                                    = default

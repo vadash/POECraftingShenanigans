@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Elemental Proliferation Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = chance_to_freeze_shock_ignite_%
 |static_stat1_value                      = 20
 |static_stat2_id                         = display_what_elemental_proliferation_does

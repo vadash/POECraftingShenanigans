@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Toxic Rain
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |skill_id                                = RainOfSpores
 |cast_time                               = 1.0
 |required_level                          = 12
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 1000
 |static_stat2_id                         = base_number_of_additional_arrows

@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The Samurai's Eye
 |class_id                                = DivinationCard
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = At night, when the seas are calm, and the skies dark, he can see it. The formless fiend that took his eye, and fractured his mind.
 |drop_level                              = 1
-|tags                                    = jewellery_divination, divination_card, default
+|tags                                    = jewellery_divination, elder_divination, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheSamuraisEye
 |stack_size                              = 3
 |description                             = {{c|unique|{{il|Watcher's Eye|html=}}}}

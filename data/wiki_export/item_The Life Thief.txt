@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The Life Thief
 |class_id                                = DivinationCard
 |size_x                                  = 1
@@ -9,7 +9,7 @@
 |tags                                    = divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheLifeThief
 |stack_size                              = 6
-|description                             = {{c|unique|{{il|Zerphi's Last Breath|html=}}}}
+|description                             = {{c|unique|{{il|Zerphi's Heart|html=}}}}
 |stack_size_currency_tab                 = 5000
 |help_text                               = Shift click to unstack.
 }}

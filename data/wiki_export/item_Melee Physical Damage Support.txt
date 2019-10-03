@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Melee Physical Damage Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Orb of Alteration
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Melee, Support, Attack
+|gem_tags                                = Melee, Physical, Support, Attack
 |skill_id                                = SupportMeleePhysicalDamage
 |support_gem_letter                      = M
 |required_level                          = 18
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Skills deal (30-49)% more Melee Physical Damage<br>Supported Skills deal (30-49)% more Damage with Bleeding and Poison caused by Melee Hits
 |quality_stat_text                       = Supported Skills deal 0.5% increased Melee Physical Damage
 |static_quality_stat1_id                 = melee_physical_damage_+%

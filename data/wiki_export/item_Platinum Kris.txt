@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Platinum Kris
-|class_id                                = Dagger
+|class_id                                = Rune Dagger
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 64
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = dagger, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Daggers/Dagger20
 |implicit1                               = CriticalStrikeChanceImplicitDaggerNew3
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.2
 |physical_damage_min                     = 24
 |physical_damage_max                     = 95
-|weapon_range                            = 8
+|weapon_range                            = 10
 }}

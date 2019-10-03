@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Diamond Flask
 |class_id                                = UtilityFlaskCritical
 |size_x                                  = 1
 |size_y                                  = 2
 |drop_level                              = 27
-|drop_rarities                           = Normal, Magic, Unique
+|drop_rarities_ids                       = normal, magic, unique
 |tags                                    = not_for_sale, no_effect_flask_mod, critical_utility_flask, utility_flask, flask, default
 |metadata_id                             = Metadata/Items/Flasks/FlaskUtility1
 |help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.

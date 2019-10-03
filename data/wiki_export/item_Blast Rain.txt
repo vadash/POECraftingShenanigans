@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Blast Rain
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |skill_id                                = BlastRain
 |cast_time                               = 1.0
 |required_level                          = 28
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
 |static_stat1_value                      = 100
 |static_stat2_id                         = blast_rain_number_of_blasts

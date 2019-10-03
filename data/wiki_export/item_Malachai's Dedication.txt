@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Malachai's Dedication
 |class_id                                = HideoutDoodad
 |size_x                                  = 2
@@ -9,8 +9,9 @@
 |stack_size                              = 20
 |description                             = Creates an object in your hideout
 |help_text                               = Shift click to unstack.
-|is_master_doodad                        = False
-|master_favour_cost                      = 0
-|master_level_requirement                = 0
+|is_master_doodad                        = True
+|master                                  = Einhar, Beastmaster
+|master_favour_cost                      = 25300
+|master_level_requirement                = 4
 |variation_count                         = 1
 }}

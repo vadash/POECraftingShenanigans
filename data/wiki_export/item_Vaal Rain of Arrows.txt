@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Rain of Arrows
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_vaal_souls_requirement           = 20
 |static_vaal_stored_uses                 = 2
 |static_vaal_soul_gain_prevention_time   = 5
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = rain_of_arrows_additional_sequences
 |static_stat1_value                      = 3
 |static_stat2_id                         = maim_effect_+%
@@ -35,6 +36,8 @@
 |static_stat7_value                      = 1
 |static_stat8_id                         = cannot_pierce
 |static_stat8_value                      = 1
+|static_stat9_id                         = cannot_cancel_skill_before_contact_point
+|static_stat9_value                      = 1
 |stat_text                               = Deals (80-100.1)% of Base Damage<br>Fires (17-21) additional Arrows<br>Fires 3 additional sequences of arrows<br>150% increased Effect of Maim<br>Maim on Hit<br>Can't be Evaded
 |quality_stat_text                       = 0.5% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%

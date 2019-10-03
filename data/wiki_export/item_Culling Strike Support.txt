@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Culling Strike Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = kill_enemy_on_hit_if_under_10%_life
 |static_stat1_value                      = 1
 |stat_text                               = Kill Enemies that have 10% Life or lower when Hit by Supported Skills<br>Supported Skills deal (0-38)% increased Damage

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Burning Arrow
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |skill_id                                = BurningArrow
 |cast_time                               = 1.0
 |required_level                          = 1
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_physical_damage_%_to_convert_to_fire
 |static_stat1_value                      = 50
 |static_stat2_id                         = skill_can_fire_arrows

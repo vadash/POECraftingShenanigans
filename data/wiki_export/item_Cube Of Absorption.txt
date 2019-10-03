@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cube Of Absorption
 |class_id                                = LabyrinthTrinket
 |size_x                                  = 1

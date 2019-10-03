@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Dragoon Sword
 |class_id                                = Thrusting One Hand Sword
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 72
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = rapier, not_for_sale, maraketh, sword, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/RapierM3
 |implicit1                               = LocalChanceToBleedImplicitMarakethRapier2
@@ -15,5 +15,5 @@
 |attack_speed                            = 1.5
 |physical_damage_min                     = 32
 |physical_damage_max                     = 66
-|weapon_range                            = 12
+|weapon_range                            = 14
 }}

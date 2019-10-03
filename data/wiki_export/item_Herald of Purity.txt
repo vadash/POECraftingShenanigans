@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Herald of Purity
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -12,7 +12,7 @@
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 60
 |intelligence_percent                    = 40
-|gem_tags                                = Spell, Herald, Minion, Duration
+|gem_tags                                = Spell, Herald, Minion, Duration, Physical
 |gem_description                         = Grants a buff which adds physical damage to your spells and attacks. When you kill an enemy while you have this buff, this skill will summon a Sentinel of Purity, or refresh the duration and life of an existing one instead if you have the maximum number of them. The Sentinels of Purity have a single-target melee attack and an area melee attack.
 |active_skill_name                       = Herald of Purity
 |skill_id                                = HeraldOfPurity
@@ -23,6 +23,7 @@
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_number_of_champions_of_light_allowed
 |static_stat1_value                      = 4
 |static_stat2_id                         = herald_of_light_summon_champion_on_unique_or_rare_enemy_hit_%

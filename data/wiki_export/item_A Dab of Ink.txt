@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = A Dab of Ink
 |class_id                                = DivinationCard
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = The Poet's blood is the Empire's ink.
 |drop_level                              = 1
-|tags                                    = divination_card, default
+|tags                                    = weapon_divination, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardADabOfInk
 |stack_size                              = 9
 |description                             = {{c|unique|{{il|The Poet's Pen|html=}}}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Xoph's Breachstone
 |class_id                                = MiscMapItem
 |size_x                                  = 1

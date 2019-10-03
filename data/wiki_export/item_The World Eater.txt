@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The World Eater
 |class_id                                = DivinationCard
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = Its body knows no limits. Its appetite knows no bounds.
 |drop_level                              = 1
-|tags                                    = weapon_divination, divination_card, default
+|tags                                    = weapon_divination, shaper_divination, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheWorldEater
 |stack_size                              = 8
 |description                             = {{c|unique|{{il|Starforge|html=}}}}

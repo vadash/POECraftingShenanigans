@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Ringmaster Whirling Blades Effect
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionRingmasterWhirlingBladesEffect
+|stack_size                              = 1
+|description                             = Your Whirling Blades becomes a Ringmaster Effect.
+|cosmetic_type                           = Whirling Blades Skin
+}}

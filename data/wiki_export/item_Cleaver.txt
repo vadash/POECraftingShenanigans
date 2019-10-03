@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cleaver
 |class_id                                = One Hand Axe
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 16
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -20,8 +20,8 @@
 |required_strength                       = 48
 |required_dexterity                      = 14
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.2
-|physical_damage_min                     = 13
-|physical_damage_max                     = 39
-|weapon_range                            = 9
+|attack_speed                            = 1.3
+|physical_damage_min                     = 12
+|physical_damage_max                     = 35
+|weapon_range                            = 11
 }}

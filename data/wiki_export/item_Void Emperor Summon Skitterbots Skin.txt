@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Void Emperor Summon Skitterbots Skin
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionCorruptedEmperorSummonSkitterbotsSkin
+|stack_size                              = 1
+|description                             = Your Summon Skitterbots' Skins becomes a Void Emperor Effect.
+|cosmetic_type                           = Emperor Summon Skitterbo Skin
+}}

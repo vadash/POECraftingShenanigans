@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Rot Head Talisman
 |class_id                                = Amulet
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = To catch a big fish you need tempting bait. <br>And there is no fish bigger than the Empire,<br>and no bait as tempting as Ezomyr.<br>- The Wolven King
 |drop_level                              = 1
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = talisman, amulet, default
 |metadata_id                             = Metadata/Items/Amulets/Talismans/Talisman1_9
 |implicit1                               = TalismanFishBiteSensitivity

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Searing Bond
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -20,17 +20,20 @@
 |required_level                          = 12
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_totem_duration
 |static_stat1_value                      = 8000
 |static_stat2_id                         = number_of_additional_totems_allowed
 |static_stat2_value                      = 1
 |static_stat3_id                         = is_totem
 |static_stat3_value                      = 1
-|static_stat4_id                         = base_totem_range
-|static_stat4_value                      = 100
-|static_stat5_id                         = base_skill_is_totemified
-|static_stat5_value                      = 1
-|stat_text                               = Totem lasts 8 seconds<br>Deals (23.6-1755.6) Base Fire Damage per second<br>+1 to maximum number of Summoned Totems<br>Summons a Totem which uses the Supported Skill
+|static_stat4_id                         = spell_damage_modifiers_apply_to_skill_dot
+|static_stat4_value                      = 1
+|static_stat5_id                         = base_totem_range
+|static_stat5_value                      = 100
+|static_stat6_id                         = base_skill_is_totemified
+|static_stat6_value                      = 1
+|stat_text                               = Totem lasts 8 seconds<br>Deals (23.6-1755.6) Base Fire Damage per second<br>+1 to maximum number of Summoned Totems<br>Summons a Totem which uses the Supported Skill<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect
 |quality_stat_text                       = 1% increased totem life
 |static_quality_stat1_id                 = totem_life_+%
 |static_quality_stat1_value              = 1

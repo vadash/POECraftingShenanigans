@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Immolate Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Skills deal (42-205) to (63-308) added Fire Damage against Burning Enemies
 |quality_stat_text                       = Supported Skills deal 0.5% increased Fire Damage
 |static_quality_stat1_id                 = fire_damage_+%

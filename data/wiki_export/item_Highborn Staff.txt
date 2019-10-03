@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Highborn Staff
 |class_id                                = Staff
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 52
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = staff, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff12
 |implicit1                               = StaffBlockPercentImplicitStaff1
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.15
 |physical_damage_min                     = 42
 |physical_damage_max                     = 125
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

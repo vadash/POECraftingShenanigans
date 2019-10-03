@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Ringmaster Aura Effect
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionRingmasterAuraEffect
+|stack_size                              = 1
+|description                             = Your Aura becomes a Ringmaster Effect.
+|cosmetic_type                           = Aura Skin
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Multiple Traps Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = number_of_additional_traps_to_throw
 |static_stat1_value                      = 2
 |static_stat2_id                         = number_of_additional_traps_allowed

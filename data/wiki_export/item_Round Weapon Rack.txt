@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Round Weapon Rack
 |class_id                                = HideoutDoodad
 |size_x                                  = 3

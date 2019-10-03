@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Onslaught Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,7 +19,10 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
-|stat_text                               = Supported Skills have (25-44)% chance to grant Onslaught for 8 seconds on<br>dealing a Killing Blow
+|static_attack_speed_multiplier          = 100
+|static_stat1_id                         = support_scion_onslaught_for_3_seconds_on_hitting_unique_enemy_%_chance
+|static_stat1_value                      = 10
+|stat_text                               = Supported Skills have (25-44)% chance to grant Onslaught for 8 seconds on<br>dealing a Killing Blow<br>Supported Skills have 10% chance to grant Onslaught for 3 seconds when you Hit a Unique Enemy
 |quality_stat_text                       = 0.25% increased Attack and Cast Speed
 |static_quality_stat1_id                 = attack_and_cast_speed_+%
 |static_quality_stat1_value              = 0.25

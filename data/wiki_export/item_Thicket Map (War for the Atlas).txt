@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Thicket Map
 |class_id                                = Map
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 73
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = not_for_sale, indoors_area, forest, map, default
 |metadata_id                             = Metadata/Items/Maps/MapWorldsThicket
 |help_text                               = Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.

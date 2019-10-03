@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Sacred Hybrid Flask
 |class_id                                = HybridFlask
 |size_x                                  = 1
 |size_y                                  = 2
 |drop_level                              = 50
-|drop_rarities                           = Normal, Magic, Unique
+|drop_rarities_ids                       = normal, magic, unique
 |tags                                    = hybrid_flask, flask, default
 |metadata_id                             = Metadata/Items/Flasks/FlaskHybrid5
 |help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.

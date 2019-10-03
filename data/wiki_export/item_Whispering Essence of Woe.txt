@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Whispering Essence of Woe
 |class_id                                = StackableCurrency
 |size_x                                  = 1
@@ -14,9 +14,8 @@
 |drop_level_maximum                      = 47
 |essence_level_restriction               = 35
 |essence_level                           = 1
+|essence_type                            = 1
+|essence_category                        = Essence of Woe
 |essence_monster_modifier_ids            = EssenceDaemonModLifeAndDamageLevel1
 |is_essence                              = True
-|upgraded_from_set1_text                 = random {{c|currency|Essence}}
-|upgraded_from_set1_group1_item_id       = Metadata/Items/DivinationCards/DivinationCardThreeVoices
-|upgraded_from_set1_group1_amount        = 3
 }}

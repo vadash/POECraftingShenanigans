@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Dead Seagull
 |class_id                                = HideoutDoodad
 |size_x                                  = 1

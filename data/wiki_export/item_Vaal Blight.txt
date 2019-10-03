@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Blight
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -20,6 +20,7 @@
 |static_vaal_soul_gain_prevention_time   = 8
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 6000
 |static_stat2_id                         = base_secondary_skill_effect_duration
@@ -34,6 +35,8 @@
 |static_stat6_value                      = 1
 |static_stat7_id                         = modifiers_to_skill_effect_duration_also_affect_soul_prevention_duration
 |static_stat7_value                      = 1
+|static_stat8_id                         = cannot_cancel_skill_before_contact_point
+|static_stat8_value                      = 1
 |stat_text                               = Deals (4.3-524.7) Base Chaos Damage per second<br>Base duration is 6 seconds<br>Base secondary duration is 3 seconds<br>80% reduced Movement Speed<br>Debuff can have up to 20 layers of Damage<br>Hindered Enemies take 20% increased Chaos Damage<br>Modifiers to Spell Damage apply to this Skill's Damage Over Time effect<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention<br>+(0-9) to radius
 |quality_stat_text                       = 0.5% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%

@@ -1,0 +1,14 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Heroic Shot
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Try a thousand times, and eventually you'll have to give up.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheHeroicShot
+|stack_size                              = 1
+|description                             = {{c|currency|17x {{il|Chromatic Orb|html=}}}}
+|stack_size_currency_tab                 = 5000
+}}

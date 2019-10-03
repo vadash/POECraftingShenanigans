@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Bloodlust Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Orb of Alteration
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Attack, Support, Melee
+|gem_tags                                = Attack, Physical, Support, Melee
 |skill_id                                = SupportBloodlust
 |support_gem_letter                      = L
 |required_level                          = 18
 |static_mana_multiplier                  = 125
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = cannot_cause_bleeding
 |static_stat1_value                      = 1
 |stat_text                               = Supported Skills deal (40-59)% more Melee Physical Damage against Bleeding enemies<br>Supported Attacks cannot cause Bleeding

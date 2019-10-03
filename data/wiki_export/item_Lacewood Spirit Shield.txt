@@ -1,15 +1,14 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Lacewood Spirit Shield
 |class_id                                = Shield
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 56
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = int_armour, focus, shield, armour, default
 |metadata_id                             = Metadata/Items/Armours/Shields/ShieldInt12
-|implicit1                               = MovementVelocityPenaltyLightShieldImplicit
-|implicit2                               = SpellDamageImplicitShield1
+|implicit1                               = SpellDamageImplicitShield1
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 1
 |purchase_cost_magic1_name               = Orb of Alteration
@@ -21,5 +20,6 @@
 |required_level                          = 56
 |required_intelligence                   = 134
 |energy_shield                           = 45
+|movement_speed                          = -3
 |block                                   = 24
 }}

@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Plated Maul
 |class_id                                = Two Hand Mace
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 51
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = mace, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace12
 |implicit1                               = StunDurationImplicitMace1
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.2
 |physical_damage_min                     = 62
 |physical_damage_max                     = 92
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

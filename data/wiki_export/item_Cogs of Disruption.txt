@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cogs of Disruption
 |class_id                                = LabyrinthTrinket
 |size_x                                  = 1

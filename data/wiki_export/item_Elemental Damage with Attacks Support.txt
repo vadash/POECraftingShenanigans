@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Elemental Damage with Attacks Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Attack Skills deal (35-54)% more Elemental Damage
 |quality_stat_text                       = 0.5% increased Elemental Damage with Attack Skills
 |static_quality_stat1_id                 = elemental_damage_with_attack_skills_+%

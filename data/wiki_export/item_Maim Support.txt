@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Maim Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Attack, Support
+|gem_tags                                = Attack, Physical, Support
 |skill_id                                = SupportMaim
 |support_gem_letter                      = m
 |required_level                          = 8
 |static_mana_multiplier                  = 115
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = maim_on_hit_%
 |static_stat1_value                      = 30
 |stat_text                               = Supported Attacks have 30% chance to Maim on Hit<br>Enemies Maimed by Supported Skills take (10-14)% increased Physical Damage<br>Supported Skills deal (15-30)% more Physical Damage
@@ -304,7 +305,7 @@
 |level40_stat1_value                     = 18
 |level40_stat2_id                        = support_maim_chance_physical_damage_+%_final
 |level40_stat2_value                     = 41
-|gem_description                         = Supports attack skills.
+|gem_description                         = Supports attack skills, or other skills that can maim enemies.
 |level1_strength_requirement             = 18
 |level1_experience                       = 0
 |level2_strength_requirement             = 21

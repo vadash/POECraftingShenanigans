@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Tencent Top Player Frame
+|class_id                                = Microtransaction
+|size_x                                  = 1
+|size_y                                  = 1
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionCharacterEffects/MicrotransactionTencentTopPlayerFrame
+|stack_size                              = 1
+|description                             = Adds the Tencent Top Player Frame to this character
+|cosmetic_type                           = Portrait Frame Modification
+}}

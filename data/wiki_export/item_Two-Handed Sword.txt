@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Two-Handed Sword
 |class_id                                = Two Hand Sword
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 17
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sword, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4
 |implicit1                               = IncreasedAccuracy2hSwordImplicit2
@@ -21,8 +21,8 @@
 |required_strength                       = 33
 |required_dexterity                      = 33
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.35
-|physical_damage_min                     = 19
-|physical_damage_max                     = 34
-|weapon_range                            = 11
+|attack_speed                            = 1.4
+|physical_damage_min                     = 18
+|physical_damage_max                     = 33
+|weapon_range                            = 13
 }}

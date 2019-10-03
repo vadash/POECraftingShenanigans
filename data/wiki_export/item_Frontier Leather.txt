@@ -1,14 +1,13 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Frontier Leather
 |class_id                                = Body Armour
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 41
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = dex_armour, body_armour, armour, default
 |metadata_id                             = Metadata/Items/Armours/BodyArmours/BodyDex9
-|implicit1                               = MovementVelocityPenaltyLightArmourImplicit
 |purchase_cost_normal1_name              = Orb of Transmutation
 |purchase_cost_normal1_amount            = 1
 |purchase_cost_magic1_name               = Orb of Alteration
@@ -20,4 +19,5 @@
 |required_level                          = 41
 |required_dexterity                      = 114
 |evasion                                 = 412
+|movement_speed                          = -3
 }}

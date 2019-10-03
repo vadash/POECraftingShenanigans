@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Jug
 |class_id                                = HideoutDoodad
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |help_text                               = Shift click to unstack.
 |is_master_doodad                        = True
 |master                                  = Niko, Master of the Depths
-|master_favour_cost                      = 1740
+|master_favour_cost                      = 720
 |master_level_requirement                = 3
 |variation_count                         = 1
 }}

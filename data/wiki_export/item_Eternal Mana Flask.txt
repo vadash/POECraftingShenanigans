@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Eternal Mana Flask
 |class_id                                = ManaFlask
 |size_x                                  = 1
 |size_y                                  = 2
 |drop_level                              = 65
-|drop_rarities                           = Normal, Magic, Unique
+|drop_rarities_ids                       = normal, magic, unique
 |tags                                    = not_for_sale, mana_flask, flask, default
 |metadata_id                             = Metadata/Items/Flasks/FlaskMana12
 |help_text                               = Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.
@@ -19,8 +19,8 @@
 |purchase_cost_unique1_name              = Chaos Orb
 |purchase_cost_unique1_amount            = 8
 |required_level                          = 65
-|flask_mana                              = 960
-|flask_duration                          = 10
-|charges_max                             = 40
+|flask_mana                              = 1800
+|flask_duration                          = 7
+|charges_max                             = 42
 |charges_per_use                         = 8
 }}

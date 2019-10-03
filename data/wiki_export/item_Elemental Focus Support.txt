@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Elemental Focus Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = cannot_inflict_status_ailments
 |static_stat1_value                      = 1
 |stat_text                               = Supported Skills deal (30-49)% more Elemental Damage<br>Supported Skills cannot inflict Elemental Ailments

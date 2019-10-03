@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Haste
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,12 +22,13 @@
 |static_cooldown                         = 1.2
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_deal_no_damage
 |static_stat1_value                      = 1
 |stat_text                               = You and nearby allies gain (9-16)% increased Attack Speed<br>You and nearby allies gain (9-16)% increased Cast Speed<br>You and nearby allies gain (4-9)% increased Movement Speed<br>+(0-19) to radius
-|quality_stat_text                       = 1% increased Area of Effect
+|quality_stat_text                       = 2% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%
-|static_quality_stat1_value              = 1
+|static_quality_stat1_value              = 2
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_stat_text                        = You and nearby allies gain 9% increased Attack Speed<br>You and nearby allies gain 9% increased Cast Speed<br>You and nearby allies gain 4% increased Movement Speed

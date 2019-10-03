@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Titan Weapon
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionTitanSword
+|stack_size                              = 1
+|description                             = Changes the appearance of any equipped sword, axe, mace or staff to the Titan Sword.
+|cosmetic_type                           = Weapon Skin
+}}

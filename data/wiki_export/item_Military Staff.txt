@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Military Staff
-|class_id                                = Staff
+|class_id                                = Warstaff
 |size_x                                  = 2
 |size_y                                  = 4
-|drop_level                              = 45
-|drop_rarities                           = Normal, Magic, Rare, Unique
-|tags                                    = staff, two_hand_weapon, twohand, weapon, default
+|drop_level                              = 41
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = staff, attack_staff, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff10
 |implicit1                               = StaffBlockPercentImplicitStaff1
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -17,12 +17,12 @@
 |purchase_cost_rare1_amount              = 1
 |purchase_cost_unique1_name              = Chaos Orb
 |purchase_cost_unique1_amount            = 5
-|required_level                          = 45
-|required_strength                       = 78
-|required_intelligence                   = 78
-|critical_strike_chance                  = 6.4
-|attack_speed                            = 1.2
-|physical_damage_min                     = 34
-|physical_damage_max                     = 101
-|weapon_range                            = 11
+|required_level                          = 41
+|required_strength                       = 72
+|required_intelligence                   = 72
+|critical_strike_chance                  = 6.6
+|attack_speed                            = 1.25
+|physical_damage_min                     = 33
+|physical_damage_max                     = 98
+|weapon_range                            = 13
 }}

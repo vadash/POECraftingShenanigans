@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Chrysalis Talisman
 |class_id                                = Amulet
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = The world of the First Ones is harsh;<br>We struggle on our bellies to survive.<br>But that which imprisons us also changes us<br>And soon we will emerge anew.<br>- The Wolven King
 |drop_level                              = 35
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = talisman, amulet, default
 |metadata_id                             = Metadata/Items/Amulets/Talismans/Talisman1_11
 |implicit1                               = TalismanSpellDamage

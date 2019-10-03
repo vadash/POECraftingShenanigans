@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Elegant Foil
 |class_id                                = Thrusting One Hand Sword
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 30
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = rapier, sword, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier7
 |implicit1                               = CriticalMultiplierImplicitSword1
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.6
 |physical_damage_min                     = 18
 |physical_damage_max                     = 33
-|weapon_range                            = 12
+|weapon_range                            = 14
 }}

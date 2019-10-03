@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Miracle Golem Skin
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionMiracleGolemSkin
+|stack_size                              = 1
+|description                             = Your Summoned Elemental, Chaos or Stone Golem becomes a miraclulous creation.
+|cosmetic_type                           = Golem Skin
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cast when Stunned Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -21,6 +21,7 @@
 |static_cooldown                         = 0.25
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = spell_uncastable_if_triggerable
 |static_stat1_value                      = 1
 |static_stat2_id                         = base_skill_show_average_damage_instead_of_dps

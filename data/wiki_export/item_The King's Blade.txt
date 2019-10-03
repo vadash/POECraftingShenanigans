@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The King's Blade
 |class_id                                = DivinationCard
 |size_x                                  = 1

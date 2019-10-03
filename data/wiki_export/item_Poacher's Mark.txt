@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Poacher's Mark
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |required_level                          = 24
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = monster_slain_flask_charges_granted_+%
 |static_stat1_value                      = 100
 |static_stat2_id                         = base_deal_no_damage

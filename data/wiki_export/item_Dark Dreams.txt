@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Dark Dreams
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = No one ever truly understood what she meant when she said she wanted to raise a family.
+|drop_level                              = 1
+|tags                                    = armour_divination, elder_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardDarkDreams
+|stack_size                              = 4
+|description                             = {{c|rare|{{il|Bone Helmet|html=}}}}<br>{{c|default|Elder Item}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

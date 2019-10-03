@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Block Chance Reduction Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -17,6 +17,7 @@
 |static_mana_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = support_overpowered_base_duration_ms
 |static_stat1_value                      = 4000
 |static_stat2_id                         = apply_overpowered_on_enemy_block_reduced_block_and_spell_block_%

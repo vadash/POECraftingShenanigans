@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Blinder
 |class_id                                = Claw
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 22
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = claw, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Claws/Claw5
 |implicit1                               = LifeGainPerTargetImplicit2Claw4
@@ -21,8 +21,8 @@
 |required_dexterity                      = 41
 |required_intelligence                   = 41
 |critical_strike_chance                  = 6.3
-|attack_speed                            = 1.5
+|attack_speed                            = 1.55
 |physical_damage_min                     = 12
-|physical_damage_max                     = 32
-|weapon_range                            = 9
+|physical_damage_max                     = 31
+|weapon_range                            = 11
 }}

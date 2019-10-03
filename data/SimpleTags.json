@@ -1406,5 +1406,513 @@
   {
     "rowId": 351,
     "Id": "rusted_scarab"
+  },
+  {
+    "rowId": 352,
+    "Id": "old_map_series"
+  },
+  {
+    "rowId": 353,
+    "Id": "map_not_on_atlas"
+  },
+  {
+    "rowId": 354,
+    "Id": "warehouse_area"
+  },
+  {
+    "rowId": 355,
+    "Id": "act6_karui_area"
+  },
+  {
+    "rowId": 356,
+    "Id": "kaom_area"
+  },
+  {
+    "rowId": 357,
+    "Id": "daresso_area"
+  },
+  {
+    "rowId": 358,
+    "Id": "library_area"
+  },
+  {
+    "rowId": 359,
+    "Id": "marketplace_area"
+  },
+  {
+    "rowId": 360,
+    "Id": "belly_area"
+  },
+  {
+    "rowId": 361,
+    "Id": "solaris_area"
+  },
+  {
+    "rowId": 362,
+    "Id": "prison_area"
+  },
+  {
+    "rowId": 363,
+    "Id": "fields_area"
+  },
+  {
+    "rowId": 364,
+    "Id": "chamber_of_sins_area"
+  },
+  {
+    "rowId": 365,
+    "Id": "has_road_area"
+  },
+  {
+    "rowId": 366,
+    "Id": "garden_area"
+  },
+  {
+    "rowId": 367,
+    "Id": "dock_area"
+  },
+  {
+    "rowId": 368,
+    "Id": "sewer_area"
+  },
+  {
+    "rowId": 369,
+    "Id": "crossroad_area"
+  },
+  {
+    "rowId": 370,
+    "Id": "catacomb_area"
+  },
+  {
+    "rowId": 371,
+    "Id": "lunaris_outer_area"
+  },
+  {
+    "rowId": 372,
+    "Id": "crypt_area"
+  },
+  {
+    "rowId": 373,
+    "Id": "vaal_pyramid_area"
+  },
+  {
+    "rowId": 374,
+    "Id": "forest_map_area"
+  },
+  {
+    "rowId": 375,
+    "Id": "urban_sarn_area"
+  },
+  {
+    "rowId": 376,
+    "Id": "aqueduct_area"
+  },
+  {
+    "rowId": 377,
+    "Id": "thicket_area"
+  },
+  {
+    "rowId": 378,
+    "Id": "bandit_area"
+  },
+  {
+    "rowId": 379,
+    "Id": "pitfight_area"
+  },
+  {
+    "rowId": 380,
+    "Id": "slums_area"
+  },
+  {
+    "rowId": 381,
+    "Id": "lunaris_area"
+  },
+  {
+    "rowId": 382,
+    "Id": "vaal_ruin_area"
+  },
+  {
+    "rowId": 383,
+    "Id": "reef_area"
+  },
+  {
+    "rowId": 384,
+    "Id": "mine_area"
+  },
+  {
+    "rowId": 385,
+    "Id": "has_foxes_area"
+  },
+  {
+    "rowId": 386,
+    "Id": "flooded_area"
+  },
+  {
+    "rowId": 387,
+    "Id": "fetid_area"
+  },
+  {
+    "rowId": 388,
+    "Id": "necropolis_area"
+  },
+  {
+    "rowId": 389,
+    "Id": "sceptre_of_god_area"
+  },
+  {
+    "rowId": 390,
+    "Id": "graveyard_area"
+  },
+  {
+    "rowId": 391,
+    "Id": "den_area"
+  },
+  {
+    "rowId": 392,
+    "Id": "river_area"
+  },
+  {
+    "rowId": 393,
+    "Id": "ship_graveyard_area"
+  },
+  {
+    "rowId": 394,
+    "Id": "tower_area"
+  },
+  {
+    "rowId": 395,
+    "Id": "relic_area"
+  },
+  {
+    "rowId": 396,
+    "Id": "dark_forest_area"
+  },
+  {
+    "rowId": 397,
+    "Id": "parapet_area"
+  },
+  {
+    "rowId": 398,
+    "Id": "cave_area"
+  },
+  {
+    "rowId": 399,
+    "Id": "desert_area"
+  },
+  {
+    "rowId": 400,
+    "Id": "arena_area"
+  },
+  {
+    "rowId": 401,
+    "Id": "lightning_area"
+  },
+  {
+    "rowId": 402,
+    "Id": "rain_area"
+  },
+  {
+    "rowId": 403,
+    "Id": "snow_area"
+  },
+  {
+    "rowId": 404,
+    "Id": "fire_area"
+  },
+  {
+    "rowId": 405,
+    "Id": "mausoleum_area"
+  },
+  {
+    "rowId": 406,
+    "Id": "wealthy_area"
+  },
+  {
+    "rowId": 407,
+    "Id": "otherworldly_story_area"
+  },
+  {
+    "rowId": 408,
+    "Id": "harvest_area"
+  },
+  {
+    "rowId": 409,
+    "Id": "triple_boss_map"
+  },
+  {
+    "rowId": 410,
+    "Id": "lighthouse_area"
+  },
+  {
+    "rowId": 411,
+    "Id": "lunaris_blood_area"
+  },
+  {
+    "rowId": 412,
+    "Id": "ruined_vaal_city_area"
+  },
+  {
+    "rowId": 413,
+    "Id": "coast_boat_area"
+  },
+  {
+    "rowId": 414,
+    "Id": "snow_mountain_area"
+  },
+  {
+    "rowId": 415,
+    "Id": "synthesised_monster"
+  },
+  {
+    "rowId": 416,
+    "Id": "has_damage_taken_as_mod"
+  },
+  {
+    "rowId": 417,
+    "Id": "has_physical_conversion_mod"
+  },
+  {
+    "rowId": 418,
+    "Id": "polished_scarab"
+  },
+  {
+    "rowId": 419,
+    "Id": "gilded_scarab"
+  },
+  {
+    "rowId": 420,
+    "Id": "high_gardens_area"
+  },
+  {
+    "rowId": 421,
+    "Id": "crystal_ore_area"
+  },
+  {
+    "rowId": 422,
+    "Id": "tropical_island_area"
+  },
+  {
+    "rowId": 423,
+    "Id": "jungle_valley_area"
+  },
+  {
+    "rowId": 424,
+    "Id": "wasteland_area"
+  },
+  {
+    "rowId": 425,
+    "Id": "desert_map_area"
+  },
+  {
+    "rowId": 426,
+    "Id": "mud_geyser_area"
+  },
+  {
+    "rowId": 427,
+    "Id": "southern_forest_area"
+  },
+  {
+    "rowId": 428,
+    "Id": "northern_forest_area"
+  },
+  {
+    "rowId": 429,
+    "Id": "dried_lake_area"
+  },
+  {
+    "rowId": 430,
+    "Id": "labyrinth_end_area"
+  },
+  {
+    "rowId": 431,
+    "Id": "old_fields_area"
+  },
+  {
+    "rowId": 432,
+    "Id": "archives_area"
+  },
+  {
+    "rowId": 433,
+    "Id": "labyrinth_OH_area"
+  },
+  {
+    "rowId": 434,
+    "Id": "temple_of_decay_area"
+  },
+  {
+    "rowId": 435,
+    "Id": "arachnid_tomb_map_area"
+  },
+  {
+    "rowId": 436,
+    "Id": "cemetery_map_area"
+  },
+  {
+    "rowId": 437,
+    "Id": "quay_area"
+  },
+  {
+    "rowId": 438,
+    "Id": "local_item_quality"
+  },
+  {
+    "rowId": 439,
+    "Id": "synthesised_monster2"
+  },
+  {
+    "rowId": 440,
+    "Id": "core_map_area"
+  },
+  {
+    "rowId": 441,
+    "Id": "breachstone2"
+  },
+  {
+    "rowId": 442,
+    "Id": "breachstone3"
+  },
+  {
+    "rowId": 443,
+    "Id": "breachstone4"
+  },
+  {
+    "rowId": 444,
+    "Id": "breach_blessing"
+  },
+  {
+    "rowId": 445,
+    "Id": "corrupted_vaal"
+  },
+  {
+    "rowId": 446,
+    "Id": "shaper_divination"
+  },
+  {
+    "rowId": 447,
+    "Id": "elder_divination"
+  },
+  {
+    "rowId": 448,
+    "Id": "fire_prison_area"
+  },
+  {
+    "rowId": 449,
+    "Id": "synthesis_area"
+  },
+  {
+    "rowId": 450,
+    "Id": "attack_staff"
+  },
+  {
+    "rowId": 451,
+    "Id": "attack_dagger"
+  },
+  {
+    "rowId": 452,
+    "Id": "spell_dodge_mod"
+  },
+  {
+    "rowId": 453,
+    "Id": "legion_monster"
+  },
+  {
+    "rowId": 454,
+    "Id": "has_percent_mana_mod"
+  },
+  {
+    "rowId": 455,
+    "Id": "ringatlas3"
+  },
+  {
+    "rowId": 456,
+    "Id": "ringatlas4"
+  },
+  {
+    "rowId": 457,
+    "Id": "rare_monster_pack"
+  },
+  {
+    "rowId": 458,
+    "Id": "weapon_can_roll_minion_modifiers"
+  },
+  {
+    "rowId": 459,
+    "Id": "wandatlas1"
+  },
+  {
+    "rowId": 460,
+    "Id": "has_atlas_mission"
+  },
+  {
+    "rowId": 461,
+    "Id": "legion_splinter"
+  },
+  {
+    "rowId": 462,
+    "Id": "has_mana_cost_mod"
+  },
+  {
+    "rowId": 463,
+    "Id": "unique_shard"
+  },
+  {
+    "rowId": 464,
+    "Id": "unique_shard_base"
+  },
+  {
+    "rowId": 465,
+    "Id": "infected_map"
+  },
+  {
+    "rowId": 466,
+    "Id": "can_be_infected_map"
+  },
+  {
+    "rowId": 467,
+    "Id": "mushrune"
+  },
+  {
+    "rowId": 468,
+    "Id": "blight_death_fire"
+  },
+  {
+    "rowId": 469,
+    "Id": "blight_death_cold"
+  },
+  {
+    "rowId": 470,
+    "Id": "blight_death_lightning"
+  },
+  {
+    "rowId": 471,
+    "Id": "blight_death_physical"
+  },
+  {
+    "rowId": 472,
+    "Id": "blight_death_chaos"
+  },
+  {
+    "rowId": 473,
+    "Id": "blight_doesnt_engage"
+  },
+  {
+    "rowId": 474,
+    "Id": "map_area_with_open_water"
+  },
+  {
+    "rowId": 475,
+    "Id": "vile_areas"
+  },
+  {
+    "rowId": 476,
+    "Id": "no_frenzy_charge_on_death"
+  },
+  {
+    "rowId": 477,
+    "Id": "no_soul_conduit"
+  },
+  {
+    "rowId": 478,
+    "Id": "no_fractured"
   }
 ]

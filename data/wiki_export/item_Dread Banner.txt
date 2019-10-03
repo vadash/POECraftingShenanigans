@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Dread Banner
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Orb of Alteration
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = AoE, Spell, Duration, Aura
+|gem_tags                                = AoE, Spell, Duration, Aura, Physical
 |gem_description                         = Casting once reserves mana to carry a banner which makes nearby allies inflict impale with attacks, and lessens the accuracy of nearby enemies. Gain stages by impaling enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.
 |active_skill_name                       = Dread Banner
 |skill_id                                = PuresteelBanner
@@ -22,6 +22,7 @@
 |static_cooldown                         = 1
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = attacks_impale_on_hit_%_chance
 |static_stat1_value                      = 20
 |static_stat2_id                         = banner_area_of_effect_+%_per_stage

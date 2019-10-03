@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Imperial Staff
 |class_id                                = Staff
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 66
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = staff, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/Staves/Staff18
 |implicit1                               = StaffBlockPercentImplicitStaff1
@@ -20,9 +20,9 @@
 |required_level                          = 66
 |required_strength                       = 113
 |required_intelligence                   = 113
-|critical_strike_chance                  = 6.5
+|critical_strike_chance                  = 7
 |attack_speed                            = 1.15
 |physical_damage_min                     = 49
 |physical_damage_max                     = 147
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

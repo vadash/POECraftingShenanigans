@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Shadow Axe
 |class_id                                = Two Hand Axe
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 33
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7
 |purchase_cost_normal1_name              = Orb of Transmutation
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.25
 |physical_damage_min                     = 42
 |physical_damage_max                     = 62
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

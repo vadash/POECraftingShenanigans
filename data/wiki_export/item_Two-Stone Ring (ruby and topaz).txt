@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Two-Stone Ring
 |class_id                                = Ring
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 20
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = twostonering, ring, default
 |metadata_id                             = Metadata/Items/Rings/Ring12
 |implicit1                               = FireAndLightningResistImplicitRing1

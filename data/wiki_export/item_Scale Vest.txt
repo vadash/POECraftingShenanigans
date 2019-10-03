@@ -1,14 +1,13 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Scale Vest
 |class_id                                = Body Armour
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 4
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_dex_armour, body_armour, armour, default
 |metadata_id                             = Metadata/Items/Armours/BodyArmours/BodyStrDex1
-|implicit1                               = MovementVelocityPenaltyLightArmourImplicit
 |purchase_cost_normal1_name              = Scroll of Wisdom
 |purchase_cost_normal1_amount            = 1
 |purchase_cost_magic1_name               = Armourer's Scrap
@@ -22,4 +21,5 @@
 |required_dexterity                      = 10
 |armour                                  = 27
 |evasion                                 = 27
+|movement_speed                          = -3
 }}

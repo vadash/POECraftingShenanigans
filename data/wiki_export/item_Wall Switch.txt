@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Wall Switch
 |class_id                                = HideoutDoodad
 |size_x                                  = 1

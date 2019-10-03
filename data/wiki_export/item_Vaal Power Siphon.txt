@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Power Siphon
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_vaal_souls_requirement           = 15
 |static_vaal_stored_uses                 = 2
 |static_vaal_soul_gain_prevention_time   = 4
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = chance_to_gain_power_charge_on_rare_or_unique_enemy_hit_%
 |static_stat1_value                      = 100
 |static_stat2_id                         = critical_strike_multiplier_+_per_power_charge
@@ -35,6 +36,8 @@
 |static_stat7_value                      = 1
 |static_stat8_id                         = skill_can_fire_wand_projectiles
 |static_stat8_value                      = 1
+|static_stat9_id                         = cannot_cancel_skill_before_contact_point
+|static_stat9_value                      = 1
 |stat_text                               = Deals (150-184.2)% of Base Damage<br>Gain a Power Charge when Projectile Hits a Rare or Unique Enemy<br>+10% to Critical Strike Multiplier per Power Charge<br>20% increased Critical Strike Chance per Power Charge<br>Fires 0 Projectile<br>Can't be Evaded<br>Culling Strike
 |quality_stat_text                       = 1% increased Damage
 |static_quality_stat1_id                 = damage_+%

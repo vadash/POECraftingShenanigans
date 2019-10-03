@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cloth Belt Piece
 |class_id                                = UniqueFragment
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 1
-|drop_rarities                           = Unique
+|drop_rarities_ids                       = unique
 |tags                                    = default
 |metadata_id                             = Metadata/Items/UniqueFragments/FragmentUniqueBelt1_1
 |help_text                               = This item will transform when correctly arranged with other items.

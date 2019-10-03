@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Thirst for Knowledge
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = A ravenous mind can readily take in ideas from any source. <br>Fortunately for the scholars, he has already learned about sustainability.
+|drop_level                              = 1
+|tags                                    = jewellery_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardThirstForKnowledge
+|stack_size                              = 5
+|description                             = {{c|unique|{{il|Gluttony|html=}}}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

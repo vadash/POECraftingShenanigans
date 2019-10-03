@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Side Quest
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = You'll never know the things you miss if you keep your eyes closed
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheSideQuest
+|stack_size                              = 5
+|description                             = {{c|prophecy|A Master Seeks Help}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

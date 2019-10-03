@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Spectral Throw
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -13,13 +13,14 @@
 |gem_tags                                = Vaal, Attack, Projectile
 |gem_description                         = Throws a spectral copy of your melee weapon. It spirals out in a spinning attack that strikes enemies in its path.
 |active_skill_name                       = Vaal Spectral Throw
-|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace
+|item_class_id_restriction               = Claw, Dagger, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Sceptre, Staff, Two Hand Sword, Two Hand Axe, Two Hand Mace, Warstaff, Rune Dagger
 |skill_id                                = VaalThrownWeapon
 |cast_time                               = 1.0
 |required_level                          = 1
 |static_vaal_souls_requirement           = 10
 |static_vaal_stored_uses                 = 3
 |static_vaal_soul_gain_prevention_time   = 6
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = number_of_additional_projectiles
 |static_stat1_value                      = 4
 |static_stat2_id                         = projectiles_nova
@@ -30,6 +31,8 @@
 |static_stat4_value                      = 1
 |static_stat5_id                         = projectiles_not_offset
 |static_stat5_value                      = 1
+|static_stat6_id                         = cannot_cancel_skill_before_contact_point
+|static_stat6_value                      = 1
 |stat_text                               = Deals (91-135.46)% of Base Damage<br>Fires 4 additional Projectiles<br>Fires 0 Projectiles in a Nova<br>Can't be Evaded
 |quality_stat_text                       = 0.5% increased Attack Speed
 |static_quality_stat1_id                 = attack_speed_+%

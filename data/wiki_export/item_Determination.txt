@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Determination
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Orb of Alteration
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Aura, Spell, AoE
+|gem_tags                                = Aura, Spell, AoE, Physical
 |gem_description                         = Casts an aura that grants armour to you and your allies.
 |active_skill_name                       = Determination
 |skill_id                                = Determination
@@ -22,12 +22,13 @@
 |static_cooldown                         = 1.2
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_deal_no_damage
 |static_stat1_value                      = 1
 |stat_text                               = You and nearby allies gain (32-51)% more Armour<br>+(0-19) to radius
-|quality_stat_text                       = 1% increased Area of Effect
+|quality_stat_text                       = 2% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%
-|static_quality_stat1_value              = 1
+|static_quality_stat1_value              = 2
 |level1                                  = True
 |level1_level_requirement                = 24
 |level1_stat_text                        = You and nearby allies gain 32% more Armour

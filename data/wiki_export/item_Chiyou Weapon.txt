@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Chiyou Weapon
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionChiyouWeaponSkin
+|stack_size                              = 1
+|description                             = Changes the appearance of any equipped Claw, Dagger, Rune Dagger, Wand, One Hand Sword, Thrusting One Hand Sword, One Hand Axe, One Hand Mace, Bow, Staff, Warstaff, Two Hand Sword, Two Hand Axe, Two Hand Mace or Sceptre to the Chiyou Weapon Skin.
+|cosmetic_type                           = Weapon Skin
+}}

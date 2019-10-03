@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Golden Statue
 |class_id                                = HideoutDoodad
 |size_x                                  = 1
@@ -13,5 +13,5 @@
 |master                                  = Zana, Master Cartographer
 |master_favour_cost                      = 25300
 |master_level_requirement                = 4
-|variation_count                         = 7
+|variation_count                         = 14
 }}

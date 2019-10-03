@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Power Siphon
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |skill_id                                = PowerSiphon
 |cast_time                               = 1.0
 |required_level                          = 12
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = chance_to_gain_power_charge_on_rare_or_unique_enemy_hit_%
 |static_stat1_value                      = 20
 |static_stat2_id                         = critical_strike_multiplier_+_per_power_charge

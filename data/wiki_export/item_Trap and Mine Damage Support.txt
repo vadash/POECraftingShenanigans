@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Trap and Mine Damage Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,11 +19,12 @@
 |static_mana_multiplier                  = 130
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = trap_throwing_speed_+%
 |static_stat1_value                      = -10
 |static_stat2_id                         = mine_laying_speed_+%
 |static_stat2_value                      = -10
-|stat_text                               = Supported Skills deal (30-49)% more Trap and Mine Damage<br>Supported Skills have 10% reduced Trap Throwing Speed<br>Supported Skills have 10% reduced Mine Laying Speed
+|stat_text                               = Supported Skills deal (30-49)% more Trap and Mine Damage<br>Supported Skills have 10% reduced Trap Throwing Speed<br>Supported Skills have 10% reduced Mine Throwing Speed
 |quality_stat_text                       = Supported Skills deal 0.5% increased Damage
 |static_quality_stat1_id                 = damage_+%
 |static_quality_stat1_value              = 0.5
@@ -227,7 +228,7 @@
 |level40_stat_text                       = Supported Skills deal 64% more Trap and Mine Damage
 |level40_stat1_id                        = support_trap_and_mine_damage_+%_final
 |level40_stat1_value                     = 64
-|gem_description                         = Supports trap or mine skills.
+|gem_description                         = Supports skills which throw Traps or Mines.
 |level1_dexterity_requirement            = 21
 |level1_intelligence_requirement         = 14
 |level1_experience                       = 0

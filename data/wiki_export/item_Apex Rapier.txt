@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Apex Rapier
 |class_id                                = Thrusting One Hand Sword
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 55
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = rapier, sword, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier15
 |implicit1                               = CriticalMultiplierImplicitSword2
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.4
 |physical_damage_min                     = 29
 |physical_damage_max                     = 67
-|weapon_range                            = 12
+|weapon_range                            = 14
 }}

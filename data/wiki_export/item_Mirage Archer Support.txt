@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Mirage Archer Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = support_mirage_archer_base_duration
 |static_stat1_value                      = 4000
 |static_stat2_id                         = support_mirage_archer_attack_speed_+%_final
@@ -30,8 +31,8 @@
 |static_stat5_value                      = -138
 |static_stat6_id                         = disable_skill_if_weapon_not_bow
 |static_stat6_value                      = 1
-|stat_text                               = Mirage Archer lasts 4 seconds<br>Mirage Archer deals (30-11)% less Damage with Supported Skills<br>Mirage Archer uses Supported Skill with 60% less Attack Speed<br>Can have up to 1 Mirage Archer Summoned at a time<br>When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill
-|quality_stat_text                       = 0.5% increased Attack Damage
+|stat_text                               = Mirage Archer lasts 4 seconds<br>Mirage Archer deals (30-11)% less Damage with Supported Skills<br>Mirage Archer uses Supported Skill with 60% less Attack Speed<br>Maximum 1 Summoned Mirage Archer<br>When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill
+|quality_stat_text                       = Supported Skills deal 0.5% increased Attack Damage
 |static_quality_stat1_id                 = attack_damage_+%
 |static_quality_stat1_value              = 0.5
 |level1                                  = True

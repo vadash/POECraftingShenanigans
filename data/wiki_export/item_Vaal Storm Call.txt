@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Storm Call
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -21,6 +21,7 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 6000
 |static_stat2_id                         = vaal_storm_call_base_delay_ms
@@ -33,6 +34,8 @@
 |static_stat5_value                      = 1
 |static_stat6_id                         = monster_stormcall_individually_trigger
 |static_stat6_value                      = 1
+|static_stat7_id                         = cannot_cancel_skill_before_contact_point
+|static_stat7_value                      = 1
 |stat_text                               = Deals (14-370) to (26-687) Lightning Damage<br>Base duration is 6 seconds<br>(10-29)% increased Effect of Shock<br>Strikes an Enemy every 0.25 seconds<br>Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention
 |quality_stat_text                       = 0.5% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%

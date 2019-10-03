@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Summon Stone Golem
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -12,7 +12,7 @@
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 60
 |dexterity_percent                       = 40
-|gem_tags                                = Minion, Spell, Golem
+|gem_tags                                = Minion, Spell, Golem, Physical
 |gem_description                         = Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.
 |active_skill_name                       = Summon Stone Golem
 |skill_id                                = SummonRockGolem
@@ -22,12 +22,13 @@
 |static_cooldown                         = 6
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_number_of_golems_allowed
 |static_stat1_value                      = 1
 |static_stat2_id                         = display_minion_monster_type
 |static_stat2_value                      = 10
-|stat_text                               = Can Summon up to 1 Golem at a time<br>(30-68)% increased Minion Maximum Life<br>Golems grant (33-105) Life Regenerated per second<br>(0-10)% increased Character Size
-|quality_stat_text                       = 1% increased Minion Maximum Life<br>1% increased Minion Damage
+|stat_text                               = Maximum 1 Summoned Golem<br>(30-68)% increased Minion Maximum Life<br>Golems grant (33-105) Life Regenerated per second<br>(0-10)% increased Character Size
+|quality_stat_text                       = 1% increased Minion Maximum Life<br>Minions deal 1% increased Damage
 |static_quality_stat1_id                 = minion_maximum_life_+%
 |static_quality_stat1_value              = 1
 |static_quality_stat2_id                 = minion_damage_+%

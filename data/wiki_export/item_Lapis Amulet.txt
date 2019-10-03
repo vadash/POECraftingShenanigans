@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Lapis Amulet
 |class_id                                = Amulet
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 7
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = amulet, default
 |metadata_id                             = Metadata/Items/Amulets/Amulet5
 |implicit1                               = IntelligenceImplicitAmulet1

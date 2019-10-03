@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Corroded Blade
 |class_id                                = Two Hand Sword
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 3
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sword, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1
 |implicit1                               = AccuracyPercentImplicitSword1
@@ -24,5 +24,5 @@
 |attack_speed                            = 1.45
 |physical_damage_min                     = 7
 |physical_damage_max                     = 13
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

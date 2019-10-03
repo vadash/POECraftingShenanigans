@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Brand Recall
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,23 +22,28 @@
 |static_cooldown                         = 3
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = sigil_recall_extend_base_skill_effect_duration
 |static_stat1_value                      = 1200
 |static_stat2_id                         = sigil_recall_extend_base_secondary_skill_effect_duration
 |static_stat2_value                      = 1200
+|static_stat3_id                         = console_skill_dont_chase
+|static_stat3_value                      = 1
+|static_stat4_id                         = instant_skill_is_added_to_held_skills_list
+|static_stat4_value                      = 1
 |stat_text                               = Brands gain (25-45)% increased Attachment Range<br>Brands refresh their Attached Duration by up to 1.2 seconds<br>Brands refresh their Detached Duration by up to 1.2 seconds<br>(0-50)% increased Cooldown Recovery Speed
 |quality_stat_text                       = Brands gain 1% increased Attachment Range
 |static_quality_stat1_id                 = recall_sigil_target_search_range_+%
 |static_quality_stat1_value              = 1
 |level1                                  = True
 |level1_level_requirement                = 16
-|level1_mana_cost                        = 17
+|level1_mana_cost                        = 7
 |level1_stat_text                        = Brands gain 25% increased Attachment Range
 |level1_stat1_id                         = recall_sigil_target_search_range_+%
 |level1_stat1_value                      = 25
 |level2                                  = True
 |level2_level_requirement                = 31
-|level2_mana_cost                        = 18
+|level2_mana_cost                        = 9
 |level2_stat_text                        = Brands gain 29% increased Attachment Range<br>10% increased Cooldown Recovery Speed
 |level2_stat1_id                         = recall_sigil_target_search_range_+%
 |level2_stat1_value                      = 29
@@ -46,7 +51,7 @@
 |level2_stat2_value                      = 10
 |level3                                  = True
 |level3_level_requirement                = 43
-|level3_mana_cost                        = 19
+|level3_mana_cost                        = 12
 |level3_stat_text                        = Brands gain 33% increased Attachment Range<br>20% increased Cooldown Recovery Speed
 |level3_stat1_id                         = recall_sigil_target_search_range_+%
 |level3_stat1_value                      = 33
@@ -54,7 +59,7 @@
 |level3_stat2_value                      = 20
 |level4                                  = True
 |level4_level_requirement                = 55
-|level4_mana_cost                        = 20
+|level4_mana_cost                        = 14
 |level4_stat_text                        = Brands gain 37% increased Attachment Range<br>30% increased Cooldown Recovery Speed
 |level4_stat1_id                         = recall_sigil_target_search_range_+%
 |level4_stat1_value                      = 37
@@ -62,7 +67,7 @@
 |level4_stat2_value                      = 30
 |level5                                  = True
 |level5_level_requirement                = 64
-|level5_mana_cost                        = 21
+|level5_mana_cost                        = 15
 |level5_stat_text                        = Brands gain 41% increased Attachment Range<br>40% increased Cooldown Recovery Speed
 |level5_stat1_id                         = recall_sigil_target_search_range_+%
 |level5_stat1_value                      = 41
@@ -70,7 +75,7 @@
 |level5_stat2_value                      = 40
 |level6                                  = True
 |level6_level_requirement                = 70
-|level6_mana_cost                        = 22
+|level6_mana_cost                        = 16
 |level6_stat_text                        = Brands gain 45% increased Attachment Range<br>50% increased Cooldown Recovery Speed
 |level6_stat1_id                         = recall_sigil_target_search_range_+%
 |level6_stat1_value                      = 45
@@ -78,7 +83,7 @@
 |level6_stat2_value                      = 50
 |level7                                  = True
 |level7_level_requirement                = 72
-|level7_mana_cost                        = 22
+|level7_mana_cost                        = 17
 |level7_stat_text                        = Brands gain 49% increased Attachment Range<br>60% increased Cooldown Recovery Speed
 |level7_stat1_id                         = recall_sigil_target_search_range_+%
 |level7_stat1_value                      = 49
@@ -86,7 +91,7 @@
 |level7_stat2_value                      = 60
 |level8                                  = True
 |level8_level_requirement                = 74
-|level8_mana_cost                        = 22
+|level8_mana_cost                        = 17
 |level8_stat_text                        = Brands gain 53% increased Attachment Range<br>70% increased Cooldown Recovery Speed
 |level8_stat1_id                         = recall_sigil_target_search_range_+%
 |level8_stat1_value                      = 53
@@ -94,7 +99,7 @@
 |level8_stat2_value                      = 70
 |level9                                  = True
 |level9_level_requirement                = 76
-|level9_mana_cost                        = 22
+|level9_mana_cost                        = 18
 |level9_stat_text                        = Brands gain 57% increased Attachment Range<br>80% increased Cooldown Recovery Speed
 |level9_stat1_id                         = recall_sigil_target_search_range_+%
 |level9_stat1_value                      = 57
@@ -102,7 +107,7 @@
 |level9_stat2_value                      = 80
 |level10                                 = True
 |level10_level_requirement               = 78
-|level10_mana_cost                       = 22
+|level10_mana_cost                       = 18
 |level10_stat_text                       = Brands gain 61% increased Attachment Range<br>90% increased Cooldown Recovery Speed
 |level10_stat1_id                        = recall_sigil_target_search_range_+%
 |level10_stat1_value                     = 61
@@ -110,7 +115,7 @@
 |level10_stat2_value                     = 90
 |level11                                 = True
 |level11_level_requirement               = 80
-|level11_mana_cost                       = 22
+|level11_mana_cost                       = 18
 |level11_stat_text                       = Brands gain 65% increased Attachment Range<br>100% increased Cooldown Recovery Speed
 |level11_stat1_id                        = recall_sigil_target_search_range_+%
 |level11_stat1_value                     = 65
@@ -118,7 +123,7 @@
 |level11_stat2_value                     = 100
 |level12                                 = True
 |level12_level_requirement               = 82
-|level12_mana_cost                       = 23
+|level12_mana_cost                       = 19
 |level12_stat_text                       = Brands gain 69% increased Attachment Range<br>110% increased Cooldown Recovery Speed
 |level12_stat1_id                        = recall_sigil_target_search_range_+%
 |level12_stat1_value                     = 69
@@ -126,7 +131,7 @@
 |level12_stat2_value                     = 110
 |level13                                 = True
 |level13_level_requirement               = 84
-|level13_mana_cost                       = 23
+|level13_mana_cost                       = 19
 |level13_stat_text                       = Brands gain 73% increased Attachment Range<br>120% increased Cooldown Recovery Speed
 |level13_stat1_id                        = recall_sigil_target_search_range_+%
 |level13_stat1_value                     = 73
@@ -134,7 +139,7 @@
 |level13_stat2_value                     = 120
 |level14                                 = True
 |level14_level_requirement               = 86
-|level14_mana_cost                       = 23
+|level14_mana_cost                       = 19
 |level14_stat_text                       = Brands gain 77% increased Attachment Range<br>130% increased Cooldown Recovery Speed
 |level14_stat1_id                        = recall_sigil_target_search_range_+%
 |level14_stat1_value                     = 77
@@ -142,7 +147,7 @@
 |level14_stat2_value                     = 130
 |level15                                 = True
 |level15_level_requirement               = 88
-|level15_mana_cost                       = 23
+|level15_mana_cost                       = 20
 |level15_stat_text                       = Brands gain 81% increased Attachment Range<br>140% increased Cooldown Recovery Speed
 |level15_stat1_id                        = recall_sigil_target_search_range_+%
 |level15_stat1_value                     = 81
@@ -150,7 +155,7 @@
 |level15_stat2_value                     = 140
 |level16                                 = True
 |level16_level_requirement               = 90
-|level16_mana_cost                       = 23
+|level16_mana_cost                       = 20
 |level16_stat_text                       = Brands gain 85% increased Attachment Range<br>150% increased Cooldown Recovery Speed
 |level16_stat1_id                        = recall_sigil_target_search_range_+%
 |level16_stat1_value                     = 85
@@ -158,7 +163,7 @@
 |level16_stat2_value                     = 150
 |level17                                 = True
 |level17_level_requirement               = 91
-|level17_mana_cost                       = 23
+|level17_mana_cost                       = 20
 |level17_stat_text                       = Brands gain 89% increased Attachment Range<br>160% increased Cooldown Recovery Speed
 |level17_stat1_id                        = recall_sigil_target_search_range_+%
 |level17_stat1_value                     = 89
@@ -166,7 +171,7 @@
 |level17_stat2_value                     = 160
 |level18                                 = True
 |level18_level_requirement               = 92
-|level18_mana_cost                       = 23
+|level18_mana_cost                       = 20
 |level18_stat_text                       = Brands gain 93% increased Attachment Range<br>170% increased Cooldown Recovery Speed
 |level18_stat1_id                        = recall_sigil_target_search_range_+%
 |level18_stat1_value                     = 93
@@ -174,7 +179,7 @@
 |level18_stat2_value                     = 170
 |level19                                 = True
 |level19_level_requirement               = 93
-|level19_mana_cost                       = 23
+|level19_mana_cost                       = 21
 |level19_stat_text                       = Brands gain 97% increased Attachment Range<br>180% increased Cooldown Recovery Speed
 |level19_stat1_id                        = recall_sigil_target_search_range_+%
 |level19_stat1_value                     = 97
@@ -182,7 +187,7 @@
 |level19_stat2_value                     = 180
 |level20                                 = True
 |level20_level_requirement               = 94
-|level20_mana_cost                       = 24
+|level20_mana_cost                       = 21
 |level20_stat_text                       = Brands gain 101% increased Attachment Range<br>190% increased Cooldown Recovery Speed
 |level20_stat1_id                        = recall_sigil_target_search_range_+%
 |level20_stat1_value                     = 101
@@ -190,7 +195,7 @@
 |level20_stat2_value                     = 190
 |level21                                 = True
 |level21_level_requirement               = 95
-|level21_mana_cost                       = 24
+|level21_mana_cost                       = 21
 |level21_stat_text                       = Brands gain 105% increased Attachment Range<br>200% increased Cooldown Recovery Speed
 |level21_stat1_id                        = recall_sigil_target_search_range_+%
 |level21_stat1_value                     = 105
@@ -198,7 +203,7 @@
 |level21_stat2_value                     = 200
 |level22                                 = True
 |level22_level_requirement               = 96
-|level22_mana_cost                       = 24
+|level22_mana_cost                       = 21
 |level22_stat_text                       = Brands gain 109% increased Attachment Range<br>210% increased Cooldown Recovery Speed
 |level22_stat1_id                        = recall_sigil_target_search_range_+%
 |level22_stat1_value                     = 109
@@ -206,7 +211,7 @@
 |level22_stat2_value                     = 210
 |level23                                 = True
 |level23_level_requirement               = 97
-|level23_mana_cost                       = 24
+|level23_mana_cost                       = 21
 |level23_stat_text                       = Brands gain 113% increased Attachment Range<br>220% increased Cooldown Recovery Speed
 |level23_stat1_id                        = recall_sigil_target_search_range_+%
 |level23_stat1_value                     = 113
@@ -214,7 +219,7 @@
 |level23_stat2_value                     = 220
 |level24                                 = True
 |level24_level_requirement               = 98
-|level24_mana_cost                       = 24
+|level24_mana_cost                       = 22
 |level24_stat_text                       = Brands gain 117% increased Attachment Range<br>230% increased Cooldown Recovery Speed
 |level24_stat1_id                        = recall_sigil_target_search_range_+%
 |level24_stat1_value                     = 117
@@ -222,7 +227,7 @@
 |level24_stat2_value                     = 230
 |level25                                 = True
 |level25_level_requirement               = 99
-|level25_mana_cost                       = 24
+|level25_mana_cost                       = 22
 |level25_stat_text                       = Brands gain 121% increased Attachment Range<br>240% increased Cooldown Recovery Speed
 |level25_stat1_id                        = recall_sigil_target_search_range_+%
 |level25_stat1_value                     = 121
@@ -230,7 +235,7 @@
 |level25_stat2_value                     = 240
 |level26                                 = True
 |level26_level_requirement               = 100
-|level26_mana_cost                       = 24
+|level26_mana_cost                       = 22
 |level26_stat_text                       = Brands gain 125% increased Attachment Range<br>250% increased Cooldown Recovery Speed
 |level26_stat1_id                        = recall_sigil_target_search_range_+%
 |level26_stat1_value                     = 125

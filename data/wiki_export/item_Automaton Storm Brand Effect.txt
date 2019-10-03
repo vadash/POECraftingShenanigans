@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Automaton Storm Brand Effect
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionAutomatonStormBrandEffect
+|stack_size                              = 1
+|description                             = Your Storm Brand becomes an Automaton Effect.
+|cosmetic_type                           = Storm Brand Skin
+}}

@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Goat's Horn
 |class_id                                = Wand
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 6
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = wand, ranged, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/Wands/Wand2
 |implicit1                               = SpellDamageOnWeaponImplicitWand2

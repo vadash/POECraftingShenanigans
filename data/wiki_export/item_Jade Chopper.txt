@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Jade Chopper
 |class_id                                = Two Hand Axe
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 9
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2
 |purchase_cost_normal1_name              = Blacksmith's Whetstone
@@ -20,8 +20,8 @@
 |required_strength                       = 31
 |required_dexterity                      = 9
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.2
-|physical_damage_min                     = 17
-|physical_damage_max                     = 27
-|weapon_range                            = 11
+|attack_speed                            = 1.25
+|physical_damage_min                     = 16
+|physical_damage_max                     = 25
+|weapon_range                            = 13
 }}

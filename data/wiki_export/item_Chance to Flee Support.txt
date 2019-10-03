@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Chance to Flee Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 100
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Skills have (25-44)% chance to Cause Monsters to Flee
 |quality_stat_text                       = Supported Skills have 1% chance to Cause Monsters to Flee
 |static_quality_stat1_id                 = global_hit_causes_monster_flee_%

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Flesh Offering
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,13 +19,14 @@
 |required_level                          = 12
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
-|static_stat1_value                      = 3000
+|static_stat1_value                      = 5000
 |static_stat2_id                         = offering_skill_effect_duration_per_corpse
-|static_stat2_value                      = 500
+|static_stat2_value                      = 1000
 |static_stat3_id                         = base_deal_no_damage
 |static_stat3_value                      = 1
-|stat_text                               = Base duration is 3 seconds<br>Grants Minions (20-30)% increased Attack Speed<br>Grants Minions (20-29)% increased Movement Speed<br>Grants Minions (20-30)% increased Cast Speed<br>Additional 0.5 seconds Base Duration per extra Corpse consumed
+|stat_text                               = Base duration is 5 seconds<br>Grants Minions (20-30)% increased Attack Speed<br>Grants Minions (20-29)% increased Movement Speed<br>Grants Minions (20-30)% increased Cast Speed<br>Additional 1 seconds Base Duration per extra corpse Consumed
 |quality_stat_text                       = 0.5% increased Skill Effect Duration
 |static_quality_stat1_id                 = skill_effect_duration_+%
 |static_quality_stat1_value              = 0.5

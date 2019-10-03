@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Conductivity
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |required_level                          = 24
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_deal_no_damage
 |static_stat1_value                      = 1
 |stat_text                               = Base duration is (9-10.9) seconds<br>Cursed enemies have -(25-44)% to Lightning Resistance<br>Cursed enemies have +(10-14)% chance to be Shocked by Lightning Damage<br>+(0-10) to radius

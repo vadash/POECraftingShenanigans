@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Bear Trap
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Scroll of Wisdom
 |purchase_cost_normal1_amount            = 1
 |dexterity_percent                       = 100
-|gem_tags                                = Trap, Spell, Duration
+|gem_tags                                = Trap, Spell, Duration, Physical
 |gem_description                         = Throws a trap that damages and immobilises a single enemy for a duration based on how much damage was dealt. After the immobilise expires, a debuff remains on the enemy for a duration, lowering their movement speed by an amount which lessens over time. The affected enemy will take increased damage from traps and mines until the debuff expires. Modifiers to spell damage do not affect this skill's damage.
 |active_skill_name                       = Bear Trap
 |skill_id                                = BearTrap
@@ -22,6 +22,7 @@
 |static_critical_strike_chance           = 6
 |static_damage_effectiveness             = 200
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_trap
 |static_stat1_value                      = 1
 |static_stat2_id                         = base_trap_duration

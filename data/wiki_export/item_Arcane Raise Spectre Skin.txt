@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Arcane Raise Spectre Skin
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionArcaneRaiseSpectreSkin
+|stack_size                              = 1
+|description                             = Your Raise Spectre becomes an Arcane Effect.
+|cosmetic_type                           = Raise Spectre Skin
+}}

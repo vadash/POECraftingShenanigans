@@ -1,9 +1,9 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Captured Soul of Mephod, the Earth Scorcher
 |class_id                                = PantheonSoul
 |size_x                                  = 1
-|size_y                                  = 2
+|size_y                                  = 1
 |flavour_text                            = When the demon Goat plays his flute,<br>And cloven hooves clip-clop your path,<br>Pray the gods will hold you mute,<br>And bless the fire on your hearth.
 |drop_level                              = 1
 |tags                                    = default

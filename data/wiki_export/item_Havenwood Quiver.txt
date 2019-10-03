@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Havenwood Quiver
+|class_id                                = Microtransaction
+|size_x                                  = 1
+|size_y                                  = 1
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionHavenwoodQuiver
+|stack_size                              = 1
+|description                             = Changes the appearance of any equipped Quiver to the Havenwood Quiver.
+|cosmetic_type                           = Quiver Skin
+}}

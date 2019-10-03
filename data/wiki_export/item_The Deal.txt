@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Deal
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = In the pursuit of wealth, as in that of power, anything goes.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheDeal
+|stack_size                              = 5
+|description                             = {{c|white|Cartography Scarab}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

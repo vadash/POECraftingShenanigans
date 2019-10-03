@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Dying Anguish
 |class_id                                = DivinationCard
 |size_x                                  = 1
@@ -9,7 +9,7 @@
 |tags                                    = divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardDyingAnguish
 |stack_size                              = 8
-|description                             = {{c|gem|Level 19 Skill Gem}}
+|description                             = {{c|gem|Superior Level 19 Gem}}<br>{{c|default|Quality:}} {{c|augmented|+19%}}
 |stack_size_currency_tab                 = 5000
 |help_text                               = Shift click to unstack.
 }}

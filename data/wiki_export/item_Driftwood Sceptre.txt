@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Driftwood Sceptre
 |class_id                                = Sceptre
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 1
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = sceptre, sceptre, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandMaces/Sceptre1
 |implicit1                               = ElementalDamagePercentImplicitSceptreNew1
@@ -21,8 +21,8 @@
 |required_strength                       = 8
 |required_intelligence                   = 8
 |critical_strike_chance                  = 6
-|attack_speed                            = 1.4
-|physical_damage_min                     = 6
-|physical_damage_max                     = 9
-|weapon_range                            = 9
+|attack_speed                            = 1.55
+|physical_damage_min                     = 5
+|physical_damage_max                     = 8
+|weapon_range                            = 11
 }}

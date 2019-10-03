@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Blasphemy Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |purchase_cost_normal1_name              = Orb of Chance
 |purchase_cost_normal1_amount            = 1
 |intelligence_percent                    = 100
-|gem_tags                                = Support, Curse, Aura
+|gem_tags                                = Support, Aura
 |skill_id                                = SupportBlasphemy
 |support_gem_letter                      = A
 |required_level                          = 31
@@ -20,11 +20,12 @@
 |static_cooldown                         = 1.2
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = curse_apply_as_aura
 |static_stat1_value                      = 1
 |static_stat2_id                         = base_skill_is_instant
 |static_stat2_value                      = 1
-|stat_text                               = Supported Curse Spells are Cast as Auras<br>Using Supported Skills is Instant<br>(0-76)% increased Area of Effect of Supported Curse Skills
+|stat_text                               = Supported Curses are Cast as Auras<br>Using Supported Skills is Instant<br>(0-76)% increased Area of Effect of Supported Curse Skills
 |quality_stat_text                       = 0.5% increased Effect of Supported Curses
 |static_quality_stat1_id                 = curse_effect_+%
 |static_quality_stat1_value              = 0.5

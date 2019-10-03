@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Primordial
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = We play at God with our necromancy, <br>but forces far more potent <br>sleep within these stones.
+|drop_level                              = 1
+|tags                                    = divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardThePrimordial
+|stack_size                              = 5
+|description                             = {{c|unique|Jewel}}<br>{{c|magic|Primordial}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = The Price of Protection
 |class_id                                = DivinationCard
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = To protect her mansion, she would cut a deal with anyone. Anything. <br><br>Something answered.
 |drop_level                              = 1
-|tags                                    = divination_card, default
+|tags                                    = elder_divination, divination_card, default
 |metadata_id                             = Metadata/Items/DivinationCards/DivinationCardThePriceOfProtection
 |stack_size                              = 5
 |description                             = {{c|normal|Elder Chateau Map}}<br>{{c|default|Map Tier:}} {{c|normal|16}}

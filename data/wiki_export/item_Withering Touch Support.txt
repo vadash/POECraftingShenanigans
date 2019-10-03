@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Withering Touch Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Orb of Alchemy
 |purchase_cost_normal1_amount            = 1
 |dexterity_percent                       = 100
-|gem_tags                                = Chaos, Attack, Support, Duration
+|gem_tags                                = Chaos, Physical, Attack, Support, Duration
 |skill_id                                = SupportChaosAttacks
 |support_gem_letter                      = w
 |required_level                          = 38
 |static_mana_multiplier                  = 140
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = support_withered_base_duration_ms
 |static_stat1_value                      = 2000
 |static_stat2_id                         = withered_on_hit_chance_%

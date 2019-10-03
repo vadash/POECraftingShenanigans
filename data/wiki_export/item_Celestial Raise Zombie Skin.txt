@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Celestial Raise Zombie Skin
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionCelestialRaiseZombieSkin
+|stack_size                              = 1
+|description                             = Your Raised Zombies becomes Celestial.
+|cosmetic_type                           = Raise Zombie Skin
+}}

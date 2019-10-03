@@ -1,9 +1,9 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Captured Soul of Nassar, Lion of the Seas
 |class_id                                = PantheonSoul
 |size_x                                  = 1
-|size_y                                  = 2
+|size_y                                  = 1
 |flavour_text                            = Slumbering in the breach between worlds,<br>the Brine King dreamt of a day he would rise,<br>in triumph from the shivering depths and take<br>back the Kingdom he once so ruthlessly culled.
 |drop_level                              = 1
 |tags                                    = default

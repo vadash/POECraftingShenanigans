@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Rusted Spike
 |class_id                                = Thrusting One Hand Sword
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 3
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = rapier, sword, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandThrustingSwords/Rapier1
 |implicit1                               = CriticalMultiplierImplicitSword1
@@ -20,8 +20,8 @@
 |required_level                          = 3
 |required_dexterity                      = 20
 |critical_strike_chance                  = 5.5
-|attack_speed                            = 1.4
+|attack_speed                            = 1.55
 |physical_damage_min                     = 5
-|physical_damage_max                     = 13
-|weapon_range                            = 12
+|physical_damage_max                     = 11
+|weapon_range                            = 14
 }}

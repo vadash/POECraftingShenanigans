@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Blunt Arrow Quiver
 |class_id                                = Quiver
 |size_x                                  = 2
 |size_y                                  = 3
 |drop_level                              = 16
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = quiver, default
 |metadata_id                             = Metadata/Items/Quivers/Quiver9
 |implicit1                               = StunDurationImplicitQuiver9

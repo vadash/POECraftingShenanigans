@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Void of the Elements
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Though the forces of nature are mighty and intimidating, it is their absence which should be feared.
+|drop_level                              = 1
+|tags                                    = jewellery_divination, elder_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardVoidOfTheElements
+|stack_size                              = 3
+|description                             = {{c|magic|Overpowering Opal Ring}}<br>{{c|default|Item Level:}} {{c|normal|100}}<br>{{c|default|Elder Item}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

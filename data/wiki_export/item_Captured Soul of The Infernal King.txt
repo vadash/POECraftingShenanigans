@@ -1,9 +1,9 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Captured Soul of The Infernal King
 |class_id                                = PantheonSoul
 |size_x                                  = 1
-|size_y                                  = 2
+|size_y                                  = 1
 |flavour_text                            = To take from the sun is to invite her wrath, and we've more than warranted her curse.<br>The granaries were vacant, so we lessened our tribute to the sun thinking it would<br>save our children, but they will die now regardless.
 |drop_level                              = 1
 |tags                                    = default

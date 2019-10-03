@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Combustion Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 120
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |stat_text                               = Supported Skills have (30-49)% chance to Ignite<br>Supported Skills deal (10-29)% more Fire Damage<br>Enemies Ignited by Supported Skills have -(10-19)% to Fire Resistance
 |quality_stat_text                       = Supported Skills deal 0.5% increased Fire Damage
 |static_quality_stat1_id                 = fire_damage_+%

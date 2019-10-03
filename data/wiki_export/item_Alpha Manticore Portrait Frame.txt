@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Alpha Manticore Portrait Frame
 |class_id                                = Microtransaction
 |size_x                                  = 2

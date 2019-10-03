@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Rusted Hatchet
 |class_id                                = One Hand Axe
 |size_x                                  = 1
 |size_y                                  = 3
 |drop_level                              = 2
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, one_hand_weapon, onehand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1
 |purchase_cost_normal1_name              = Scroll of Wisdom
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.5
 |physical_damage_min                     = 6
 |physical_damage_max                     = 11
-|weapon_range                            = 9
+|weapon_range                            = 11
 }}

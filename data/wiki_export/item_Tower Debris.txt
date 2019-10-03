@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Tower Debris
 |class_id                                = HideoutDoodad
 |size_x                                  = 1

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Stone Statue
 |class_id                                = HideoutDoodad
 |size_x                                  = 1
@@ -13,5 +13,5 @@
 |master                                  = Einhar, Beastmaster
 |master_favour_cost                      = 38000
 |master_level_requirement                = 6
-|variation_count                         = 9
+|variation_count                         = 16
 }}

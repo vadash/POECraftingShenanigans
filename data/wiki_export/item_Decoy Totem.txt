@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Decoy Totem
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -21,6 +21,7 @@
 |static_cooldown                         = 4
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_totem
 |static_stat1_value                      = 1
 |static_stat2_id                         = base_totem_duration

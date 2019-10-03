@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Vermillion Ring
+|class_id                                = Ring
+|size_x                                  = 1
+|size_y                                  = 1
+|drop_level                              = 80
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = not_for_sale, atlas_base_type, ringatlas3, ring, default
+|metadata_id                             = Metadata/Items/Rings/RingAtlas3
+|implicit1                               = MaximumLifeImplicitAtlasRing
+}}

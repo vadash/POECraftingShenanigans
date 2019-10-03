@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Void Emperor Weapon
+|class_id                                = Microtransaction
+|size_x                                  = 2
+|size_y                                  = 2
+|tags                                    = not_for_sale, default
+|metadata_id                             = Metadata/Items/MicrotransactionItemEffects/MicrotransactionCorruptedEmperorWeaponSkin
+|stack_size                              = 1
+|description                             = Changes the appearance of any equipped Claw, Dagger, Wand, one- or two-handed Sword, one-handed Axe, or one-handed Mace to the Void Emperor Weapon.
+|cosmetic_type                           = Weapon Skin
+}}

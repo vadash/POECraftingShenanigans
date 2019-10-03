@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Adder's Claw
 |class_id                                = Microtransaction
 |size_x                                  = 2

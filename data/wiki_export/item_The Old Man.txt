@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Old Man
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Hear me, fish! I love and respect you, but before this day ends I will kill you dead.
+|drop_level                              = 1
+|tags                                    = weapon_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheOldMan
+|stack_size                              = 12
+|description                             = {{c|rare|{{il|Fishing Rod|html=}}}}<br>{{c|corrupted|[[Two-Implicit]]}}<br>{{c|corrupted|[[Corrupted]]}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Clockwork Golem
 |class_id                                = Microtransaction
 |size_x                                  = 2
@@ -7,6 +7,6 @@
 |tags                                    = not_for_sale, default
 |metadata_id                             = Metadata/Items/MicrotransactionSkillEffects/MicrotransactionClockworkGolem
 |stack_size                              = 1
-|description                             = Your Summoned Golem becomes a clockwork creation.
+|description                             = Your Summoned Elemental, Chaos or Stone Golem becomes a clockwork creation.
 |cosmetic_type                           = Summon Golem Skin
 }}

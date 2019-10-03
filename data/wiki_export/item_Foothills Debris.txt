@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Foothills Debris
 |class_id                                = HideoutDoodad
 |size_x                                  = 1
@@ -11,7 +11,7 @@
 |help_text                               = Shift click to unstack.
 |is_master_doodad                        = True
 |master                                  = Alva, Master Explorer
-|master_favour_cost                      = 5200
+|master_favour_cost                      = 1740
 |master_level_requirement                = 3
 |variation_count                         = 4
 }}

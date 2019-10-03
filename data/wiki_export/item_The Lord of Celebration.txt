@@ -1,0 +1,15 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = The Lord of Celebration
+|class_id                                = DivinationCard
+|size_x                                  = 1
+|size_y                                  = 1
+|flavour_text                            = Though they were a pack of elite combatants, the Emperor's royal guards were not ready to face one of his notorious parties.
+|drop_level                              = 1
+|tags                                    = weapon_divination, shaper_divination, divination_card, default
+|metadata_id                             = Metadata/Items/DivinationCards/DivinationCardTheLordOfCelebration
+|stack_size                              = 4
+|description                             = {{c|magic|Sceptre of Celebration}}<br>{{c|default|Shaper Item}}
+|stack_size_currency_tab                 = 5000
+|help_text                               = Shift click to unstack.
+}}

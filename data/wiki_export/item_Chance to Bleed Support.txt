@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Chance to Bleed Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -11,13 +11,14 @@
 |purchase_cost_normal1_name              = Scroll of Wisdom
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 100
-|gem_tags                                = Attack, Support
+|gem_tags                                = Attack, Physical, Support
 |skill_id                                = SupportChanceToBleed
 |support_gem_letter                      = E
 |required_level                          = 1
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = bleed_on_hit_with_attacks_%
 |static_stat1_value                      = 25
 |stat_text                               = Supported Attacks have 25% chance to cause Bleeding<br>Supported Attacks deal (1-44) to (2-66) added Physical Damage with Weapons<br>Supported Attacks deal (10-29)% more Damage with Bleeding
@@ -384,7 +385,7 @@
 |level40_stat2_value                     = 211
 |level40_stat3_id                        = support_chance_to_bleed_bleeding_damage_+%_final
 |level40_stat3_value                     = 44
-|gem_description                         = Supports attack skills. Cannot support minion skills.
+|gem_description                         = Supports attack skills. Cannot support skills that create minions.
 |level1_strength_requirement             = 0
 |level1_experience                       = 0
 |level2_strength_requirement             = 0

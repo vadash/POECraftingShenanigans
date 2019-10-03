@@ -1,0 +1,12 @@
+{{Base item
+|rarity_id                               = normal
+|name                                    = Ornate Quiver
+|class_id                                = Quiver
+|size_x                                  = 2
+|size_y                                  = 3
+|drop_level                              = 45
+|drop_rarities_ids                       = normal, magic, rare, unique
+|tags                                    = not_for_sale, quiver, default
+|metadata_id                             = Metadata/Items/Quivers/Quiver14
+|implicit1                               = QuiverHasOneSocket
+}}

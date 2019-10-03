@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Physical to Lightning Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -12,13 +12,14 @@
 |purchase_cost_normal1_amount            = 1
 |strength_percent                        = 40
 |intelligence_percent                    = 60
-|gem_tags                                = Lightning, Support
+|gem_tags                                = Lightning, Physical, Support
 |skill_id                                = SupportPhysicalToLightning
 |support_gem_letter                      = x
 |required_level                          = 18
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_physical_damage_%_to_convert_to_lightning
 |static_stat1_value                      = 50
 |stat_text                               = Supported Skills have 50% of Physical Damage Converted to Lightning Damage<br>Supported Skills gain (10-29)% of Physical Damage as Extra Lightning Damage

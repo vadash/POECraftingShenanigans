@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Stone Axe
 |class_id                                = Two Hand Axe
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 4
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = axe, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1
 |purchase_cost_normal1_name              = Scroll of Wisdom
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.3
 |physical_damage_min                     = 10
 |physical_damage_max                     = 17
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

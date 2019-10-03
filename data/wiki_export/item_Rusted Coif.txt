@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Rusted Coif
 |class_id                                = Helmet
 |size_x                                  = 2
 |size_y                                  = 2
 |drop_level                              = 5
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = str_int_armour, helmet, armour, default
 |metadata_id                             = Metadata/Items/Armours/Helmets/HelmetStrInt1
 |purchase_cost_normal1_name              = Scroll of Wisdom

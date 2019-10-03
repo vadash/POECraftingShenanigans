@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Building Supplies
 |class_id                                = HideoutDoodad
 |size_x                                  = 2
@@ -11,7 +11,7 @@
 |help_text                               = Shift click to unstack.
 |is_master_doodad                        = True
 |master                                  = Einhar, Beastmaster
-|master_favour_cost                      = 5760
+|master_favour_cost                      = 2160
 |master_level_requirement                = 2
 |variation_count                         = 10
 }}

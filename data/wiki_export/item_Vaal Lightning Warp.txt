@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Lightning Warp
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -9,7 +9,7 @@
 |metadata_id                             = Metadata/Items/Gems/SkillGemVaalLightningWarp
 |help_text                               = Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.
 |intelligence_percent                    = 100
-|gem_tags                                = Vaal, Spell, AoE, Duration, Lightning, Movement
+|gem_tags                                = Vaal, Spell, AoE, Duration, Lightning, Movement, Travel
 |gem_description                         = Casts a delayed teleport for nearby enemies to a target destination. When the teleport occurs, lightning damage is dealt to the enemies both before and after they teleport.
 |active_skill_name                       = Vaal Lightning Warp
 |skill_id                                = VaalLightningWarpInstant
@@ -21,12 +21,15 @@
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 50
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = is_area_damage
 |static_stat1_value                      = 1
 |static_stat2_id                         = skill_override_pvp_scaling_time_ms
 |static_stat2_value                      = 1000
 |static_stat3_id                         = base_skill_show_average_damage_instead_of_dps
 |static_stat3_value                      = 1
+|static_stat4_id                         = cannot_cancel_skill_before_contact_point
+|static_stat4_value                      = 1
 |stat_text                               = Deals (1-31) to (18-586) Lightning Damage<br>(0-38)% reduced Duration 
 |quality_stat_text                       = 1% increased Cast Speed
 |static_quality_stat1_id                 = base_cast_speed_+%

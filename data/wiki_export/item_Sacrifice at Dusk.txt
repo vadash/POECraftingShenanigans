@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Sacrifice at Dusk
 |class_id                                = MapFragment
 |size_x                                  = 1

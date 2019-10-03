@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Endurance Charge on Melee Stun Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = endurance_charge_on_melee_stun_damage_+%_final_per_endurance_charge
 |static_stat1_value                      = 4
 |static_stat2_id                         = gain_endurance_charge_on_melee_stun

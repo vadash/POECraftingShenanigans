@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Villa Map
 |class_id                                = Map
 |size_x                                  = 1
 |size_y                                  = 1
 |drop_level                              = 71
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = low_tier_map, indoors_area, dungeon, temple, urban, map, default
 |metadata_id                             = Metadata/Items/Maps/MapAtlasVilla
 |help_text                               = Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.

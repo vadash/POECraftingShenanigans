@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Multiple Totems Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 150
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_number_of_totems_allowed
 |static_stat1_value                      = 2
 |static_stat2_id                         = summon_2_totems

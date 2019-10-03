@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Power Charge On Critical Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -18,6 +18,7 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = support_power_charge_on_crit_damage_+%_final_per_power_charge
 |static_stat1_value                      = 4
 |stat_text                               = Supported Skills have (35-54)% chance to gain a Power Charge on Critical Strike<br>Supported Skills deal 4% more Damage per Power Charge

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Discipline
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -22,6 +22,7 @@
 |static_vaal_soul_gain_prevention_time   = 5
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_skill_effect_duration
 |static_stat1_value                      = 3000
 |static_stat2_id                         = energy_shield_recharge_not_delayed_by_damage
@@ -31,9 +32,9 @@
 |static_stat4_id                         = base_deal_no_damage
 |static_stat4_value                      = 1
 |stat_text                               = Base duration is 3 seconds<br>Your and nearby allies' Energy Shield Recharges are not delayed by Damage<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention<br>+(0-19) to radius
-|quality_stat_text                       = 1% increased Area of Effect
+|quality_stat_text                       = 2% increased Area of Effect
 |static_quality_stat1_id                 = base_skill_area_of_effect_+%
-|static_quality_stat1_value              = 1
+|static_quality_stat1_value              = 2
 |level1                                  = True
 |level1_level_requirement                = 24
 |level2                                  = True

@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Mosaic Wall
 |class_id                                = HideoutDoodad
 |size_x                                  = 2
@@ -9,8 +9,9 @@
 |stack_size                              = 20
 |description                             = Creates an object in your hideout
 |help_text                               = Shift click to unstack.
-|is_master_doodad                        = False
-|master_favour_cost                      = 0
-|master_level_requirement                = 0
+|is_master_doodad                        = True
+|master                                  = Alva, Master Explorer
+|master_favour_cost                      = 13800
+|master_level_requirement                = 3
 |variation_count                         = 6
 }}

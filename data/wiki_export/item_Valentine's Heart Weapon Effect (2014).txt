@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Valentine's Heart Weapon Effect (2014)
 |class_id                                = Microtransaction
 |size_x                                  = 2

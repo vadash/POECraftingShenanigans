@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Solar Maul
 |class_id                                = Two Hand Mace
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 56
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = not_for_sale, maraketh, mace, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMaceM2
 |implicit1                               = AreaOfEffectImplicitMarakethTwoHandMace1
@@ -15,5 +15,5 @@
 |attack_speed                            = 1.25
 |physical_damage_min                     = 64
 |physical_damage_max                     = 97
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

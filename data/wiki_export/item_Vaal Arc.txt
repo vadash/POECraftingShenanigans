@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Vaal Arc
 |class_id                                = Active Skill Gem
 |size_x                                  = 1
@@ -21,6 +21,7 @@
 |static_critical_strike_chance           = 5
 |static_damage_effectiveness             = 180
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_chance_to_shock_%
 |static_stat1_value                      = 100
 |static_stat2_id                         = shock_effect_+%
@@ -29,11 +30,13 @@
 |static_stat3_value                      = 100
 |static_stat4_id                         = arc_damage_+%_final_for_each_remaining_chain
 |static_stat4_value                      = 15
-|static_stat5_id                         = base_skill_effect_duration
-|static_stat5_value                      = 4000
-|static_stat6_id                         = modifiers_to_buff_effect_duration_also_affect_soul_prevention_duration
-|static_stat6_value                      = 1
-|stat_text                               = Deals (38-924) to (64-1539) Lightning Damage<br>100% chance to Shock enemies<br>Chains +(5-9) Times<br>100% increased Effect of Shock<br>100% increased Shock Duration on enemies<br>15% more Damage for each remaining Chain<br>Base duration is 4 seconds<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention
+|static_stat5_id                         = modifiers_to_buff_effect_duration_also_affect_soul_prevention_duration
+|static_stat5_value                      = 1
+|static_stat6_id                         = arc_chain_distance
+|static_stat6_value                      = 50
+|static_stat7_id                         = cannot_cancel_skill_before_contact_point
+|static_stat7_value                      = 1
+|stat_text                               = Deals (38-924) to (64-1539) Lightning Damage<br>100% chance to Shock enemies<br>Chains +(5-9) Times<br>100% increased Effect of Shock<br>100% increased Shock Duration on enemies<br>15% more Damage for each remaining Chain<br>Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention
 |quality_stat_text                       = 1.5% increased Shock Duration on enemies
 |static_quality_stat1_id                 = shock_duration_+%
 |static_quality_stat1_value              = 1.5

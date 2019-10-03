@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Cold to Fire Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -19,6 +19,7 @@
 |static_mana_multiplier                  = 110
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = skill_cold_damage_%_to_convert_to_fire
 |static_stat1_value                      = 50
 |stat_text                               = Supported Skills have 50% of Cold Damage Converted to Fire Damage<br>Supported Skills gain (10-29)% of Cold Damage as Extra Fire Damage

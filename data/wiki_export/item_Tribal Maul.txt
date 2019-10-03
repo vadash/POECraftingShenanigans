@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Tribal Maul
 |class_id                                = Two Hand Mace
 |size_x                                  = 2
 |size_y                                  = 4
 |drop_level                              = 8
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = mace, two_hand_weapon, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2
 |implicit1                               = StunDurationImplicitMace1
@@ -20,8 +20,8 @@
 |required_level                          = 8
 |required_strength                       = 35
 |critical_strike_chance                  = 5
-|attack_speed                            = 1.2
-|physical_damage_min                     = 15
-|physical_damage_max                     = 23
-|weapon_range                            = 11
+|attack_speed                            = 1.25
+|physical_damage_min                     = 14
+|physical_damage_max                     = 21
+|weapon_range                            = 13
 }}

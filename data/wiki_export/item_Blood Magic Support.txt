@@ -1,5 +1,5 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Blood Magic Support
 |class_id                                = Support Skill Gem
 |size_x                                  = 1
@@ -17,6 +17,7 @@
 |required_level                          = 31
 |static_damage_effectiveness             = 100
 |static_damage_multiplier                = 100
+|static_attack_speed_multiplier          = 100
 |static_stat1_id                         = base_use_life_in_place_of_mana
 |static_stat1_value                      = 1
 |stat_text                               = Supported Skills Spend Life instead of Mana

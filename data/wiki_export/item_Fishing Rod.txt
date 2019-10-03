@@ -1,11 +1,11 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Fishing Rod
 |class_id                                = FishingRod
 |size_x                                  = 1
 |size_y                                  = 4
 |drop_level                              = 1
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = not_for_sale, fishing_rod, twohand, weapon, default
 |metadata_id                             = Metadata/Items/Weapons/TwoHandWeapon/FishingRods/FishingRod1
 |purchase_cost_normal1_name              = Exalted Orb
@@ -23,5 +23,5 @@
 |attack_speed                            = 1.2
 |physical_damage_min                     = 7
 |physical_damage_max                     = 13
-|weapon_range                            = 11
+|weapon_range                            = 13
 }}

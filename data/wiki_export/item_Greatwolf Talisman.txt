@@ -1,12 +1,12 @@
 {{Base item
-|rarity                                  = Normal
+|rarity_id                               = normal
 |name                                    = Greatwolf Talisman
 |class_id                                = Amulet
 |size_x                                  = 1
 |size_y                                  = 1
 |flavour_text                            = The wolf greeted the king,<br>In the light of the harvest moon.<br>The wolf offered the strength of the wild,<br>And the king paid for it in blood.
 |drop_level                              = 1
-|drop_rarities                           = Normal, Magic, Rare, Unique
+|drop_rarities_ids                       = normal, magic, rare, unique
 |tags                                    = amulet, default
 |metadata_id                             = Metadata/Items/Amulets/Talismans/Talisman4
 |is_talisman                             = True
