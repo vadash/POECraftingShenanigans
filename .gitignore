@@ -1,2 +1,14 @@
 *.pro.user
 **/**.swp
+
+.qmake.stash
+
+.vs/POECraftingShenanigans/v16/
+
+debug/
+
+*.tlog
+
+*.log
+
+*.obj
