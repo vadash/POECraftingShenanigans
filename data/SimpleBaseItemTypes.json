@@ -2609,7 +2609,8 @@
       "one_hand_weapon",
       "onehand",
       "weapon",
-      "default"
+      "default",
+      "weapon_can_roll_minion_modifiers"
     ],
     "tags_int": [
       33,
@@ -2620,7 +2621,8 @@
       81,
       23,
       8,
-      0
+      0,
+      458
     ],
     "shaper_tag": 286,
     "elder_tag": 287
